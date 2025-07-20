@@ -49,9 +49,11 @@ const projects: Project[] = [
     category: "website",
     tags: ["React.js", "Node.js", "PostgreSQL", "Payment Gateway"],
     gradient: "from-blue-500 to-purple-600",
-    icon: "M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z",
+        icon: "M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z",
     badge: "Website",
     badgeColor: "bg-blue-500",
+    demoUrl: "https://toko-online-demo.vercel.app",
+    githubUrl: "https://github.com/forgates/toko-online-modern",
   },
   {
     id: 2,
