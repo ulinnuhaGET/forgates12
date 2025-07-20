@@ -1221,18 +1221,24 @@ export default function Layanan() {
                 </div>
               </div>
 
-              {/* Modal footer */}
+                            {/* Modal footer */}
               <div className="flex flex-col sm:flex-row gap-3 mt-6 pt-6 border-t border-gray-200">
                 <button
                   onClick={closeModal}
-                  className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-lg transition-all duration-200"
+                  className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105"
                 >
                   Tutup
                 </button>
-                <button className="flex-1 bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-lg transition-all duration-200">
+                <button
+                  onClick={handleConsultation}
+                  className="flex-1 bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105 btn-glow"
+                >
                   Konsultasi Gratis
                 </button>
-                <button className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200">
+                <button
+                  onClick={handleQuote}
+                  className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105"
+                >
                   Minta Penawaran
                 </button>
               </div>
