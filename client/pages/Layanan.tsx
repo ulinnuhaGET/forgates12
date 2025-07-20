@@ -1053,9 +1053,9 @@ export default function Layanan() {
         </div>
       </section>
 
-            {/* Service Detail Modal */}
+                  {/* Service Detail Modal */}
       {isModalOpen && selectedService && (
-        <div className="fixed inset-0 z-50 overflow-y-auto animate-fade-in">
+        <div className="fixed inset-0 overflow-y-auto animate-fade-in" style={{zIndex: 9999}}>
           <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
             {/* Background overlay */}
             <div
