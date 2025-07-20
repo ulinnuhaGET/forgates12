@@ -616,10 +616,10 @@ export default function Tentang() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+                    <div className="grid lg:grid-cols-2 gap-10 xl:gap-16">
             {/* Frontend Expertise */}
-            <div className="bg-gradient-to-br from-brand-accent/5 to-orange-50 rounded-3xl p-8">
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-6">
+            <div className="bg-gradient-to-br from-brand-accent/5 to-orange-50 rounded-3xl p-10 h-full">
+              <h3 className="text-2xl font-display font-bold text-brand-navy mb-8">
                 Frontend Development
               </h3>
               <div className="space-y-4">
@@ -714,9 +714,9 @@ export default function Tentang() {
               </div>
             </div>
 
-            {/* Backend Expertise */}
-            <div className="bg-gradient-to-br from-brand-navy/5 to-blue-50 rounded-3xl p-8">
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-6">
+                        {/* Backend Expertise */}
+            <div className="bg-gradient-to-br from-brand-navy/5 to-blue-50 rounded-3xl p-10 h-full">
+              <h3 className="text-2xl font-display font-bold text-brand-navy mb-8">
                 Backend Development
               </h3>
               <div className="space-y-4">
