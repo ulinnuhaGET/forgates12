@@ -777,11 +777,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 E-commerce Solutions
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Platform jual beli online yang lengkap dengan sistem pembayaran
                 dan manajemen inventory terintegrasi.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-indigo-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -849,12 +849,14 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">Multi-vendor</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("ecommerce")}
-                className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                <button
+                  onClick={() => openModal("ecommerce")}
+                  className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
             {/* Cloud & DevOps */}
