@@ -432,8 +432,11 @@ export default function Layanan() {
                 </div>
               </div>
                             <div className="mt-auto">
-                <button
-                  onClick={() => openModal("website")}
+                                <button
+                  onClick={() => {
+                    alert('Button clicked!');
+                    openModal("website");
+                  }}
                   className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
                 >
                   Pelajari Lebih Lanjut
