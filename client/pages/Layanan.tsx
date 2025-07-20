@@ -288,10 +288,22 @@ export default function Layanan() {
     document.body.style.overflow = "hidden";
   };
 
-  const closeModal = () => {
+    const closeModal = () => {
     setIsModalOpen(false);
     setSelectedService(null);
     document.body.style.overflow = "unset";
+  };
+
+  const handleConsultation = () => {
+    setShowNotification(true);
+    closeModal();
+    setTimeout(() => setShowNotification(false), 3000);
+  };
+
+  const handleQuote = () => {
+    setShowNotification(true);
+    closeModal();
+    setTimeout(() => setShowNotification(false), 3000);
   };
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-cyan-50 to-teal-100 relative">
