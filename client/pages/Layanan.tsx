@@ -318,9 +318,9 @@ export default function Layanan() {
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
                         {/* Website Development */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
-              {/* Background Illustration */}
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-blue-500">
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-blue-500">
                   <path d="M3 3h18v2H3V3zm0 4h18v2H3V7zm0 4h18v2H3v-2zm0 4h18v2H3v-2zm0 4h18v2H3v-2z"/>
                   <path d="M21 1H3C1.9 1 1 1.9 1 3v18c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zM3 21V3h18v18H3z"/>
                 </svg>
