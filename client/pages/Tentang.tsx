@@ -64,12 +64,12 @@ export default function Tentang() {
                 </div>
               </div>
             </div>
-            <div className="relative">
-              <div className="bg-gradient-to-br from-brand-accent/10 to-brand-navy/10 rounded-3xl p-8 h-96 flex items-center justify-center">
+                        <div className="relative lg:order-last">
+              <div className="bg-gradient-to-br from-brand-accent/10 to-brand-navy/10 rounded-3xl p-8 h-full min-h-[400px] flex items-center justify-center shadow-lg">
                 <div className="text-center">
-                  <div className="w-24 h-24 bg-brand-navy/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-32 h-32 bg-gradient-to-br from-brand-navy to-brand-accent rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl">
                     <svg
-                      className="w-12 h-12 text-brand-navy"
+                      className="w-16 h-16 text-white"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -82,12 +82,22 @@ export default function Tentang() {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-display font-bold text-brand-navy mb-2">
+                  <h3 className="text-2xl font-display font-bold text-brand-navy mb-3">
                     Ulin & Rizky
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-lg text-gray-600 font-medium">
                     Frontend + Backend = Perfect Collaboration
                   </p>
+                  <div className="mt-6 flex justify-center space-x-4">
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-brand-accent">10+</div>
+                      <div className="text-sm text-gray-600">Years Combined</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-brand-navy">90+</div>
+                      <div className="text-sm text-gray-600">Projects Done</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
