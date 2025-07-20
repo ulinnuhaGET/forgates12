@@ -641,9 +641,16 @@ export default function Layanan() {
               </div>
             </div>
 
-            {/* AI Solutions */}
-            <div className="bg-gradient-to-br from-brand-accent/10 to-orange-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-brand-accent/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* AI Solutions */}
+            <div className="bg-gradient-to-br from-brand-accent/10 to-orange-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+              {/* Background Illustration */}
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-brand-accent">
+                  <path d="M12 1L8 5h3v4H7V6L3 10l4 4v-3h4v4H8l4 4 4-4h-3v-4h4v3l4-4-4-4v3h-4V6h3L12 1z"/>
+                  <circle cx="12" cy="12" r="2"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-brand-accent/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-brand-accent"
                   fill="none"
