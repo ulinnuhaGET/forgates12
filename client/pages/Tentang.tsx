@@ -383,12 +383,12 @@ export default function Tentang() {
           </div>
 
           {/* Collaboration Highlight */}
-          <div className="mt-16 text-center">
-            <div className="bg-gradient-to-r from-blue-500/10 to-green-500/10 rounded-2xl p-8">
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
+                    <div className="mt-20">
+            <div className="bg-gradient-to-r from-blue-500/10 via-brand-accent/10 to-green-500/10 rounded-3xl p-12 text-center">
+                            <h3 className="text-3xl font-display font-bold text-brand-navy mb-6">
                 Perfect Collaboration
               </h3>
-              <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-10">
                 Kombinasi keahlian frontend Ulin dan backend Rizky menghasilkan
                 solusi end-to-end yang sempurna. Dengan pengalaman lebih dari 5
                 tahun masing-masing, kami telah berkolaborasi menghasilkan
