@@ -356,14 +356,14 @@ export default function Layanan() {
                   />
                 </svg>
               </div>
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
+                            <h3 className="text-2xl font-display font-bold text-brand-navy mb-4 relative z-20">
                 Website Development
               </h3>
-                            <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 mb-6 leading-relaxed relative z-20">
                 Website modern dan responsif yang dibangun dengan teknologi
                 terdepan untuk performa optimal di semua perangkat.
               </p>
-              <div className="space-y-3 mb-6 flex-grow">
+              <div className="space-y-3 mb-6 flex-grow relative z-20">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-blue-500/20 rounded-full flex items-center justify-center">
                     <svg
