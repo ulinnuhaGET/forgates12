@@ -862,11 +862,13 @@ export default function Layanan() {
 
                         {/* Cloud & DevOps */}
             <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
-              {/* Background Illustration */}
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-teal-500">
-                  <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
-                  <path d="M12 14l-4-4h3V7h2v3h3l-4 4z"/>
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-teal-500">
+                  <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                  <path d="M12 10v4l-2-2m4 0l-2 2m0-4v4"/>
+                  <circle cx="8" cy="12" r="1"/>
+                  <circle cx="16" cy="12" r="1"/>
                 </svg>
               </div>
               <div className="w-16 h-16 bg-teal-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
