@@ -452,11 +452,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 Mobile App Development
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Aplikasi mobile native dan cross-platform yang memberikan
                 pengalaman pengguna yang luar biasa.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-green-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -524,12 +524,14 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">App Store Ready</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("mobile")}
-                className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                <button
+                  onClick={() => openModal("mobile")}
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
             {/* UI/UX Design */}
