@@ -964,7 +964,8 @@ export default function Portofolio() {
                   <ExternalLink className="w-4 h-4 mr-2" />
                   Live Demo
                 </Button>
-                <Button
+                                <Button
+                  onClick={() => handleGithubView(selectedProject)}
                   variant="outline"
                   className="flex-1 border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-white"
                 >
