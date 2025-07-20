@@ -25,6 +25,8 @@ interface Project {
   icon: string;
   badge: string;
   badgeColor: string;
+  demoUrl: string;
+  githubUrl?: string;
 }
 
 const categories = [
