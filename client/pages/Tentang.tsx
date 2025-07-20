@@ -120,7 +120,7 @@ export default function Tentang() {
 
                     <div className="grid lg:grid-cols-2 gap-8 xl:gap-12">
             {/* Ulin Profile */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 h-full">
+                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 h-full flex flex-col">
               <div className="text-center mb-6">
                 {/* Avatar */}
                 <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
@@ -146,7 +146,7 @@ export default function Tentang() {
                 </p>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-4 flex-grow">
                 <p className="text-gray-700 leading-relaxed text-center mb-6">
                   Spesialis dalam menciptakan pengalaman pengguna yang intuitif
                   dan menarik. Passionate tentang clean code dan beautiful
