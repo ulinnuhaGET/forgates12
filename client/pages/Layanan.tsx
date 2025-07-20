@@ -343,11 +343,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 Website Development
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Website modern dan responsif yang dibangun dengan teknologi
                 terdepan untuk performa optimal di semua perangkat.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-blue-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -415,12 +415,14 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">CMS Integration</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("website")}
-                className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                <button
+                  onClick={() => openModal("website")}
+                  className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
             {/* Mobile App Development */}
