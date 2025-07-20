@@ -1037,13 +1037,13 @@ export default function Layanan() {
         </div>
       </section>
 
-      {/* Service Detail Modal */}
+            {/* Service Detail Modal */}
       {isModalOpen && selectedService && (
-        <div className="fixed inset-0 z-50 overflow-y-auto">
+        <div className="fixed inset-0 z-50 overflow-y-auto animate-fade-in">
           <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
             {/* Background overlay */}
             <div
-              className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
+              className="fixed inset-0 transition-opacity duration-300 bg-gray-900 bg-opacity-50 backdrop-blur-sm"
               onClick={closeModal}
             ></div>
 
@@ -1053,7 +1053,7 @@ export default function Layanan() {
             </span>
 
             {/* Modal content */}
-            <div className="inline-block w-full max-w-4xl px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6">
+            <div className="inline-block w-full max-w-4xl px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-2xl shadow-2xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6 animate-scale-in">
               {/* Modal header */}
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-2xl md:text-3xl font-display font-bold text-brand-navy">
