@@ -25,37 +25,43 @@ export default function Tentang() {
         </div>
       </section>
 
-      {/* Our Story Section */}
+            {/* Our Story Section */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-6">
                 Cerita Kami
               </h2>
               <div className="space-y-6 text-gray-700 leading-relaxed">
-                <p className="text-lg font-medium text-brand-navy">
-                  Siapa Kami?
-                </p>
-                <p>
-                  For Gates adalah kolaborasi antara <strong>Ulin</strong>{" "}
-                  (Frontend Developer & UI/UX Designer) dan{" "}
-                  <strong>Rizky</strong> (Backend Developer & System Architect).
-                  Bersama-sama, kami memiliki{" "}
-                  <strong>lebih dari 10 tahun</strong> gabungan experience di
-                  industri teknologi untuk menciptakan solusi digital yang
-                  powerful dan profitable.
-                </p>
+                                <div className="space-y-6">
+                  <div>
+                    <p className="text-xl font-semibold text-brand-navy mb-3">
+                      Siapa Kami?
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      For Gates adalah kolaborasi antara <strong className="text-brand-navy">Ulin</strong>{" "}
+                      (Frontend Developer & UI/UX Designer) dan{" "}
+                      <strong className="text-brand-navy">Rizky</strong> (Backend Developer & System Architect).
+                      Bersama-sama, kami memiliki{" "}
+                      <strong className="text-brand-accent">lebih dari 10 tahun</strong> gabungan experience di
+                      industri teknologi untuk menciptakan solusi digital yang
+                      powerful dan profitable.
+                    </p>
+                  </div>
 
-                <p className="text-lg font-medium text-brand-navy mt-8">
-                  Mengapa "For Gates"?
-                </p>
-                <p>
-                  Nama "For Gates" melambangkan misi kami:{" "}
-                  <strong>membuka gerbang transformasi digital</strong> yang
-                  sukses. Kami percaya bahwa teknologi yang tepat dapat membuka
-                  peluang tak terbatas untuk bisnis Anda.
-                </p>
+                  <div>
+                    <p className="text-xl font-semibold text-brand-navy mb-3">
+                      Mengapa "For Gates"?
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                      Nama "For Gates" melambangkan misi kami:{" "}
+                      <strong className="text-brand-accent">membuka gerbang transformasi digital</strong> yang
+                      sukses. Kami percaya bahwa teknologi yang tepat dapat membuka
+                      peluang tak terbatas untuk bisnis Anda.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="relative">
