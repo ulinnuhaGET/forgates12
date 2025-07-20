@@ -536,11 +536,11 @@ export default function Layanan() {
 
                         {/* UI/UX Design */}
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
-              {/* Background Illustration */}
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-purple-500">
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                  <path d="M9 11H7v8h2v-8zm4 0h-2v8h2v-8zm4 0h-2v8h2v-8z"/>
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-purple-500">
+                  <path d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"/>
+                  <path d="M9 7h6v2H9V7zm0 4h6v2H9v-2zm0 4h6v2H9v-2z"/>
                 </svg>
               </div>
               <div className="w-16 h-16 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
