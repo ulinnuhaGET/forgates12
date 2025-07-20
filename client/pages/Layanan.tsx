@@ -280,6 +280,7 @@ export default function Layanan() {
   const [selectedService, setSelectedService] = useState<ServiceDetail | null>(
     null,
   );
+  const [showNotification, setShowNotification] = useState(false);
 
   const openModal = (serviceId: string) => {
     setSelectedService(serviceDetails[serviceId]);
