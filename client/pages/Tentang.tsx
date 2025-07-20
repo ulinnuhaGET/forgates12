@@ -399,28 +399,28 @@ export default function Tentang() {
                 untuk berbagai klien.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-                <div className="flex items-center justify-center space-x-2 bg-white rounded-lg px-6 py-3 shadow-md">
-                  <span className="text-blue-500">����</span>
-                  <span className="font-semibold text-gray-700">
+                            <div className="flex flex-col lg:flex-row gap-6 justify-center items-center">
+                <div className="flex items-center justify-center space-x-3 bg-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <span className="text-2xl">🎨</span>
+                  <span className="font-bold text-blue-600 text-lg">
                     Creative Frontend
                   </span>
                 </div>
-                <div className="flex items-center justify-center space-x-2 text-gray-400">
-                  <span>+</span>
+                <div className="flex items-center justify-center">
+                  <span className="text-2xl text-brand-accent font-bold">+</span>
                 </div>
-                <div className="flex items-center justify-center space-x-2 bg-white rounded-lg px-6 py-3 shadow-md">
-                  <span className="text-green-500">⚡</span>
-                  <span className="font-semibold text-gray-700">
+                <div className="flex items-center justify-center space-x-3 bg-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <span className="text-2xl">⚡</span>
+                  <span className="font-bold text-green-600 text-lg">
                     Robust Backend
                   </span>
                 </div>
-                <div className="flex items-center justify-center space-x-2 text-gray-400">
-                  <span>=</span>
+                <div className="flex items-center justify-center">
+                  <span className="text-2xl text-brand-accent font-bold">=</span>
                 </div>
-                <div className="flex items-center justify-center space-x-2 bg-gradient-to-r from-brand-navy to-brand-accent text-white rounded-lg px-6 py-3 shadow-md">
-                  <span>🚀</span>
-                  <span className="font-semibold">Amazing Products</span>
+                <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-brand-navy to-brand-accent text-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <span className="text-2xl">🚀</span>
+                  <span className="font-bold text-lg">Amazing Products</span>
                 </div>
               </div>
             </div>
