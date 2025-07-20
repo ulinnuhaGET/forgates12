@@ -91,9 +91,11 @@ const projects: Project[] = [
     category: "website",
     tags: ["Vue.js", "Laravel", "MySQL", "Video Streaming"],
     gradient: "from-green-500 to-emerald-500",
-    icon: "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z",
+        icon: "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z",
     badge: "Education",
     badgeColor: "bg-green-500",
+    demoUrl: "https://platform-edukasi-demo.vercel.app",
+    githubUrl: "https://github.com/forgates/platform-edukasi",
   },
   {
     id: 5,
@@ -103,9 +105,11 @@ const projects: Project[] = [
     category: "website",
     tags: ["React.js", "Node.js", "MongoDB", "Maps API"],
     gradient: "from-orange-500 to-amber-500",
-    icon: "M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z",
+        icon: "M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z",
     badge: "Real Estate",
     badgeColor: "bg-orange-500",
+    demoUrl: "https://real-estate-marketplace-demo.netlify.app",
+    githubUrl: "https://github.com/forgates/real-estate-marketplace",
   },
 
   // Mobile Category (5 projects)
