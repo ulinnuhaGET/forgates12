@@ -541,9 +541,9 @@ export default function Layanan() {
                 </div>
               </div>
                             <div className="mt-auto">
-                <button
+                                <button
                   onClick={() => openModal("mobile")}
-                  className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
                 >
                   Pelajari Lebih Lanjut
                 </button>
@@ -648,9 +648,9 @@ export default function Layanan() {
                 </div>
               </div>
                             <div className="mt-auto">
-                <button
+                                <button
                   onClick={() => openModal("uiux")}
-                  className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                  className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
                 >
                   Pelajari Lebih Lanjut
                 </button>
@@ -758,9 +758,9 @@ export default function Layanan() {
                 </div>
               </div>
                             <div className="mt-auto">
-                <button
+                                <button
                   onClick={() => openModal("ai")}
-                  className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                  className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
                 >
                   Pelajari Lebih Lanjut
                 </button>
@@ -867,9 +867,9 @@ export default function Layanan() {
                 </div>
               </div>
                             <div className="mt-auto">
-                <button
+                                <button
                   onClick={() => openModal("ecommerce")}
-                  className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                  className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
                 >
                   Pelajari Lebih Lanjut
                 </button>
@@ -976,9 +976,9 @@ export default function Layanan() {
                 </div>
               </div>
                             <div className="mt-auto">
-                <button
+                                <button
                   onClick={() => openModal("cloud")}
-                  className="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                  className="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
                 >
                   Pelajari Lebih Lanjut
                 </button>
