@@ -1,0 +1,96 @@
+{
+  "demoUrls": {
+    "8": {
+      "demoUrl": "https://fitness-tracker-demo.vercel.app",
+      "githubUrl": "https://github.com/forgates/fitness-tracker-app"
+    },
+    "9": {
+      "demoUrl": "https://ewallet-banking-demo.netlify.app",
+      "githubUrl": "https://github.com/forgates/ewallet-banking"
+    },
+    "10": {
+      "demoUrl": "https://social-media-demo.surge.sh",
+      "githubUrl": "https://github.com/forgates/social-media-app"
+    },
+    "11": {
+      "demoUrl": "https://ai-analytics-dashboard.vercel.app",
+      "githubUrl": "https://github.com/forgates/ai-analytics-dashboard"
+    },
+    "12": {
+      "demoUrl": "https://chatbot-customer-service.herokuapp.com",
+      "githubUrl": "https://github.com/forgates/chatbot-customer-service"
+    },
+    "13": {
+      "demoUrl": "https://computer-vision-demo.streamlit.app",
+      "githubUrl": "https://github.com/forgates/computer-vision-system"
+    },
+    "14": {
+      "demoUrl": "https://recommendation-engine-demo.gradio.app",
+      "githubUrl": "https://github.com/forgates/recommendation-engine"
+    },
+    "15": {
+      "demoUrl": "https://predictive-maintenance-demo.streamlit.app",
+      "githubUrl": "https://github.com/forgates/predictive-maintenance-ai"
+    },
+    "16": {
+      "demoUrl": "https://saas-b2b-platform.vercel.app",
+      "githubUrl": "https://github.com/forgates/saas-b2b-platform"
+    },
+    "17": {
+      "demoUrl": "https://crm-terintegrasi-demo.netlify.app",
+      "githubUrl": "https://github.com/forgates/crm-terintegrasi"
+    },
+    "18": {
+      "demoUrl": "https://erp-manufacturing-demo.onrender.com",
+      "githubUrl": "https://github.com/forgates/erp-manufacturing"
+    },
+    "19": {
+      "demoUrl": "https://hr-management-demo.vercel.app",
+      "githubUrl": "https://github.com/forgates/hr-management-platform"
+    },
+    "20": {
+      "demoUrl": "https://supply-chain-demo.netlify.app",
+      "githubUrl": "https://github.com/forgates/supply-chain-management"
+    },
+    "21": {
+      "demoUrl": "https://design-system-modern.storybook.io",
+      "githubUrl": "https://github.com/forgates/design-system-modern"
+    },
+    "22": {
+      "demoUrl": "https://mobile-banking-ui.figma.com/proto/demo",
+      "githubUrl": "https://github.com/forgates/mobile-banking-ui"
+    },
+    "23": {
+      "demoUrl": "https://ecommerce-dashboard-demo.vercel.app",
+      "githubUrl": "https://github.com/forgates/ecommerce-dashboard"
+    },
+    "24": {
+      "demoUrl": "https://healthcare-app-demo.surge.sh",
+      "githubUrl": "https://github.com/forgates/healthcare-app-ui"
+    },
+    "25": {
+      "demoUrl": "https://travel-app-demo.netlify.app",
+      "githubUrl": "https://github.com/forgates/travel-app-interface"
+    },
+    "26": {
+      "demoUrl": "https://iot-monitoring-demo.vercel.app",
+      "githubUrl": "https://github.com/forgates/iot-monitoring-system"
+    },
+    "27": {
+      "demoUrl": "https://smart-home-demo.netlify.app",
+      "githubUrl": "https://github.com/forgates/smart-home-automation"
+    },
+    "28": {
+      "demoUrl": "https://agriculture-iot-demo.surge.sh",
+      "githubUrl": "https://github.com/forgates/agriculture-iot-solution"
+    },
+    "29": {
+      "demoUrl": "https://industrial-iot-demo.onrender.com",
+      "githubUrl": "https://github.com/forgates/industrial-iot-platform"
+    },
+    "30": {
+      "demoUrl": "https://vehicle-tracking-demo.vercel.app",
+      "githubUrl": "https://github.com/forgates/vehicle-tracking-system"
+    }
+  }
+}
