@@ -750,9 +750,16 @@ export default function Layanan() {
               </div>
             </div>
 
-            {/* E-commerce Solutions */}
-            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-indigo-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* E-commerce Solutions */}
+            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+              {/* Background Illustration */}
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-indigo-500">
+                  <path d="M19 7h-1V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v1H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM8 6h8v1H8V6zm11 11H5V9h2v1a1 1 0 0 0 2 0V9h6v1a1 1 0 0 0 2 0V9h2v8z"/>
+                  <circle cx="12" cy="13" r="2"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-indigo-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-indigo-500"
                   fill="none"
