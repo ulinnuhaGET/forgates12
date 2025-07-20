@@ -431,10 +431,10 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">CMS Integration</span>
                 </div>
               </div>
-                            <div className="mt-auto">
-                                                <button
+                                          <div className="mt-auto relative z-30">
+                <button
                   onClick={() => openModal("website")}
-                  className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                  className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
                 >
                   Pelajari Lebih Lanjut
                 </button>
