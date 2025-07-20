@@ -567,49 +567,75 @@ export default function Portofolio() {
             </p>
           </div>
 
-          {/* Projects Grid - Large Projects */}
-          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+                    {/* Projects Grid - Large Projects */}
+          <div className="grid lg:grid-cols-2 gap-8 mb-16">
             {filteredProjects.slice(0, 4).map((project) => (
               <div
                 key={project.id}
-                className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group"
+                className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group flex flex-col h-full"
               >
                 <div className="relative overflow-hidden">
-                  <div
-                    className={`h-64 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
-                  >
-                    <div className="text-white text-center">
-                      <div className="w-20 h-20 bg-white/20 rounded-3xl flex items-center justify-center mx-auto mb-4">
-                        <svg
-                          className="w-10 h-10"
-                          fill="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d={project.icon} />
-                        </svg>
+                  {project.imageUrl ? (
+                    <div className="relative h-64">
+                      <img
+                        src={project.imageUrl}
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/50 flex items-center justify-center">
+                        <div className="text-white text-center">
+                          <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-3xl flex items-center justify-center mx-auto mb-4">
+                            <svg
+                              className="w-10 h-10"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d={project.icon} />
+                            </svg>
+                          </div>
+                          <span className="text-lg font-semibold drop-shadow-lg">
+                            {project.title.split(" ").slice(0, 2).join(" ")}
+                          </span>
+                        </div>
                       </div>
-                      <span className="text-lg font-semibold">
-                        {project.title.split(" ").slice(0, 2).join(" ")}
-                      </span>
                     </div>
-                  </div>
+                  ) : (
+                    <div
+                      className={`h-64 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
+                    >
+                      <div className="text-white text-center">
+                        <div className="w-20 h-20 bg-white/20 rounded-3xl flex items-center justify-center mx-auto mb-4">
+                          <svg
+                            className="w-10 h-10"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d={project.icon} />
+                          </svg>
+                        </div>
+                        <span className="text-lg font-semibold">
+                          {project.title.split(" ").slice(0, 2).join(" ")}
+                        </span>
+                      </div>
+                    </div>
+                  )}
                   <div className="absolute top-6 right-6">
                     <span
-                      className={`${project.badgeColor} text-white text-sm font-semibold px-4 py-2 rounded-full`}
+                      className={`${project.badgeColor} text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg backdrop-blur-sm`}
                     >
                       {project.badge}
                     </span>
                   </div>
                 </div>
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-grow">
                   <h3 className="text-2xl font-display font-bold text-brand-navy mb-3">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed line-clamp-3">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    {project.tags.map((tag, index) => (
+                    {project.tags.slice(0, 4).map((tag, index) => (
                       <span
                         key={index}
                         className="bg-blue-100 text-blue-700 text-xs font-medium px-3 py-1 rounded-full"
@@ -617,17 +643,22 @@ export default function Portofolio() {
                         {tag}
                       </span>
                     ))}
+                    {project.tags.length > 4 && (
+                      <span className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
+                        +{project.tags.length - 4} more
+                      </span>
+                    )}
                   </div>
-                  <div className="flex space-x-4">
+                  <div className="flex gap-3 mt-auto">
                     <button
                       onClick={() => handleViewDetail(project)}
-                      className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200"
+                      className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 hover:scale-105"
                     >
                       Lihat Detail
                     </button>
                     <button
                       onClick={() => handleLiveDemo(project)}
-                      className="flex-1 border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200"
+                      className="flex-1 border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 hover:scale-105"
                     >
                       Live Demo
                     </button>
