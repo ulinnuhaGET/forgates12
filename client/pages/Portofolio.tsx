@@ -53,8 +53,9 @@ const projects: Project[] = [
         icon: "M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z",
     badge: "Website",
     badgeColor: "bg-blue-500",
-    demoUrl: "https://toko-online-demo.vercel.app",
+        demoUrl: "https://toko-online-demo.vercel.app",
     githubUrl: "https://github.com/forgates/toko-online-modern",
+    imageUrl: "https://images.pexels.com/photos/6214474/pexels-photo-6214474.jpeg",
   },
   {
     id: 2,
@@ -67,8 +68,9 @@ const projects: Project[] = [
         icon: "M4 4H20C20.55 4 21 4.45 21 5V19C21 19.55 20.55 20 20 20H4C3.45 20 3 19.55 3 19V5C3 4.45 3.45 4 4 4ZM5 6V18H19V6H5Z",
     badge: "Corporate",
     badgeColor: "bg-slate-500",
-    demoUrl: "https://corporate-landing-demo.netlify.app",
+        demoUrl: "https://corporate-landing-demo.netlify.app",
     githubUrl: "https://github.com/forgates/corporate-landing",
+    imageUrl: "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg",
   },
   {
     id: 3,
@@ -81,8 +83,9 @@ const projects: Project[] = [
         icon: "M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z",
     badge: "Portfolio",
     badgeColor: "bg-pink-500",
-    demoUrl: "https://portfolio-kreatif-demo.surge.sh",
+        demoUrl: "https://portfolio-kreatif-demo.surge.sh",
     githubUrl: "https://github.com/forgates/portfolio-kreatif",
+    imageUrl: "https://images.pexels.com/photos/7792404/pexels-photo-7792404.jpeg",
   },
   {
     id: 4,
@@ -95,8 +98,9 @@ const projects: Project[] = [
         icon: "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z",
     badge: "Education",
     badgeColor: "bg-green-500",
-    demoUrl: "https://platform-edukasi-demo.vercel.app",
+        demoUrl: "https://platform-edukasi-demo.vercel.app",
     githubUrl: "https://github.com/forgates/platform-edukasi",
+    imageUrl: "https://images.pexels.com/photos/5212356/pexels-photo-5212356.jpeg",
   },
   {
     id: 5,
