@@ -561,11 +561,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 UI/UX Design
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Desain antarmuka yang indah dan pengalaman pengguna yang
                 intuitif untuk meningkatkan engagement.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-purple-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -631,12 +631,14 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">Design System</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("uiux")}
-                className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                <button
+                  onClick={() => openModal("uiux")}
+                  className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
             {/* AI Solutions */}
