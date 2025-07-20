@@ -153,8 +153,8 @@ export default function Tentang() {
                   design yang memukau users.
                 </p>
 
-                {/* Personal Details */}
-                <div className="bg-white/60 rounded-xl p-4 space-y-3 mb-4">
+                                {/* Personal Details */}
+                <div className="bg-white/60 rounded-xl p-4 space-y-3 mb-6">
                   <h4 className="text-lg font-semibold text-brand-navy mb-3">
                     Personal Profile
                   </h4>
@@ -198,8 +198,8 @@ export default function Tentang() {
                   </div>
                 </div>
 
-                {/* Skills */}
-                <div>
+                                {/* Skills */}
+                <div className="mb-6">
                   <h4 className="text-lg font-semibold text-brand-navy mb-3">
                     Tech Stack
                   </h4>
@@ -287,8 +287,8 @@ export default function Tentang() {
                   Problem solver sejati yang suka tantangan arsitektur kompleks.
                 </p>
 
-                {/* Personal Details */}
-                <div className="bg-white/60 rounded-xl p-4 space-y-3 mb-4">
+                                {/* Personal Details */}
+                <div className="bg-white/60 rounded-xl p-4 space-y-3 mb-6">
                   <h4 className="text-lg font-semibold text-brand-navy mb-3">
                     Personal Profile
                   </h4>
@@ -332,8 +332,8 @@ export default function Tentang() {
                   </div>
                 </div>
 
-                {/* Skills */}
-                <div>
+                                {/* Skills */}
+                <div className="mb-6">
                   <h4 className="text-lg font-semibold text-brand-navy mb-3">
                     Tech Stack
                   </h4>
