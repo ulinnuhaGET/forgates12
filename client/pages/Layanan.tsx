@@ -1253,7 +1253,23 @@ export default function Layanan() {
         </div>
       )}
 
-            {/* Success Notification */}
+                  {/* Test Modal Debug */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" style={{zIndex: 9999}}>
+          <div className="bg-white p-8 rounded-lg max-w-md w-full mx-4">
+            <h2 className="text-2xl font-bold mb-4">Test Modal</h2>
+            <p className="mb-4">Modal is working! Service: {selectedService?.title || 'None'}</p>
+            <button
+              onClick={closeModal}
+              className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Success Notification */}
       {showNotification && (
         <div className="fixed top-4 right-4 z-60 animate-slide-in-right">
           <div className="bg-green-500 text-white px-6 py-4 rounded-xl shadow-lg flex items-center space-x-3">
