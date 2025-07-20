@@ -282,8 +282,11 @@ export default function Layanan() {
   );
   const [showNotification, setShowNotification] = useState(false);
 
-  const openModal = (serviceId: string) => {
-    setSelectedService(serviceDetails[serviceId]);
+    const openModal = (serviceId: string) => {
+    console.log('Opening modal for service:', serviceId);
+    const service = serviceDetails[serviceId];
+    console.log('Service data:', service);
+    setSelectedService(service);
     setIsModalOpen(true);
     document.body.style.overflow = "hidden";
   };
