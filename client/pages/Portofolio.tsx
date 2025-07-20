@@ -438,14 +438,25 @@ export default function Portofolio() {
       ? projects
       : projects.filter((project) => project.category === activeCategory);
 
-  const handleViewDetail = (project: Project) => {
+    const handleViewDetail = (project: Project) => {
     setSelectedProject(project);
     setIsModalOpen(true);
   };
 
-  const handleLiveDemo = (project: Project) => {
-    // You can implement demo functionality or open demo URL
-    alert(`Opening live demo for: ${project.title}`);
+  const handleGithubView = (project: Project) => {
+    if (project.githubUrl) {
+      window.open(project.githubUrl, '_blank', 'noopener,noreferrer');
+    } else {
+      alert(`Source code untuk ${project.title} tidak tersedia untuk umum.`);
+    }
+  };
+
+    const handleLiveDemo = (project: Project) => {
+    if (project.demoUrl) {
+      window.open(project.demoUrl, '_blank', 'noopener,noreferrer');
+    } else {
+      alert(`Demo untuk ${project.title} sedang dalam pengembangan.`);
+    }
   };
 
   const closeModal = () => {
