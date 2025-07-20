@@ -255,7 +255,7 @@ export default function Tentang() {
             </div>
 
                         {/* Rizky Profile */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 h-full">
+                        <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 h-full flex flex-col">
               <div className="text-center mb-6">
                 {/* Avatar */}
                 <div className="w-32 h-32 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
@@ -281,7 +281,7 @@ export default function Tentang() {
                 </p>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-4 flex-grow">
                 <p className="text-gray-700 leading-relaxed text-center mb-6">
                   Ahli dalam membangun sistem backend yang robust dan scalable.
                   Problem solver sejati yang suka tantangan arsitektur kompleks.
