@@ -100,7 +100,7 @@ const projects: Project[] = [
     badgeColor: "bg-green-500",
         demoUrl: "https://platform-edukasi-demo.vercel.app",
     githubUrl: "https://github.com/forgates/platform-edukasi",
-    imageUrl: "https://images.pexels.com/photos/5212356/pexels-photo-5212356.jpeg",
+        imageUrl: "https://images.pexels.com/photos/30885920/pexels-photo-30885920.jpeg",
   },
   {
     id: 5,
@@ -113,8 +113,9 @@ const projects: Project[] = [
         icon: "M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z",
     badge: "Real Estate",
     badgeColor: "bg-orange-500",
-    demoUrl: "https://real-estate-marketplace-demo.netlify.app",
+        demoUrl: "https://real-estate-marketplace-demo.netlify.app",
     githubUrl: "https://github.com/forgates/real-estate-marketplace",
+    imageUrl: "https://images.pexels.com/photos/7937214/pexels-photo-7937214.jpeg",
   },
 
   // Mobile Category (5 projects)
