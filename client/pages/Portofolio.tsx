@@ -163,9 +163,11 @@ const projects: Project[] = [
     category: "mobile",
     tags: ["Flutter", "Blockchain", "Security", "Biometric Auth"],
     gradient: "from-purple-500 to-indigo-500",
-    icon: "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6Z",
+        icon: "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6Z",
     badge: "Fintech",
     badgeColor: "bg-purple-500",
+    demoUrl: "https://ewallet-banking-demo.netlify.app",
+    githubUrl: "https://github.com/forgates/ewallet-banking",
   },
   {
     id: 10,
@@ -175,9 +177,11 @@ const projects: Project[] = [
     category: "mobile",
     tags: ["React Native", "WebRTC", "AI Algorithm", "Real-time Chat"],
     gradient: "from-emerald-500 to-teal-500",
-    icon: "M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M18,5H5V18L14,9L16,11L20,7L18,5Z",
+        icon: "M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M18,5H5V18L14,9L16,11L20,7L18,5Z",
     badge: "Social",
     badgeColor: "bg-emerald-500",
+    demoUrl: "https://social-media-demo.surge.sh",
+    githubUrl: "https://github.com/forgates/social-media-app",
   },
 
   // AI Category (5 projects)
