@@ -753,11 +753,11 @@ export default function Layanan() {
 
                         {/* E-commerce Solutions */}
             <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
-              {/* Background Illustration */}
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-indigo-500">
-                  <path d="M19 7h-1V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v1H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM8 6h8v1H8V6zm11 11H5V9h2v1a1 1 0 0 0 2 0V9h6v1a1 1 0 0 0 2 0V9h2v8z"/>
-                  <circle cx="12" cy="13" r="2"/>
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-indigo-500">
+                  <path d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.293 2.293c-.63.63-.184 1.707.707 1.707H19M17 17a2 2 0 100 4 2 2 0 000-4zM9 17a2 2 0 100 4 2 2 0 000-4z"/>
+                  <path d="M9 7v1a3 3 0 006 0V7"/>
                 </svg>
               </div>
               <div className="w-16 h-16 bg-indigo-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
