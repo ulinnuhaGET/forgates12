@@ -118,9 +118,9 @@ export default function Tentang() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+                    <div className="grid lg:grid-cols-2 gap-8 xl:gap-12">
             {/* Ulin Profile */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 h-full">
               <div className="text-center mb-6">
                 {/* Avatar */}
                 <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
@@ -247,8 +247,8 @@ export default function Tentang() {
               </div>
             </div>
 
-            {/* Rizky Profile */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
+                        {/* Rizky Profile */}
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 h-full">
               <div className="text-center mb-6">
                 {/* Avatar */}
                 <div className="w-32 h-32 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
