@@ -1247,6 +1247,29 @@ export default function Layanan() {
         </div>
       )}
 
+            {/* Success Notification */}
+      {showNotification && (
+        <div className="fixed top-4 right-4 z-60 animate-slide-in-right">
+          <div className="bg-green-500 text-white px-6 py-4 rounded-xl shadow-lg flex items-center space-x-3">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+            <div>
+              <p className="font-semibold">Terima kasih!</p>
+              <p className="text-sm opacity-90">Tim kami akan menghubungi Anda segera</p>
+            </div>
+            <button
+              onClick={() => setShowNotification(false)}
+              className="ml-4 text-white hover:text-gray-200 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
+
       <Footer />
     </div>
   );
