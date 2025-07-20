@@ -129,8 +129,9 @@ const projects: Project[] = [
         icon: "M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21C5,22.11 5.89,23 7,23H17C18.11,23 19,22.11 19,21V3C19,1.89 18.11,1 17,1Z",
     badge: "Mobile App",
     badgeColor: "bg-green-500",
-    demoUrl: "https://expo.dev/@forgates/produktivitas-app",
+        demoUrl: "https://expo.dev/@forgates/produktivitas-app",
     githubUrl: "https://github.com/forgates/produktivitas-app",
+    imageUrl: "https://images.pexels.com/photos/8217433/pexels-photo-8217433.jpeg",
   },
   {
     id: 7,
@@ -143,8 +144,9 @@ const projects: Project[] = [
         icon: "M18.06 22.99H1.94C1.28 22.99 0.740005 22.45 0.740005 21.79V2.21C0.740005 1.55 1.28 1.01 1.94 1.01H18.06C18.72 1.01 19.26 1.55 19.26 2.21V21.79C19.26 22.45 18.72 22.99 18.06 22.99ZM1.94 2.01V21.99H18.06V2.01H1.94Z",
     badge: "Food App",
     badgeColor: "bg-red-500",
-    demoUrl: "https://food-delivery-demo.pages.dev",
+        demoUrl: "https://food-delivery-demo.pages.dev",
     githubUrl: "https://github.com/forgates/food-delivery-app",
+    imageUrl: "https://images.pexels.com/photos/4393668/pexels-photo-4393668.jpeg",
   },
   {
     id: 8,
