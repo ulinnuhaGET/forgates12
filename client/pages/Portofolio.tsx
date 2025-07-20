@@ -77,9 +77,11 @@ const projects: Project[] = [
     category: "website",
     tags: ["React.js", "Framer Motion", "GSAP", "Responsive"],
     gradient: "from-pink-500 to-rose-500",
-    icon: "M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z",
+        icon: "M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z",
     badge: "Portfolio",
     badgeColor: "bg-pink-500",
+    demoUrl: "https://portfolio-kreatif-demo.surge.sh",
+    githubUrl: "https://github.com/forgates/portfolio-kreatif",
   },
   {
     id: 4,
