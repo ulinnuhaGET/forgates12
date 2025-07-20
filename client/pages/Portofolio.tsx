@@ -63,9 +63,11 @@ const projects: Project[] = [
     category: "website",
     tags: ["Next.js", "Tailwind CSS", "Strapi CMS", "SEO"],
     gradient: "from-slate-500 to-blue-500",
-    icon: "M4 4H20C20.55 4 21 4.45 21 5V19C21 19.55 20.55 20 20 20H4C3.45 20 3 19.55 3 19V5C3 4.45 3.45 4 4 4ZM5 6V18H19V6H5Z",
+        icon: "M4 4H20C20.55 4 21 4.45 21 5V19C21 19.55 20.55 20 20 20H4C3.45 20 3 19.55 3 19V5C3 4.45 3.45 4 4 4ZM5 6V18H19V6H5Z",
     badge: "Corporate",
     badgeColor: "bg-slate-500",
+    demoUrl: "https://corporate-landing-demo.netlify.app",
+    githubUrl: "https://github.com/forgates/corporate-landing",
   },
   {
     id: 3,
