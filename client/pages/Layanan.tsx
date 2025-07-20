@@ -425,9 +425,16 @@ export default function Layanan() {
               </div>
             </div>
 
-            {/* Mobile App Development */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* Mobile App Development */}
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+              {/* Background Illustration */}
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-green-500">
+                  <path d="M17 2H7c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM7 4h10v12H7V4zm0 14h10v2H7v-2z"/>
+                  <circle cx="12" cy="18.5" r="1.5"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-green-500"
                   fill="none"
