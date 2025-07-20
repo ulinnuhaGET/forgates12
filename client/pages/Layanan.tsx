@@ -668,11 +668,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 AI Solutions
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Implementasi kecerdasan buatan untuk otomatisasi bisnis dan
                 analitik prediktif yang menguntungkan.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-brand-accent/20 rounded-full flex items-center justify-center">
                     <svg
@@ -740,12 +740,14 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">Automation</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("ai")}
-                className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                <button
+                  onClick={() => openModal("ai")}
+                  className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
             {/* E-commerce Solutions */}
