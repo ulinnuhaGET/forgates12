@@ -3,8 +3,10 @@ import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
 import PageBackground3D from "@/components/PageBackground3D";
 import SectionBackground3D from "@/components/SectionBackground3D";
+import { useNavigate } from "react-router-dom";
 
 export default function Index() {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 relative">
       <PageBackground3D />
@@ -147,7 +149,10 @@ export default function Index() {
 
           {/* Call to Action */}
           <div className="text-center">
-            <button className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 group">
+            <button
+              onClick={() => navigate('/layanan')}
+              className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 group"
+            >
               Lihat Layanan Lengkap
               <svg
                 className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"
@@ -276,7 +281,10 @@ export default function Index() {
 
             {/* Call to Action */}
             <div className="text-center">
-              <button className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 group">
+              <button
+                onClick={() => navigate('/tentang')}
+                className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 group"
+              >
                 Pelajari Lebih Lanjut
                 <svg
                   className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"
@@ -543,7 +551,10 @@ export default function Index() {
 
           {/* Call to Action */}
           <div className="text-center">
-            <button className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 group">
+            <button
+              onClick={() => navigate('/portofolio')}
+              className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 group"
+            >
               Lihat Semua Portofolio
               <svg
                 className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"
