@@ -136,7 +136,7 @@ const HeroSection = () => {
                 >
                   <div className="flex items-center space-x-2">
                     <span className="text-xs font-medium text-brand-navy">
-                      ✨ AI Powered
+                      ✨ For Gates
                     </span>
                   </div>
                 </div>
