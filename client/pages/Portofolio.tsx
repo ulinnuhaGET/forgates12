@@ -162,6 +162,7 @@ const projects: Project[] = [
     badgeColor: "bg-blue-500",
     demoUrl: "https://fitness-tracker-demo.vercel.app",
     githubUrl: "https://github.com/forgates/fitness-tracker-app",
+    imageUrl: "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg",
   },
   {
     id: 9,
@@ -176,6 +177,7 @@ const projects: Project[] = [
     badgeColor: "bg-purple-500",
     demoUrl: "https://ewallet-banking-demo.netlify.app",
     githubUrl: "https://github.com/forgates/ewallet-banking",
+    imageUrl: "https://images.pexels.com/photos/4968631/pexels-photo-4968631.jpeg",
   },
   {
     id: 10,
@@ -190,6 +192,7 @@ const projects: Project[] = [
     badgeColor: "bg-emerald-500",
     demoUrl: "https://social-media-demo.surge.sh",
     githubUrl: "https://github.com/forgates/social-media-app",
+    imageUrl: "https://images.pexels.com/photos/1006293/pexels-photo-1006293.jpeg",
   },
 
   // AI Category (5 projects)
@@ -206,6 +209,7 @@ const projects: Project[] = [
     badgeColor: "bg-brand-accent",
     demoUrl: "https://ai-analytics-dashboard.vercel.app",
     githubUrl: "https://github.com/forgates/ai-analytics-dashboard",
+    imageUrl: "https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg",
   },
   {
     id: 12,
@@ -220,6 +224,7 @@ const projects: Project[] = [
     badgeColor: "bg-blue-500",
     demoUrl: "https://chatbot-customer-service.herokuapp.com",
     githubUrl: "https://github.com/forgates/chatbot-customer-service",
+    imageUrl: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
   },
   {
     id: 13,
@@ -232,6 +237,7 @@ const projects: Project[] = [
     icon: "M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z",
     badge: "Vision AI",
     badgeColor: "bg-gray-500",
+    imageUrl: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
   },
   {
     id: 14,
@@ -249,6 +255,7 @@ const projects: Project[] = [
     icon: "M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z",
     badge: "Recommendation",
     badgeColor: "bg-indigo-500",
+    imageUrl: "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg",
   },
   {
     id: 15,
@@ -261,6 +268,7 @@ const projects: Project[] = [
     icon: "M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.68 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z",
     badge: "Predictive AI",
     badgeColor: "bg-green-500",
+    imageUrl: "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg",
   },
 
   // Enterprise Category (5 projects)
@@ -277,6 +285,7 @@ const projects: Project[] = [
     badgeColor: "bg-indigo-500",
     demoUrl: "https://saas-b2b-platform.vercel.app",
     githubUrl: "https://github.com/forgates/saas-b2b-platform",
+    imageUrl: "https://images.pexels.com/photos/7433829/pexels-photo-7433829.jpeg",
   },
   {
     id: 17,
@@ -291,6 +300,7 @@ const projects: Project[] = [
     badgeColor: "bg-emerald-500",
     demoUrl: "https://crm-terintegrasi-demo.netlify.app",
     githubUrl: "https://github.com/forgates/crm-terintegrasi",
+    imageUrl: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
   },
   {
     id: 18,
@@ -303,6 +313,7 @@ const projects: Project[] = [
     icon: "M12,2L13.09,8.26L20,9L13.09,9.74L12,16L10.91,9.74L4,9L10.91,8.26L12,2M6.5,2L7.5,5.5L11,6.5L7.5,7.5L6.5,11L5.5,7.5L2,6.5L5.5,5.5L6.5,2M17.5,13L18.5,16.5L22,17.5L18.5,18.5L17.5,22L16.5,18.5L13,17.5L16.5,16.5L17.5,13Z",
     badge: "ERP",
     badgeColor: "bg-red-500",
+    imageUrl: "https://images.pexels.com/photos/2599537/pexels-photo-2599537.jpeg",
   },
   {
     id: 19,
@@ -315,6 +326,7 @@ const projects: Project[] = [
     icon: "M16,4C18.11,4 19.8,5.69 19.8,7.8C19.8,9.91 18.11,11.6 16,11.6C13.89,11.6 12.2,9.91 12.2,7.8C12.2,5.69 13.89,4 16,4M16,5.9C15.12,5.9 14.4,6.62 14.4,7.5C14.4,8.38 15.12,9.1 16,9.1C16.88,9.1 17.6,8.38 17.6,7.5C17.6,6.62 16.88,5.9 16,5.9M4,7V10H1V12H4V15H6V12H9V10H6V7H4M11.5,14V17.5H15V15.5H13.5V14H11.5M16.5,14V17.5H20V15.5H18.5V14H16.5Z",
     badge: "HR System",
     badgeColor: "bg-purple-500",
+    imageUrl: "https://images.pexels.com/photos/3778619/pexels-photo-3778619.jpeg",
   },
   {
     id: 20,
@@ -327,6 +339,7 @@ const projects: Project[] = [
     icon: "M4,15V9H12V4.16L19.84,12H15V17.84L7.16,10H4M2,10H5V14H2V10M22,10V14H19V10H22M10,2H14V5H10V2M10,19H14V22H10V19Z",
     badge: "Supply Chain",
     badgeColor: "bg-cyan-500",
+    imageUrl: "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg",
   },
 
   // UI/UX Category (5 projects)
@@ -341,6 +354,7 @@ const projects: Project[] = [
     icon: "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6Z",
     badge: "UI/UX",
     badgeColor: "bg-purple-500",
+    imageUrl: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
   },
   {
     id: 22,
@@ -353,6 +367,7 @@ const projects: Project[] = [
     icon: "M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5H5.21L4.27,3H1M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z",
     badge: "Banking UI",
     badgeColor: "bg-blue-500",
+    imageUrl: "https://images.pexels.com/photos/4466060/pexels-photo-4466060.jpeg",
   },
   {
     id: 23,
@@ -365,6 +380,7 @@ const projects: Project[] = [
     icon: "M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,19H5V5H19V19Z",
     badge: "Dashboard",
     badgeColor: "bg-green-500",
+    imageUrl: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg",
   },
   {
     id: 24,
@@ -377,6 +393,7 @@ const projects: Project[] = [
     icon: "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,13H13V17H11V13H7V11H11V7H13V11H17V13Z",
     badge: "Healthcare",
     badgeColor: "bg-red-500",
+    imageUrl: "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
   },
   {
     id: 25,
@@ -389,6 +406,7 @@ const projects: Project[] = [
     icon: "M2.5,19C2.5,20.11 3.39,21 4.5,21H19.5C20.61,21 21.5,20.11 21.5,19V12H2.5V19M6.5,16H17.5V18H6.5V16M21.5,4H19.5V2H17.5V4H6.5V2H4.5V4H2.5C1.39,4 0.5,4.89 0.5,6V10H23.5V6C23.5,4.89 22.61,4 21.5,4Z",
     badge: "Travel App",
     badgeColor: "bg-yellow-500",
+    imageUrl: "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg",
   },
 
   // IoT Category (5 projects)
@@ -403,6 +421,7 @@ const projects: Project[] = [
     icon: "M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z",
     badge: "IoT",
     badgeColor: "bg-teal-500",
+    imageUrl: "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg",
   },
   {
     id: 27,
@@ -415,6 +434,7 @@ const projects: Project[] = [
     icon: "M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z",
     badge: "Smart Home",
     badgeColor: "bg-blue-500",
+    imageUrl: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
   },
   {
     id: 28,
@@ -427,6 +447,7 @@ const projects: Project[] = [
     icon: "M17,6H22V8H20V16H18V8H17V6M16,8H14L12,5L10,8H8L5.5,12L8,16H16L18.5,12L16,8Z",
     badge: "AgriTech",
     badgeColor: "bg-green-500",
+    imageUrl: "https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg",
   },
   {
     id: 29,
@@ -439,6 +460,7 @@ const projects: Project[] = [
     icon: "M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.68 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z",
     badge: "Industrial",
     badgeColor: "bg-gray-500",
+    imageUrl: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg",
   },
   {
     id: 30,
@@ -451,6 +473,7 @@ const projects: Project[] = [
     icon: "M5,11L6.5,6.5H17.5L19,11H5M17.5,16A1.5,1.5 0 0,1 16,14.5A1.5,1.5 0 0,1 17.5,13A1.5,1.5 0 0,1 19,14.5A1.5,1.5 0 0,1 17.5,16M6.5,16A1.5,1.5 0 0,1 5,14.5A1.5,1.5 0 0,1 6.5,13A1.5,1.5 0 0,1 8,14.5A1.5,1.5 0 0,1 6.5,16M18.92,6C18.72,5.42 18.16,5 17.5,5H6.5C5.84,5 5.28,5.42 5.08,6L3,12V20A1,1 0 0,0 4,21H5A1,1 0 0,0 6,20V19H18V20A1,1 0 0,0 19,21H20A1,1 0 0,0 21,20V12L18.92,6Z",
     badge: "Vehicle IoT",
     badgeColor: "bg-red-500",
+    imageUrl: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg",
   },
 ];
 
