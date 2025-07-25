@@ -1,7 +1,9 @@
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "./ui/button";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section
       id="home"
@@ -47,6 +49,7 @@ const HeroSection = () => {
             >
               <Button
                 size="lg"
+                onClick={() => navigate('/layanan')}
                 className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105"
               >
                 <span className="text-sm sm:text-base">Lihat Layanan</span>
@@ -56,6 +59,7 @@ const HeroSection = () => {
               <Button
                 variant="outline"
                 size="lg"
+                onClick={() => navigate('/kontak')}
                 className="border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition-all duration-300 group hover:scale-105"
               >
                 <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:scale-110 transition-transform" />
