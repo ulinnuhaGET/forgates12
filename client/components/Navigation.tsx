@@ -92,7 +92,7 @@ const Navigation = () => {
                   isScrolled ? "px-4 py-2 text-sm" : "px-6 py-2"
                 }`}
               >
-                Get a Quote
+                Gabung Sekarang
               </Button>
             </div>
 
@@ -171,7 +171,7 @@ const Navigation = () => {
                     className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Get a Quote
+                    Gabung Sekarang
                   </Button>
                 </div>
 
