@@ -355,7 +355,10 @@ export default function Index() {
                   Platform e-commerce lengkap dengan sistem pembayaran
                   terintegrasi dan dashboard admin yang responsif.
                 </p>
-                <button className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white">
+                <button
+                  onClick={() => navigate('/portofolio')}
+                  className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white"
+                >
                   Lihat Detail
                 </button>
               </div>
@@ -394,7 +397,10 @@ export default function Index() {
                   Aplikasi mobile untuk manajemen tugas dengan fitur
                   sinkronisasi real-time dan notifikasi cerdas.
                 </p>
-                <button className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white">
+                <button
+                  onClick={() => navigate('/portofolio')}
+                  className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white"
+                >
                   Lihat Detail
                 </button>
               </div>
@@ -431,7 +437,10 @@ export default function Index() {
                   Platform analitik berbasis AI untuk prediksi bisnis dengan
                   visualisasi data yang interaktif dan real-time.
                 </p>
-                <button className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white">
+                <button
+                  onClick={() => navigate('/portofolio')}
+                  className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white"
+                >
                   Lihat Detail
                 </button>
               </div>
@@ -468,7 +477,10 @@ export default function Index() {
                   Komponen UI yang konsisten dan reusable untuk membangun
                   pengalaman pengguna yang seamless.
                 </p>
-                <button className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white">
+                <button
+                  onClick={() => navigate('/portofolio')}
+                  className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white"
+                >
                   Lihat Detail
                 </button>
               </div>
@@ -505,7 +517,10 @@ export default function Index() {
                   Solusi enterprise untuk manajemen bisnis dengan fitur
                   multi-tenant dan analitik mendalam.
                 </p>
-                <button className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white">
+                <button
+                  onClick={() => navigate('/portofolio')}
+                  className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white"
+                >
                   Lihat Detail
                 </button>
               </div>
@@ -542,7 +557,10 @@ export default function Index() {
                   Dashboard monitoring perangkat IoT dengan prediksi maintenance
                   berbasis machine learning.
                 </p>
-                <button className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white">
+                <button
+                  onClick={() => navigate('/portofolio')}
+                  className="w-full bg-brand-navy/5 hover:bg-brand-navy hover:text-white text-brand-navy font-semibold py-2 px-4 rounded-lg transition-all duration-200 group-hover:bg-brand-navy group-hover:text-white"
+                >
                   Lihat Detail
                 </button>
               </div>
