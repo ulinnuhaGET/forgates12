@@ -1254,7 +1254,7 @@ export default function Layanan() {
 
       {/* Success Notification */}
       {showNotification && (
-        <div className="fixed top-4 right-4 z-60 animate-slide-in-right">
+        <div className="fixed top-4 right-4 z-[10000] animate-slide-in-right">
           <div className="bg-green-500 text-white px-6 py-4 rounded-xl shadow-lg flex items-center space-x-3">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
