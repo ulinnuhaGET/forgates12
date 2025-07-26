@@ -117,7 +117,7 @@ export default function Tentang() {
 
                     <div className="flex justify-center">
             {/* Ulin Profile */}
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 max-w-2xl w-full flex flex-col">
+                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-10 hover:shadow-xl transition-all duration-300 max-w-3xl w-full flex flex-col border border-blue-100/50">
               <div className="text-center mb-6">
                 {/* Avatar */}
                 <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
