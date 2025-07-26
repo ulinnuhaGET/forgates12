@@ -321,28 +321,35 @@ export default function Index() {
           </div>
 
           {/* Projects Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
             {/* Project 1 - E-commerce Platform */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
               <div className="relative overflow-hidden">
-                <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                      <svg
-                        className="w-8 h-8"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z" />
-                      </svg>
+                <div className="relative h-48">
+                  <img
+                    src="https://images.pexels.com/photos/6214474/pexels-photo-6214474.jpeg"
+                    alt="Toko Online Modern"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/50 flex items-center justify-center">
+                    <div className="text-white text-center">
+                      <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-3">
+                        <svg
+                          className="w-8 h-8"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z" />
+                        </svg>
+                      </div>
+                      <span className="text-sm font-medium drop-shadow-lg">
+                        E-Commerce Platform
+                      </span>
                     </div>
-                    <span className="text-sm font-medium">
-                      E-Commerce Platform
-                    </span>
                   </div>
                 </div>
                 <div className="absolute top-4 right-4">
-                  <span className="bg-blue-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-blue-500 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-lg backdrop-blur-sm">
                     Website
                   </span>
                 </div>
@@ -364,38 +371,45 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Project 2 - Mobile App */}
+            {/* Project 2 - Corporate Landing */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
               <div className="relative overflow-hidden">
-                <div className="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                      <svg
-                        className="w-8 h-8"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21C5,22.11 5.89,23 7,23H17C18.11,23 19,22.11 19,21V3C19,1.89 18.11,1 17,1Z" />
-                      </svg>
+                <div className="relative h-48">
+                  <img
+                    src="https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg"
+                    alt="Corporate Landing Page"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/50 flex items-center justify-center">
+                    <div className="text-white text-center">
+                      <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-3">
+                        <svg
+                          className="w-8 h-8"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M4 4H20C20.55 4 21 4.45 21 5V19C21 19.55 20.55 20 20 20H4C3.45 20 3 19.55 3 19V5C3 4.45 3.45 4 4 4ZM5 6V18H19V6H5Z" />
+                        </svg>
+                      </div>
+                      <span className="text-sm font-medium drop-shadow-lg">
+                        Corporate Website
+                      </span>
                     </div>
-                    <span className="text-sm font-medium">
-                      Mobile Application
-                    </span>
                   </div>
                 </div>
                 <div className="absolute top-4 right-4">
-                  <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
-                    App
+                  <span className="bg-slate-500 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-lg backdrop-blur-sm">
+                    Corporate
                   </span>
                 </div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-display font-bold text-brand-navy mb-2">
-                  Aplikasi Produktivitas
+                  Corporate Landing Page
                 </h3>
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                  Aplikasi mobile untuk manajemen tugas dengan fitur
-                  sinkronisasi real-time dan notifikasi cerdas.
+                  Website perusahaan yang profesional dengan desain modern,
+                  optimasi SEO, dan integrasi konten CMS.
                 </p>
                 <button
                   onClick={() => navigate('/portofolio')}
@@ -406,36 +420,45 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Project 3 - AI Dashboard */}
+            {/* Project 3 - Creative Portfolio */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
               <div className="relative overflow-hidden">
-                <div className="h-48 bg-gradient-to-br from-brand-accent to-orange-500 flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                      <svg
-                        className="w-8 h-8"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M12,2A2,2 0 0,1 14,4C14,4.74 13.6,5.39 13,5.73V7H14A7,7 0 0,1 21,14H22A1,1 0 0,1 23,15V18A1,1 0 0,1 22,19H21V20A2,2 0 0,1 19,22H5A2,2 0 0,1 3,20V19H2A1,1 0 0,1 1,18V15A1,1 0 0,1 2,14H3A7,7 0 0,1 10,7H11V5.73C10.4,5.39 10,4.74 10,4A2,2 0 0,1 12,2M7.5,13A2.5,2.5 0 0,0 5,15.5A2.5,2.5 0 0,0 7.5,18A2.5,2.5 0 0,0 10,15.5A2.5,2.5 0 0,0 7.5,13M16.5,13A2.5,2.5 0 0,0 14,15.5A2.5,2.5 0 0,0 16.5,18A2.5,2.5 0 0,0 19,15.5A2.5,2.5 0 0,0 16.5,13Z" />
-                      </svg>
+                <div className="relative h-48">
+                  <img
+                    src="https://images.pexels.com/photos/7792404/pexels-photo-7792404.jpeg"
+                    alt="Portfolio Kreatif"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/50 flex items-center justify-center">
+                    <div className="text-white text-center">
+                      <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-3">
+                        <svg
+                          className="w-8 h-8"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" />
+                        </svg>
+                      </div>
+                      <span className="text-sm font-medium drop-shadow-lg">
+                        Creative Portfolio
+                      </span>
                     </div>
-                    <span className="text-sm font-medium">AI Analytics</span>
                   </div>
                 </div>
                 <div className="absolute top-4 right-4">
-                  <span className="bg-brand-accent text-brand-navy text-xs font-semibold px-3 py-1 rounded-full">
-                    AI
+                  <span className="bg-pink-500 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-lg backdrop-blur-sm">
+                    Portfolio
                   </span>
                 </div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-display font-bold text-brand-navy mb-2">
-                  Dashboard AI Analytics
+                  Portfolio Kreatif
                 </h3>
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                  Platform analitik berbasis AI untuk prediksi bisnis dengan
-                  visualisasi data yang interaktif dan real-time.
+                  Website portfolio untuk creative agency dengan animasi
+                  interaktif dan showcase project yang menarik.
                 </p>
                 <button
                   onClick={() => navigate('/portofolio')}
