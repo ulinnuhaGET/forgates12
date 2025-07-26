@@ -139,7 +139,7 @@ export default function Tentang() {
                   Ulin
                 </h3>
                 <p className="text-lg font-semibold text-blue-600 mb-4">
-                  Frontend Developer & UI/UX Designer
+                  Fullstack Developer & Tech Architect
                 </p>
               </div>
 
