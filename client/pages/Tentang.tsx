@@ -211,13 +211,19 @@ export default function Tentang() {
                       TypeScript
                     </span>
                     <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      Tailwind CSS
+                      Node.js
                     </span>
                     <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      Figma
+                      PostgreSQL
                     </span>
                     <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      UI/UX Design
+                      Python
+                    </span>
+                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                      Docker
+                    </span>
+                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                      AWS
                     </span>
                   </div>
                 </div>
