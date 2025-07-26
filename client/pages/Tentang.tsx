@@ -118,11 +118,11 @@ export default function Tentang() {
                     <div className="flex justify-center">
             {/* Ulin Profile */}
                         <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-10 hover:shadow-xl transition-all duration-300 max-w-3xl w-full flex flex-col border border-blue-100/50">
-              <div className="text-center mb-6">
+              <div className="text-center mb-8">
                 {/* Avatar */}
-                <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
+                <div className="w-40 h-40 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-8 flex items-center justify-center shadow-xl ring-4 ring-blue-100">
                   <svg
-                    className="w-16 h-16 text-white"
+                    className="w-20 h-20 text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -135,11 +135,14 @@ export default function Tentang() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-display font-bold text-brand-navy mb-2">
-                  Ulin
+                <h3 className="text-3xl font-display font-bold text-brand-navy mb-3">
+                  Ulin Nuha
                 </h3>
-                <p className="text-lg font-semibold text-blue-600 mb-4">
+                <p className="text-xl font-semibold text-blue-600 mb-2">
                   Fullstack Developer & Tech Architect
+                </p>
+                <p className="text-sm text-gray-500 italic">
+                  Founder & Lead Developer at For Gates
                 </p>
               </div>
 
