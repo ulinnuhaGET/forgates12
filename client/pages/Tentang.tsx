@@ -17,7 +17,7 @@ export default function Tentang() {
               Tentang <span className="text-brand-accent">For Gates</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Kenali Ulin dan Rizky - duo developer berpengalaman yang membantu
+              Kenali Ulin - fullstack developer berpengalaman yang membantu
               transformasi digital bisnis Anda dengan solusi teknologi inovatif
               dan terpercaya
             </p>
