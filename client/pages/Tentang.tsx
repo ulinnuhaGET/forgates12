@@ -115,14 +115,143 @@ export default function Tentang() {
             </p>
           </div>
 
-                    <div className="flex justify-center">
-            {/* Ulin Profile */}
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-10 hover:shadow-xl transition-all duration-300 max-w-3xl w-full flex flex-col border border-blue-100/50">
-              <div className="text-center mb-8">
-                {/* Avatar */}
-                <div className="w-40 h-40 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-8 flex items-center justify-center shadow-xl ring-4 ring-blue-100">
+                    <div className="grid lg:grid-cols-2 gap-12 items-start">
+            {/* Left Side - Bio and Information */}
+            <div className="space-y-6">
+              {/* Header */}
+              <div className="mb-6">
+                <h3 className="text-3xl font-display font-bold text-brand-navy mb-3">
+                  Ulin Nuha
+                </h3>
+                <p className="text-xl font-semibold text-blue-600 mb-2">
+                  Fullstack Developer & Tech Architect
+                </p>
+                <p className="text-sm text-gray-500 italic mb-4">
+                  Founder & Lead Developer at For Gates
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Fullstack developer yang passionate tentang menciptakan solusi end-to-end
+                  yang powerful. Dari beautiful frontend hingga robust backend architecture,
+                  menguasai full development lifecycle dengan clean code dan best practices.
+                </p>
+              </div>
+
+              {/* Personal Details */}
+              <div className="bg-blue-50/50 rounded-xl p-6 space-y-3">
+                <h4 className="text-lg font-semibold text-brand-navy mb-4">
+                  Personal Profile
+                </h4>
+                <div className="grid grid-cols-1 gap-3 text-sm">
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Full Name:</span>
+                    <span className="font-medium text-gray-800">
+                      Ulin Nuha
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Born:</span>
+                    <span className="font-medium text-gray-800">
+                      Jakarta, 15 Maret 1995
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Age:</span>
+                    <span className="font-medium text-gray-800">
+                      29 Years Old
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Education:</span>
+                    <span className="font-medium text-gray-800">
+                      S1 Informatika
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Based in:</span>
+                    <span className="font-medium text-gray-800">
+                      Jakarta, Indonesia
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Favorite Tools:</span>
+                    <span className="font-medium text-gray-800">
+                      VS Code + Docker
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Tech Stack */}
+              <div>
+                <h4 className="text-lg font-semibold text-brand-navy mb-3">
+                  Tech Stack
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    React.js
+                  </span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    Next.js
+                  </span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    TypeScript
+                  </span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    Node.js
+                  </span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    PostgreSQL
+                  </span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    Python
+                  </span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    Docker
+                  </span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    AWS
+                  </span>
+                </div>
+              </div>
+
+              {/* Career Highlights */}
+              <div>
+                <h4 className="text-lg font-semibold text-brand-navy mb-3">
+                  Career Highlights
+                </h4>
+                <div className="grid grid-cols-3 gap-4 text-center">
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="text-2xl font-bold text-blue-600">
+                      6+
+                    </div>
+                    <div className="text-xs text-gray-600">Years Exp</div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="text-2xl font-bold text-blue-600">
+                      50+
+                    </div>
+                    <div className="text-xs text-gray-600">Projects</div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm">
+                    <div className="text-2xl font-bold text-blue-600">
+                      99%
+                    </div>
+                    <div className="text-xs text-gray-600">Satisfaction</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side - Profile Photo */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="text-center">
+                {/* Large Profile Avatar */}
+                <div className="w-80 h-80 bg-gradient-to-br from-blue-500 via-indigo-600 to-purple-600 rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-2xl ring-8 ring-blue-100/50 relative overflow-hidden">
+                  {/* Background Pattern */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent">
+                  </div>
                   <svg
-                    className="w-20 h-20 text-white"
+                    className="w-32 h-32 text-white relative z-10"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -130,132 +259,19 @@ export default function Tentang() {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth={2}
+                      strokeWidth={1.5}
                       d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                     />
                   </svg>
-                </div>
-                <h3 className="text-3xl font-display font-bold text-brand-navy mb-3">
-                  Ulin Nuha
-                </h3>
-                <p className="text-xl font-semibold text-blue-600 mb-2">
-                  Fullstack Developer & Tech Architect
-                </p>
-                <p className="text-sm text-gray-500 italic">
-                  Founder & Lead Developer at For Gates
-                </p>
-              </div>
-
-              <div className="space-y-4 flex-grow">
-                <p className="text-gray-700 leading-relaxed text-center mb-6">
-                  Fullstack developer yang passionate tentang menciptakan solusi end-to-end
-                  yang powerful. Dari beautiful frontend hingga robust backend architecture,
-                  menguasai full development lifecycle dengan clean code dan best practices.
-                </p>
-
-                                {/* Personal Details */}
-                <div className="bg-white/60 rounded-xl p-4 space-y-3 mb-6">
-                  <h4 className="text-lg font-semibold text-brand-navy mb-3">
-                    Personal Profile
-                  </h4>
-                  <div className="grid grid-cols-1 gap-2 text-sm">
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Full Name:</span>
-                      <span className="font-medium text-gray-800">
-                        Ulin Nuha
-                      </span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Born:</span>
-                      <span className="font-medium text-gray-800">
-                        Jakarta, 15 Maret 1995
-                      </span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Age:</span>
-                      <span className="font-medium text-gray-800">
-                        29 Years Old
-                      </span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Education:</span>
-                      <span className="font-medium text-gray-800">
-                        S1 Informatika
-                      </span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Based in:</span>
-                      <span className="font-medium text-gray-800">
-                        Jakarta, Indonesia
-                      </span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-gray-600">Favorite Tools:</span>
-                      <span className="font-medium text-gray-800">
-                        VS Code + Docker
-                      </span>
-                    </div>
-                  </div>
+                  {/* Decorative Elements */}
+                  <div className="absolute top-4 right-4 w-4 h-4 bg-yellow-400 rounded-full opacity-80"></div>
+                  <div className="absolute bottom-6 left-6 w-3 h-3 bg-green-400 rounded-full opacity-60"></div>
+                  <div className="absolute top-1/3 left-4 w-2 h-2 bg-pink-400 rounded-full opacity-70"></div>
                 </div>
 
-                                {/* Skills */}
-                <div className="mb-6">
-                  <h4 className="text-lg font-semibold text-brand-navy mb-3">
-                    Tech Stack
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      React.js
-                    </span>
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      Next.js
-                    </span>
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      TypeScript
-                    </span>
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      Node.js
-                    </span>
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      PostgreSQL
-                    </span>
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      Python
-                    </span>
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      Docker
-                    </span>
-                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                      AWS
-                    </span>
-                  </div>
-                </div>
-
-                                {/* Career Highlights */}
-                <div className="pt-2">
-                  <h4 className="text-lg font-semibold text-brand-navy mb-3">
-                    Career Highlights
-                  </h4>
-                  <div className="grid grid-cols-3 gap-4 text-center">
-                    <div>
-                      <div className="text-2xl font-bold text-blue-600">
-                        6+
-                      </div>
-                      <div className="text-xs text-gray-600">Years Exp</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold text-blue-600">
-                        50+
-                      </div>
-                      <div className="text-xs text-gray-600">Projects</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold text-blue-600">
-                        99%
-                      </div>
-                      <div className="text-xs text-gray-600">Satisfaction</div>
-                    </div>
-                  </div>
+                {/* Badge */}
+                <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
+                  🚀 Fullstack Developer
                 </div>
               </div>
             </div>
