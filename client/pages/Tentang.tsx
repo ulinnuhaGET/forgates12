@@ -499,7 +499,7 @@ export default function Tentang() {
             {/* Frontend Expertise */}
             <div className="bg-gradient-to-br from-brand-accent/5 to-orange-50 rounded-3xl p-10 h-full">
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-8">
-                Frontend Development
+                Frontend & UI/UX
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
