@@ -40,13 +40,10 @@ export default function Tentang() {
                       Siapa Kami?
                     </p>
                     <p className="text-gray-700 leading-relaxed">
-                      For Gates adalah kolaborasi antara <strong className="text-brand-navy">Ulin</strong>{" "}
-                      (Frontend Developer & UI/UX Designer) dan{" "}
-                      <strong className="text-brand-navy">Rizky</strong> (Backend Developer & System Architect).
-                      Bersama-sama, kami memiliki{" "}
-                      <strong className="text-brand-accent">lebih dari 10 tahun</strong> gabungan experience di
-                      industri teknologi untuk menciptakan solusi digital yang
-                      powerful dan profitable.
+                      For Gates adalah brainchild dari <strong className="text-brand-navy">Ulin</strong> - seorang fullstack developer
+                      yang memiliki <strong className="text-brand-accent">lebih dari 6 tahun</strong> experience di
+                      industri teknologi, mulai dari frontend development, UI/UX design, hingga backend architecture
+                      untuk menciptakan solusi digital end-to-end yang powerful dan profitable.
                     </p>
                   </div>
 
