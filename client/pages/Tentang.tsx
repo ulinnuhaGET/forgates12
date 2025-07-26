@@ -270,8 +270,73 @@ export default function Tentang() {
                 </div>
 
                 {/* Badge */}
-                <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
+                <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg mb-8">
                   🚀 Fullstack Developer
+                </div>
+
+                {/* Contact & Status Info */}
+                <div className="space-y-6 max-w-sm">
+                  {/* Availability Status */}
+                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                    <div className="flex items-center justify-center mb-4">
+                      <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse mr-2"></div>
+                      <span className="text-green-600 font-semibold text-sm">Available for Projects</span>
+                    </div>
+                    <p className="text-gray-600 text-sm text-center">
+                      Currently accepting new client projects and collaborations
+                    </p>
+                  </div>
+
+                  {/* Quick Contact */}
+                  <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 space-y-4">
+                    <h4 className="text-lg font-semibold text-center text-brand-navy mb-4">
+                      Let's Connect
+                    </h4>
+
+                    <div className="space-y-3">
+                      <div className="flex items-center justify-center space-x-3 text-sm">
+                        <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                          📧
+                        </div>
+                        <span className="text-gray-700">ulin@forgates.com</span>
+                      </div>
+
+                      <div className="flex items-center justify-center space-x-3 text-sm">
+                        <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                          📱
+                        </div>
+                        <span className="text-gray-700">+62 812-3456-7890</span>
+                      </div>
+
+                      <div className="flex items-center justify-center space-x-3 text-sm">
+                        <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
+                          🌍
+                        </div>
+                        <span className="text-gray-700">Jakarta, Indonesia</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Action Buttons */}
+                  <div className="space-y-3">
+                    <button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
+                      📩 Start a Project
+                    </button>
+
+                    <button className="w-full bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 px-6 rounded-xl border-2 border-gray-200 hover:border-gray-300 transition-all duration-200 transform hover:scale-105">
+                      💼 View Portfolio
+                    </button>
+                  </div>
+
+                  {/* Fun Fact */}
+                  <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-4 border border-amber-200">
+                    <div className="text-center">
+                      <div className="text-2xl mb-2">☕</div>
+                      <p className="text-sm text-amber-800">
+                        <strong>Fun Fact:</strong> Powered by coffee and passion for clean code!
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
