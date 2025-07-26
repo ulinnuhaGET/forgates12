@@ -107,11 +107,11 @@ export default function Tentang() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-4">
-              Meet The Team
+              Meet The Developer
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Kenali developer di balik For Gates yang berdedikasi
-              menghadirkan solusi teknologi fullstack terbaik
+              Kenali sosok di balik For Gates - seorang fullstack developer
+              yang berdedikasi menghadirkan solusi teknologi terdepan
             </p>
           </div>
 
