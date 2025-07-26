@@ -276,17 +276,6 @@ export default function Tentang() {
 
                 {/* Contact & Status Info */}
                 <div className="space-y-6 max-w-sm">
-                  {/* Availability Status */}
-                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-                    <div className="flex items-center justify-center mb-4">
-                      <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse mr-2"></div>
-                      <span className="text-green-600 font-semibold text-sm">Available for Projects</span>
-                    </div>
-                    <p className="text-gray-600 text-sm text-center">
-                      Currently accepting new client projects and collaborations
-                    </p>
-                  </div>
-
                   {/* Quick Contact */}
                   <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 space-y-4">
                     <h4 className="text-lg font-semibold text-center text-brand-navy mb-4">
