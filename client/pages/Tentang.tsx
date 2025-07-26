@@ -490,8 +490,8 @@ export default function Tentang() {
               Keahlian Kami
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Expertise full-stack development dengan spesialisasi frontend dan
-              backend untuk solusi end-to-end yang terintegrasi
+              Expertise fullstack development dengan kemampuan menguasai seluruh
+              teknologi stack untuk solusi end-to-end yang terintegrasi dan scalable
             </p>
           </div>
 
