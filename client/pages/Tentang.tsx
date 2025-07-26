@@ -593,10 +593,10 @@ export default function Tentang() {
               </div>
             </div>
 
-                        {/* Backend Expertise */}
+                        {/* Backend & DevOps Expertise */}
             <div className="bg-gradient-to-br from-brand-navy/5 to-blue-50 rounded-3xl p-10 h-full">
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-8">
-                Backend Development
+                Backend & DevOps
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
