@@ -80,18 +80,18 @@ export default function Tentang() {
                     </svg>
                   </div>
                   <h3 className="text-2xl font-display font-bold text-brand-navy mb-3">
-                    Ulin & Rizky
+                    Ulin Nuha
                   </h3>
                   <p className="text-lg text-gray-600 font-medium">
-                    Frontend + Backend = Perfect Collaboration
+                    Fullstack Developer & Tech Architect
                   </p>
                   <div className="mt-6 flex justify-center space-x-4">
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-brand-accent">10+</div>
-                      <div className="text-sm text-gray-600">Years Combined</div>
+                      <div className="text-2xl font-bold text-brand-accent">6+</div>
+                      <div className="text-sm text-gray-600">Years Experience</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-brand-navy">90+</div>
+                      <div className="text-2xl font-bold text-brand-navy">50+</div>
                       <div className="text-sm text-gray-600">Projects Done</div>
                     </div>
                   </div>
@@ -110,14 +110,14 @@ export default function Tentang() {
               Meet The Team
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Kenali duo developer di balik For Gates yang berdedikasi
-              menghadirkan solusi teknologi terbaik
+              Kenali developer di balik For Gates yang berdedikasi
+              menghadirkan solusi teknologi fullstack terbaik
             </p>
           </div>
 
-                    <div className="grid lg:grid-cols-2 gap-8 xl:gap-12">
+                    <div className="flex justify-center">
             {/* Ulin Profile */}
-                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 h-full flex flex-col">
+                        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 max-w-2xl w-full flex flex-col">
               <div className="text-center mb-6">
                 {/* Avatar */}
                 <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
@@ -236,7 +236,7 @@ export default function Tentang() {
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div>
                       <div className="text-2xl font-bold text-blue-600">
-                        5+
+                        6+
                       </div>
                       <div className="text-xs text-gray-600">Years Exp</div>
                     </div>
@@ -248,7 +248,7 @@ export default function Tentang() {
                     </div>
                     <div>
                       <div className="text-2xl font-bold text-blue-600">
-                        98%
+                        99%
                       </div>
                       <div className="text-xs text-gray-600">Satisfaction</div>
                     </div>
