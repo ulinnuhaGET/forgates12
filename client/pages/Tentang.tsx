@@ -145,9 +145,9 @@ export default function Tentang() {
 
               <div className="space-y-4 flex-grow">
                 <p className="text-gray-700 leading-relaxed text-center mb-6">
-                  Spesialis dalam menciptakan pengalaman pengguna yang intuitif
-                  dan menarik. Passionate tentang clean code dan beautiful
-                  design yang memukau users.
+                  Fullstack developer yang passionate tentang menciptakan solusi end-to-end
+                  yang powerful. Dari beautiful frontend hingga robust backend architecture,
+                  menguasai full development lifecycle dengan clean code dan best practices.
                 </p>
 
                                 {/* Personal Details */}
