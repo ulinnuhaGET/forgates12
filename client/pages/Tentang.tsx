@@ -260,19 +260,20 @@ export default function Tentang() {
 
           </div>
 
-          {/* Collaboration Highlight */}
+          {/* Fullstack Expertise Highlight */}
                     <div className="mt-20">
-            <div className="bg-gradient-to-r from-blue-500/10 via-brand-accent/10 to-green-500/10 rounded-3xl p-12 text-center">
+            <div className="bg-gradient-to-r from-blue-500/10 via-brand-accent/10 to-purple-500/10 rounded-3xl p-12 text-center">
                             <h3 className="text-3xl font-display font-bold text-brand-navy mb-6">
-                Perfect Collaboration
+                Fullstack Excellence
               </h3>
               <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-10">
-                Kombinasi keahlian frontend Ulin dan backend Rizky menghasilkan
-                solusi end-to-end yang sempurna. Dengan pengalaman lebih dari 5
-                tahun masing-masing, kami telah berkolaborasi menghasilkan
+                Dengan keahlian fullstack yang komprehensif, Ulin mampu menangani
+                seluruh aspek development - dari UI/UX design yang indah hingga
+                backend architecture yang robust. Dengan pengalaman 6+ tahun,
+                telah menghasilkan
                 <strong className="text-brand-navy">
                   {" "}
-                  90+ project sukses
+                  50+ project sukses
                 </strong>{" "}
                 untuk berbagai klien.
               </p>
@@ -281,7 +282,7 @@ export default function Tentang() {
                 <div className="flex items-center justify-center space-x-3 bg-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
                   <span className="text-2xl">🎨</span>
                   <span className="font-bold text-blue-600 text-lg">
-                    Creative Frontend
+                    Frontend & UI/UX
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
@@ -289,8 +290,8 @@ export default function Tentang() {
                 </div>
                 <div className="flex items-center justify-center space-x-3 bg-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
                   <span className="text-2xl">⚡</span>
-                  <span className="font-bold text-green-600 text-lg">
-                    Robust Backend
+                  <span className="font-bold text-purple-600 text-lg">
+                    Backend & DevOps
                   </span>
                 </div>
                 <div className="flex items-center justify-center">
@@ -298,7 +299,7 @@ export default function Tentang() {
                 </div>
                 <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-brand-navy to-brand-accent text-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
                   <span className="text-2xl">🚀</span>
-                  <span className="font-bold text-lg">Amazing Products</span>
+                  <span className="font-bold text-lg">Complete Solutions</span>
                 </div>
               </div>
             </div>
