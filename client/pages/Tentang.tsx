@@ -187,9 +187,9 @@ export default function Tentang() {
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Favorite Tool:</span>
+                      <span className="text-gray-600">Favorite Tools:</span>
                       <span className="font-medium text-gray-800">
-                        VS Code + Figma
+                        VS Code + Docker
                       </span>
                     </div>
                   </div>
