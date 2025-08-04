@@ -184,7 +184,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
       {/* Mata Pelajaran Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-4">
               Mata Pelajaran yang Tersedia
             </h2>
@@ -594,7 +594,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
                       >
                         <option value="">Pilih jenjang pendidikan</option>
                         <option value="SD">📖 SD (Sekolah Dasar)</option>
-                        <option value="SMP">📝 SMP (Sekolah Menengah Pertama)</option>
+                        <option value="SMP">�� SMP (Sekolah Menengah Pertama)</option>
                         <option value="SMA">🎯 SMA (Sekolah Menengah Atas)</option>
                       </select>
                     </div>
@@ -617,7 +617,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
 
                     <div className="md:col-span-2 transform transition-all duration-300 hover:scale-105">
                       <label htmlFor="nomorWhatsApp" className="block text-sm font-semibold text-brand-navy mb-2">
-                        📱 Nomor WhatsApp *
+                        �� Nomor WhatsApp *
                       </label>
                       <input
                         type="tel"
