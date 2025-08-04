@@ -333,7 +333,7 @@ export default function Layanan() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
                                     {/* Website Development */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up">
                             {/* Background Illustration */}
               <div className="absolute inset-0 flex items-center justify-center opacity-5">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-blue-500">
