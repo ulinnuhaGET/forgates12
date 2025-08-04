@@ -13,6 +13,7 @@ export default function LesPrivat() {
   });
 
   const [showNotification, setShowNotification] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
