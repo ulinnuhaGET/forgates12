@@ -169,12 +169,14 @@ const Navigation = () => {
 
                 {/* Mobile CTA */}
                 <div className="mt-8">
-                  <Button
-                    className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Gabung Sekarang
-                  </Button>
+                  <Link to="/les-privat">
+                    <Button
+                      className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      Les Privat
+                    </Button>
+                  </Link>
                 </div>
 
                 {/* Additional mobile info */}
