@@ -31,7 +31,7 @@ export default function Tentang() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
+            <div className="animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-6">
                 Cerita Kami
               </h2>
