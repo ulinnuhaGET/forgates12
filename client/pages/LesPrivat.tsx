@@ -32,6 +32,120 @@ export default function LesPrivat() {
     document.body.style.overflow = "unset";
   };
 
+  const openSubjectModal = (subject: any) => {
+    setSelectedSubject(subject);
+    setIsSubjectModalOpen(true);
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeSubjectModal = () => {
+    setIsSubjectModalOpen(false);
+    setSelectedSubject(null);
+    document.body.style.overflow = "unset";
+  };
+
+  // Subject details data
+  const subjectDetails = {
+    SD: {
+      title: "SD (Sekolah Dasar)",
+      grade: "Kelas 1-6",
+      subjects: [
+        {
+          name: "Matematika",
+          icon: "📊",
+          description: "Pembelajaran matematika dasar yang menyenangkan dengan pendekatan visual dan praktis",
+          topics: ["Penjumlahan & Pengurangan", "Perkalian & Pembagian", "Pecahan Sederhana", "Bangun Datar", "Pengukuran Waktu", "Operasi Hitung Campuran"],
+          duration: "60 menit",
+          price: "Rp 100.000"
+        },
+        {
+          name: "Bahasa Indonesia",
+          icon: "📝",
+          description: "Mengembangkan kemampuan membaca, menulis, dan berbicara dengan baik dan benar",
+          topics: ["Membaca Pemahaman", "Menulis Karangan", "Tata Bahasa Dasar", "Puisi & Pantun", "Dongeng & Cerita", "Kosakata & Ejaan"],
+          duration: "60 menit",
+          price: "Rp 100.000"
+        },
+        {
+          name: "IPA",
+          icon: "🔬",
+          description: "Mengenal alam sekitar melalui eksperimen sederhana dan pengamatan langsung",
+          topics: ["Tubuh Manusia", "Hewan & Tumbuhan", "Benda & Sifatnya", "Energi & Gerak", "Cuaca & Iklim", "Eksperimen Sederhana"],
+          duration: "60 menit",
+          price: "Rp 100.000"
+        }
+      ]
+    },
+    SMP: {
+      title: "SMP (Sekolah Menengah Pertama)",
+      grade: "Kelas 7-9",
+      subjects: [
+        {
+          name: "Matematika",
+          icon: "📊",
+          description: "Matematika tingkat menengah dengan konsep aljabar, geometri, dan statistik",
+          topics: ["Aljabar Linear", "Persamaan & Pertidaksamaan", "Geometri & Teorema", "Statistika Dasar", "Peluang", "Fungsi Linear"],
+          duration: "90 menit",
+          price: "Rp 125.000"
+        },
+        {
+          name: "Bahasa Inggris",
+          icon: "🌍",
+          description: "Pembelajaran bahasa Inggris fokus pada conversation, grammar, dan vocabulary",
+          topics: ["Basic Grammar", "Conversation Practice", "Reading Comprehension", "Writing Skills", "Listening Practice", "Vocabulary Building"],
+          duration: "90 menit",
+          price: "Rp 125.000"
+        },
+        {
+          name: "IPA",
+          icon: "🔬",
+          description: "Fisika, kimia, dan biologi tingkat menengah dengan praktikum sederhana",
+          topics: ["Fisika Dasar", "Kimia Unsur", "Biologi Sel", "Ekosistem", "Listrik & Magnet", "Reaksi Kimia"],
+          duration: "90 menit",
+          price: "Rp 125.000"
+        }
+      ]
+    },
+    SMA: {
+      title: "SMA (Sekolah Menengah Atas)",
+      grade: "Kelas 10-12",
+      subjects: [
+        {
+          name: "Matematika",
+          icon: "📊",
+          description: "Matematika lanjutan meliputi kalkulus, trigonometri, dan matematika diskrit",
+          topics: ["Kalkulus Diferensial", "Integral", "Trigonometri Lanjut", "Matriks & Determinan", "Barisan & Deret", "Peluang Lanjut"],
+          duration: "90 menit",
+          price: "Rp 150.000"
+        },
+        {
+          name: "Fisika",
+          icon: "⚡",
+          description: "Fisika konseptual dan hitungan untuk persiapan universitas dan ujian masuk",
+          topics: ["Mekanika", "Termodinamika", "Gelombang & Optik", "Listrik & Magnetisme", "Fisika Modern", "Relativitas"],
+          duration: "90 menit",
+          price: "Rp 150.000"
+        },
+        {
+          name: "Kimia",
+          icon: "🧪",
+          description: "Kimia organik, anorganik, dan fisika kimia dengan pendekatan eksperimental",
+          topics: ["Kimia Organik", "Kimia Anorganik", "Termokimia", "Kesetimbangan Kimia", "Elektrokimia", "Kimia Larutan"],
+          duration: "90 menit",
+          price: "Rp 150.000"
+        },
+        {
+          name: "Bahasa Inggris",
+          icon: "🌍",
+          description: "Bahasa Inggris akademik untuk persiapan TOEFL, IELTS, dan ujian masuk PTN",
+          topics: ["Advanced Grammar", "Academic Writing", "TOEFL Preparation", "Literature Analysis", "Business English", "Critical Reading"],
+          duration: "90 menit",
+          price: "Rp 150.000"
+        }
+      ]
+    }
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Simulate form submission
@@ -175,7 +289,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
                   <div className="absolute top-1/3 left-4 w-2 h-2 bg-pink-400 rounded-full opacity-70"></div>
                 </div>
                 <div className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
-                  👩‍��� Putri Aulia - Guru Les Privat
+                  👩‍🏫 Putri Aulia - Guru Les Privat
                 </div>
               </div>
             </div>
