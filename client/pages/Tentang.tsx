@@ -656,7 +656,7 @@ export default function Tentang() {
             </div>
 
             {/* Value 3 */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up animation-delay-400">
               <div className="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6">
                 <svg
                   className="w-8 h-8 text-blue-500"
@@ -682,7 +682,7 @@ export default function Tentang() {
             </div>
 
             {/* Value 4 */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up animation-delay-600">
               <div className="w-16 h-16 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
                 <svg
                   className="w-8 h-8 text-green-500"
@@ -708,7 +708,7 @@ export default function Tentang() {
             </div>
 
             {/* Value 5 */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up">
               <div className="w-16 h-16 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-6">
                 <svg
                   className="w-8 h-8 text-purple-500"
@@ -735,7 +735,7 @@ export default function Tentang() {
             </div>
 
             {/* Value 6 */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up animation-delay-200">
               <div className="w-16 h-16 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-6">
                 <svg
                   className="w-8 h-8 text-indigo-500"
