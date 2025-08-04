@@ -14,6 +14,8 @@ export default function LesPrivat() {
 
   const [showNotification, setShowNotification] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSubjectModalOpen, setIsSubjectModalOpen] = useState(false);
+  const [selectedSubject, setSelectedSubject] = useState<any>(null);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -173,7 +175,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
                   <div className="absolute top-1/3 left-4 w-2 h-2 bg-pink-400 rounded-full opacity-70"></div>
                 </div>
                 <div className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
-                  👩‍🏫 Putri Aulia - Guru Les Privat
+                  👩‍��� Putri Aulia - Guru Les Privat
                 </div>
               </div>
             </div>
