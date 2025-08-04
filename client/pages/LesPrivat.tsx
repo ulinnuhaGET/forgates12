@@ -87,17 +87,9 @@ Mohon informasi lebih lanjut. Terima kasih!`;
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-200 mb-4 animate-slide-in-left animation-delay-200">
                 Guru Ramah & Berpengalaman Siap Datang ke Rumah atau Online
               </h2>
-              <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto lg:mx-0 leading-relaxed mb-8 animate-slide-in-left animation-delay-400">
+              <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto lg:mx-0 leading-relaxed animate-slide-in-left animation-delay-400">
                 Dapatkan pembelajaran yang personal, sabar, dan sesuai dengan kebutuhan anak.
               </p>
-              <div className="animate-slide-in-left animation-delay-600">
-                <button
-                  onClick={openModal}
-                  className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-pulse"
-                >
-                  📅 Jadwalkan Sekarang
-                </button>
-              </div>
             </div>
 
             {/* Illustration Side */}
