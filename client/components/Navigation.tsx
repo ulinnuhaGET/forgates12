@@ -25,6 +25,7 @@ const Navigation = () => {
     { name: "Beranda", href: "/" },
     { name: "Tentang", href: "/tentang" },
     { name: "Layanan", href: "/layanan" },
+    { name: "Les Privat", href: "/les-privat" },
     { name: "Portofolio", href: "/portofolio" },
     { name: "Kontak", href: "/kontak" },
   ];
