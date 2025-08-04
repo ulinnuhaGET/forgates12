@@ -552,6 +552,121 @@ Mohon informasi lebih lanjut. Terima kasih!`;
         </div>
       </section>
 
+      {/* Subject Details Modal */}
+      {isSubjectModalOpen && selectedSubject && (
+        <div className="fixed inset-0 z-[9999] overflow-y-auto">
+          <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+            {/* Background overlay */}
+            <div
+              className="fixed inset-0 z-[9998] transition-opacity duration-300 bg-black bg-opacity-75 backdrop-blur-sm animate-fade-in"
+              onClick={closeSubjectModal}
+            ></div>
+
+            {/* Modal positioning */}
+            <span className="hidden sm:inline-block sm:align-middle sm:h-screen">
+              &#8203;
+            </span>
+
+            {/* Modal content */}
+            <div className="relative inline-block w-full max-w-4xl px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-3xl shadow-2xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6 z-[9999] animate-scale-in">
+              {/* Modal header */}
+              <div className="flex items-center justify-between mb-6">
+                <div>
+                  <h3 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-2">
+                    {selectedSubject.title}
+                  </h3>
+                  <p className="text-lg text-gray-600">
+                    {selectedSubject.grade} - Mata Pelajaran yang Tersedia
+                  </p>
+                </div>
+                <button
+                  onClick={closeSubjectModal}
+                  className="p-3 text-gray-400 hover:text-gray-600 transition-colors rounded-full hover:bg-gray-100 hover:rotate-90 transition-transform duration-200"
+                >
+                  <svg
+                    className="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              {/* Subjects Grid */}
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {selectedSubject.subjects.map((subject: any, index: number) => (
+                  <div key={index} className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-6 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mr-4 shadow-sm">
+                        <span className="text-2xl">{subject.icon}</span>
+                      </div>
+                      <div>
+                        <h4 className="text-xl font-bold text-brand-navy">{subject.name}</h4>
+                        <p className="text-sm text-gray-600">{subject.duration}</p>
+                      </div>
+                    </div>
+
+                    <p className="text-gray-700 mb-4 text-sm leading-relaxed">
+                      {subject.description}
+                    </p>
+
+                    <div className="mb-4">
+                      <h5 className="font-semibold text-brand-navy mb-2 text-sm">Materi Pembelajaran:</h5>
+                      <div className="space-y-1">
+                        {subject.topics.slice(0, 3).map((topic: string, topicIndex: number) => (
+                          <div key={topicIndex} className="flex items-center text-xs text-gray-600">
+                            <div className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></div>
+                            {topic}
+                          </div>
+                        ))}
+                        {subject.topics.length > 3 && (
+                          <div className="text-xs text-gray-500 italic">
+                            +{subject.topics.length - 3} materi lainnya
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="flex justify-between items-center pt-4 border-t border-gray-200">
+                      <span className="text-lg font-bold text-green-600">{subject.price}</span>
+                      <button
+                        onClick={() => {
+                          closeSubjectModal();
+                          openModal();
+                        }}
+                        className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-2 px-4 rounded-lg text-sm transition-all duration-200 hover:scale-105"
+                      >
+                        Daftar
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Modal footer */}
+              <div className="flex justify-center mt-8 pt-6 border-t border-gray-200">
+                <button
+                  onClick={() => {
+                    closeSubjectModal();
+                    openModal();
+                  }}
+                  className="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
+                >
+                  🎓 Daftar Les Privat Sekarang
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Registration Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-[9999] overflow-y-auto">
