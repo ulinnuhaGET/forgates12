@@ -442,7 +442,7 @@ export default function Layanan() {
             </div>
 
                         {/* Mobile App Development */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-200">
                             {/* Background Illustration */}
               <div className="absolute inset-0 flex items-center justify-center opacity-5">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-green-500">
@@ -551,7 +551,7 @@ export default function Layanan() {
             </div>
 
                         {/* UI/UX Design */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-400">
                             {/* Background Illustration */}
               <div className="absolute inset-0 flex items-center justify-center opacity-5">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-purple-500">
@@ -658,7 +658,7 @@ export default function Layanan() {
             </div>
 
                         {/* AI Solutions */}
-            <div className="bg-gradient-to-br from-brand-accent/10 to-orange-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+            <div className="bg-gradient-to-br from-brand-accent/10 to-orange-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-600">
                             {/* Background Illustration */}
               <div className="absolute inset-0 flex items-center justify-center opacity-5">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-brand-accent">
@@ -768,7 +768,7 @@ export default function Layanan() {
             </div>
 
                         {/* E-commerce Solutions */}
-            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up">
                             {/* Background Illustration */}
               <div className="absolute inset-0 flex items-center justify-center opacity-5">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-indigo-500">
@@ -877,7 +877,7 @@ export default function Layanan() {
             </div>
 
                         {/* Cloud & DevOps */}
-            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-200">
                             {/* Background Illustration */}
               <div className="absolute inset-0 flex items-center justify-center opacity-5">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-teal-500">
