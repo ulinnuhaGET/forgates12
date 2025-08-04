@@ -151,9 +151,9 @@ Mohon informasi lebih lanjut. Terima kasih!`;
               </div>
             </div>
             
-            <div className="flex justify-center lg:justify-end">
+            <div className="flex justify-center lg:justify-end animate-slide-in-right">
               <div className="text-center">
-                <div className="w-80 h-80 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-2xl ring-8 ring-pink-100/50 relative overflow-hidden">
+                <div className="w-80 h-80 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-2xl ring-8 ring-pink-100/50 relative overflow-hidden animate-float">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
                   <svg
                     className="w-32 h-32 text-white relative z-10"
