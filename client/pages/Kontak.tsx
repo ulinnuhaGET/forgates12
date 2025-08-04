@@ -188,7 +188,7 @@ export default function Kontak() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="bg-gray-50 rounded-3xl p-8">
+            <div className="bg-gray-50 rounded-3xl p-8 animate-slide-in-left">
               <h2 className="text-3xl font-display font-bold text-brand-navy mb-6">
                 Kirim Pesan
               </h2>
