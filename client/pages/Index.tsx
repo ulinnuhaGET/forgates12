@@ -57,7 +57,7 @@ export default function Index() {
             </div>
 
             {/* Card 2: Custom & Flexible Solutions */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group animate-fade-in-up animation-delay-200">
               <div className="w-16 h-16 bg-brand-navy/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-brand-navy/20 transition-colors">
                 <svg
                   className="w-8 h-8 text-brand-navy"
@@ -89,7 +89,7 @@ export default function Index() {
             </div>
 
             {/* Card 3: Expert Team */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group animate-fade-in-up animation-delay-400">
               <div className="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition-colors">
                 <svg
                   className="w-8 h-8 text-blue-500"
