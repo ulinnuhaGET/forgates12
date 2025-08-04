@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Tentang from "./pages/Tentang";
 import Layanan from "./pages/Layanan";
+import LesPrivat from "./pages/LesPrivat";
 import Portofolio from "./pages/Portofolio";
 import Kontak from "./pages/Kontak";
 import NotFound from "./pages/NotFound";
