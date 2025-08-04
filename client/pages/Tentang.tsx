@@ -603,7 +603,7 @@ export default function Tentang() {
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-10">
             {/* Value 1 */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up">
               <div className="w-16 h-16 bg-brand-accent/10 rounded-2xl flex items-center justify-center mb-6">
                 <svg
                   className="w-8 h-8 text-brand-accent"
