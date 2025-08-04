@@ -385,7 +385,9 @@ Mohon informasi lebih lanjut. Terima kasih!`;
             </div>
 
             {/* SMA */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+            <div
+              onClick={() => openSubjectModal(subjectDetails.SMA)}
+              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden group cursor-pointer">
               {/* Background gradient */}
               <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-pink-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
