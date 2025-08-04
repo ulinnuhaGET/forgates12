@@ -92,28 +92,19 @@ Mohon informasi lebih lanjut. Terima kasih!`;
               </p>
             </div>
 
-            {/* Illustration Side */}
+            {/* Image Side */}
             <div className="flex justify-center lg:justify-end animate-slide-in-right">
               <div className="relative">
-                {/* Main Illustration */}
-                <div className="w-80 h-80 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 rounded-3xl flex items-center justify-center shadow-2xl ring-8 ring-white/20 relative overflow-hidden animate-float">
-                  {/* Background Pattern */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
+                {/* Main Image */}
+                <div className="w-80 h-80 rounded-3xl shadow-2xl ring-8 ring-white/20 relative overflow-hidden animate-float">
+                  <img
+                    src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                    alt="Anak belajar dengan guru les privat"
+                    className="w-full h-full object-cover"
+                  />
 
-                  {/* Book Icon */}
-                  <svg
-                    className="w-32 h-32 text-white relative z-10"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                    />
-                  </svg>
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-pink-500/20 via-purple-600/20 to-indigo-600/20"></div>
 
                   {/* Decorative Elements */}
                   <div className="absolute top-4 right-4 w-4 h-4 bg-yellow-400 rounded-full opacity-80 animate-pulse"></div>
@@ -122,13 +113,13 @@ Mohon informasi lebih lanjut. Terima kasih!`;
                 </div>
 
                 {/* Floating Subject Cards */}
-                <div className="absolute -top-4 -left-4 bg-white rounded-lg px-3 py-2 shadow-lg animate-float-delay-1">
+                <div className="absolute -top-4 -left-4 bg-white rounded-lg px-3 py-2 shadow-lg animate-float-delay-1 backdrop-blur-sm bg-white/90">
                   <span className="text-sm font-semibold text-blue-600">📊 Matematika</span>
                 </div>
-                <div className="absolute -bottom-4 -right-4 bg-white rounded-lg px-3 py-2 shadow-lg animate-float-delay-2">
+                <div className="absolute -bottom-4 -right-4 bg-white rounded-lg px-3 py-2 shadow-lg animate-float-delay-2 backdrop-blur-sm bg-white/90">
                   <span className="text-sm font-semibold text-green-600">🧪 Fisika</span>
                 </div>
-                <div className="absolute top-1/2 -right-8 bg-white rounded-lg px-3 py-2 shadow-lg animate-float">
+                <div className="absolute top-1/2 -right-8 bg-white rounded-lg px-3 py-2 shadow-lg animate-float backdrop-blur-sm bg-white/90">
                   <span className="text-sm font-semibold text-purple-600">🌍 English</span>
                 </div>
               </div>
@@ -604,7 +595,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
                         <option value="">Pilih jenjang pendidikan</option>
                         <option value="SD">📖 SD (Sekolah Dasar)</option>
                         <option value="SMP">📝 SMP (Sekolah Menengah Pertama)</option>
-                        <option value="SMA">🎯 SMA (Sekolah Menengah Atas)</option>
+                        <option value="SMA">���� SMA (Sekolah Menengah Atas)</option>
                       </select>
                     </div>
 
