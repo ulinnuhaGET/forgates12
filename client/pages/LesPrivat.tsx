@@ -523,8 +523,8 @@ Mohon informasi lebih lanjut. Terima kasih!`;
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Jangan tunggu lagi, mulai pembelajaran yang efektif dan menyenangkan bersama kami
           </p>
-          <button 
-            onClick={() => document.getElementById('daftar')?.scrollIntoView({ behavior: 'smooth' })}
+          <button
+            onClick={openModal}
             className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
             👉 Hubungi Kami Sekarang
