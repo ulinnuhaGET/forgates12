@@ -545,7 +545,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
               </div>
 
               {/* Modal body */}
-              <div className="max-h-96 overflow-y-auto relative z-10">
+              <div className="relative z-10">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="transform transition-all duration-300 hover:scale-105">
