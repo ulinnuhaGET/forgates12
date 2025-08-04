@@ -63,10 +63,10 @@ export default function Tentang() {
                 </div>
               </div>
             </div>
-                        <div className="relative lg:order-last">
+                        <div className="relative lg:order-last animate-slide-in-right">
               <div className="bg-gradient-to-br from-brand-accent/10 to-brand-navy/10 rounded-3xl p-8 h-full min-h-[400px] flex items-center justify-center shadow-lg">
                 <div className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-br from-brand-navy to-brand-accent rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl">
+                  <div className="w-32 h-32 bg-gradient-to-br from-brand-navy to-brand-accent rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl animate-float">
                     <svg
                       className="w-16 h-16 text-white"
                       fill="none"
