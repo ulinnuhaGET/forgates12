@@ -68,24 +68,79 @@ Mohon informasi lebih lanjut. Terima kasih!`;
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-brand-navy via-brand-navy/95 to-blue-900">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6">
-              🎓 <span className="text-brand-accent">Les Privat</span> SD–SMA
-            </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-200 mb-4">
-              Guru Ramah & Berpengalaman Siap Datang ke Rumah atau Online
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
-              Dapatkan pembelajaran yang personal, sabar, dan sesuai dengan kebutuhan anak.
-            </p>
-            <button
-              onClick={openModal}
-              className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-pulse"
-            >
-              📅 Jadwalkan Sekarang
-            </button>
+      <section className="pt-24 pb-16 bg-gradient-to-br from-brand-navy via-brand-navy/95 to-blue-900 relative overflow-hidden">
+        {/* Floating Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-10 w-20 h-20 bg-brand-accent/20 rounded-full animate-float"></div>
+          <div className="absolute top-40 right-20 w-16 h-16 bg-pink-400/20 rounded-full animate-float-delay-1"></div>
+          <div className="absolute bottom-20 left-1/4 w-12 h-12 bg-purple-400/20 rounded-full animate-float-delay-2"></div>
+          <div className="absolute bottom-40 right-1/3 w-14 h-14 bg-blue-400/20 rounded-full animate-float"></div>
+        </div>
+
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Content Side */}
+            <div className="text-center lg:text-left">
+              <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6 animate-slide-in-left">
+                🎓 <span className="text-brand-accent">Les Privat</span> SD–SMA
+              </h1>
+              <h2 className="text-2xl md:text-3xl font-semibold text-gray-200 mb-4 animate-slide-in-left animation-delay-200">
+                Guru Ramah & Berpengalaman Siap Datang ke Rumah atau Online
+              </h2>
+              <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto lg:mx-0 leading-relaxed mb-8 animate-slide-in-left animation-delay-400">
+                Dapatkan pembelajaran yang personal, sabar, dan sesuai dengan kebutuhan anak.
+              </p>
+              <div className="animate-slide-in-left animation-delay-600">
+                <button
+                  onClick={openModal}
+                  className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-pulse"
+                >
+                  📅 Jadwalkan Sekarang
+                </button>
+              </div>
+            </div>
+
+            {/* Illustration Side */}
+            <div className="flex justify-center lg:justify-end animate-slide-in-right">
+              <div className="relative">
+                {/* Main Illustration */}
+                <div className="w-80 h-80 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 rounded-3xl flex items-center justify-center shadow-2xl ring-8 ring-white/20 relative overflow-hidden animate-float">
+                  {/* Background Pattern */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
+
+                  {/* Book Icon */}
+                  <svg
+                    className="w-32 h-32 text-white relative z-10"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                    />
+                  </svg>
+
+                  {/* Decorative Elements */}
+                  <div className="absolute top-4 right-4 w-4 h-4 bg-yellow-400 rounded-full opacity-80 animate-pulse"></div>
+                  <div className="absolute bottom-6 left-6 w-3 h-3 bg-green-400 rounded-full opacity-60 animate-ping"></div>
+                  <div className="absolute top-1/3 left-4 w-2 h-2 bg-pink-400 rounded-full opacity-70 animate-bounce"></div>
+                </div>
+
+                {/* Floating Subject Cards */}
+                <div className="absolute -top-4 -left-4 bg-white rounded-lg px-3 py-2 shadow-lg animate-float-delay-1">
+                  <span className="text-sm font-semibold text-blue-600">📊 Matematika</span>
+                </div>
+                <div className="absolute -bottom-4 -right-4 bg-white rounded-lg px-3 py-2 shadow-lg animate-float-delay-2">
+                  <span className="text-sm font-semibold text-green-600">🧪 Fisika</span>
+                </div>
+                <div className="absolute top-1/2 -right-8 bg-white rounded-lg px-3 py-2 shadow-lg animate-float">
+                  <span className="text-sm font-semibold text-purple-600">🌍 English</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
