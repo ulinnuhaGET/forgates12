@@ -80,9 +80,9 @@ Mohon informasi lebih lanjut. Terima kasih!`;
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8">
               Dapatkan pembelajaran yang personal, sabar, dan sesuai dengan kebutuhan anak.
             </p>
-            <button 
-              onClick={() => document.getElementById('daftar')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+            <button
+              onClick={openModal}
+              className="bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 animate-pulse"
             >
               📅 Jadwalkan Sekarang
             </button>
