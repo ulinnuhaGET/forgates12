@@ -26,6 +26,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/tentang" element={<Tentang />} />
           <Route path="/layanan" element={<Layanan />} />
+          <Route path="/les-privat" element={<LesPrivat />} />
           <Route path="/portofolio" element={<Portofolio />} />
           <Route path="/kontak" element={<Kontak />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
