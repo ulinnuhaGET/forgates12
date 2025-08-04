@@ -87,13 +87,15 @@ const Navigation = () => {
 
             {/* CTA Button */}
             <div className="hidden md:block">
-              <Button
-                className={`bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${
-                  isScrolled ? "px-4 py-2 text-sm" : "px-6 py-2"
-                }`}
-              >
-                Gabung Sekarang
-              </Button>
+              <Link to="/les-privat">
+                <Button
+                  className={`bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${
+                    isScrolled ? "px-4 py-2 text-sm" : "px-6 py-2"
+                  }`}
+                >
+                  Les Privat
+                </Button>
+              </Link>
             </div>
 
             {/* Mobile menu button */}
