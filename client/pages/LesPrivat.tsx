@@ -503,45 +503,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
         </div>
       </section>
 
-      {/* Testimoni Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-4">
-              Testimoni Orang Tua
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Kepuasan dan kepercayaan orang tua adalah prioritas kami
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-lg">
-              <div className="flex items-start space-x-4">
-                <div className="text-4xl">👩</div>
-                <div>
-                  <p className="text-gray-700 italic mb-4">
-                    "Bu guru sangat sabar dan telaten. Anak saya jadi lebih percaya diri!"
-                  </p>
-                  <p className="font-semibold text-brand-navy">– Ibu Rina</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-lg">
-              <div className="flex items-start space-x-4">
-                <div className="text-4xl">👨</div>
-                <div>
-                  <p className="text-gray-700 italic mb-4">
-                    "Cara mengajarnya mudah dipahami. Anak saya sekarang semangat belajar."
-                  </p>
-                  <p className="font-semibold text-brand-navy">– Pak Dani</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Harga dan Durasi Section */}
       <section className="py-20 bg-gray-50">
