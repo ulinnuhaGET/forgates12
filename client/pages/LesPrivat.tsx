@@ -212,79 +212,114 @@ Mohon informasi lebih lanjut. Terima kasih!`;
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* SD */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-6">
-                <span className="text-2xl">📚</span>
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+              {/* Background gradient */}
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+              <div className="relative z-10">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:animate-bounce">
+                  <span className="text-2xl">📚</span>
+                </div>
+                <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
+                  SD (Sekolah Dasar)
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
+                      <span className="text-blue-600 text-xs">📊</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Matematika</span>
+                  </li>
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
+                      <span className="text-blue-600 text-xs">📝</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Bahasa Indonesia</span>
+                  </li>
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
+                      <span className="text-blue-600 text-xs">🔬</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">IPA</span>
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
-                SD (Sekolah Dasar)
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span className="text-gray-700">Matematika</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span className="text-gray-700">Bahasa Indonesia</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span className="text-gray-700">IPA</span>
-                </li>
-              </ul>
             </div>
 
             {/* SMP */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-6">
-                <span className="text-2xl">🎒</span>
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+              {/* Background gradient */}
+              <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+              <div className="relative z-10">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:animate-bounce">
+                  <span className="text-2xl">🎒</span>
+                </div>
+                <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
+                  SMP (Sekolah Menengah Pertama)
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center">
+                      <span className="text-green-600 text-xs">📊</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Matematika</span>
+                  </li>
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center">
+                      <span className="text-green-600 text-xs">🌍</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Bahasa Inggris</span>
+                  </li>
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center">
+                      <span className="text-green-600 text-xs">🔬</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">IPA</span>
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
-                SMP (Sekolah Menengah Pertama)
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span className="text-gray-700">Matematika</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span className="text-gray-700">Bahasa Inggris</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span className="text-gray-700">IPA</span>
-                </li>
-              </ul>
             </div>
 
             {/* SMA */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6">
-                <span className="text-2xl">🎓</span>
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+              {/* Background gradient */}
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-pink-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+              <div className="relative z-10">
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:animate-bounce">
+                  <span className="text-2xl">🎓</span>
+                </div>
+                <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
+                  SMA (Sekolah Menengah Atas)
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center">
+                      <span className="text-purple-600 text-xs">📊</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Matematika</span>
+                  </li>
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center">
+                      <span className="text-purple-600 text-xs">⚡</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Fisika</span>
+                  </li>
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center">
+                      <span className="text-purple-600 text-xs">🧪</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Kimia</span>
+                  </li>
+                  <li className="flex items-center space-x-3 group/item hover:translate-x-2 transition-transform duration-200">
+                    <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center">
+                      <span className="text-purple-600 text-xs">🌍</span>
+                    </div>
+                    <span className="text-gray-700 font-medium">Bahasa Inggris</span>
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
-                SMA (Sekolah Menengah Atas)
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                  <span className="text-gray-700">Matematika</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                  <span className="text-gray-700">Fisika</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                  <span className="text-gray-700">Kimia</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                  <span className="text-gray-700">Bahasa Inggris</span>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
