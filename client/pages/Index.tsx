@@ -115,7 +115,7 @@ export default function Index() {
             </div>
 
             {/* Card 4: 24/7 Support */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group animate-fade-in-up animation-delay-600">
               <div className="w-16 h-16 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
                 <svg
                   className="w-8 h-8 text-green-500"
