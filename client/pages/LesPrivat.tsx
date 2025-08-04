@@ -395,124 +395,202 @@ Mohon informasi lebih lanjut. Terima kasih!`;
         </div>
       </section>
 
-      {/* Formulir Pendaftaran Section */}
-      <section id="daftar" className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-4">
-              Formulir Pendaftaran Cepat
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Isi formulir di bawah ini untuk memulai pembelajaran
-            </p>
-          </div>
+      {/* Registration Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 z-[9999] overflow-y-auto">
+          <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+            {/* Background overlay */}
+            <div
+              className="fixed inset-0 z-[9998] transition-opacity duration-300 bg-black bg-opacity-75 backdrop-blur-sm animate-fade-in"
+              onClick={closeModal}
+            ></div>
 
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-lg">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
+            {/* Modal positioning */}
+            <span className="hidden sm:inline-block sm:align-middle sm:h-screen">
+              &#8203;
+            </span>
+
+            {/* Modal content */}
+            <div className="relative inline-block w-full max-w-4xl px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-3xl shadow-2xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6 z-[9999] animate-scale-in">
+              {/* Decorative Elements */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-pink-400/20 to-purple-400/20 rounded-full -translate-y-16 translate-x-16"></div>
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-br from-blue-400/20 to-indigo-400/20 rounded-full translate-y-12 -translate-x-12"></div>
+
+              {/* Modal header */}
+              <div className="flex items-center justify-between mb-8 relative z-10">
                 <div>
-                  <label htmlFor="namaOrangTua" className="block text-sm font-medium text-gray-700 mb-2">
-                    Nama Orang Tua *
-                  </label>
-                  <input
-                    type="text"
-                    id="namaOrangTua"
-                    name="namaOrangTua"
-                    value={formData.namaOrangTua}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent"
-                    placeholder="Masukkan nama orang tua"
-                  />
+                  <h3 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-2">
+                    📝 Daftar Les Privat
+                  </h3>
+                  <p className="text-lg text-gray-600">
+                    Isi formulir untuk memulai pembelajaran yang efektif
+                  </p>
                 </div>
-
-                <div>
-                  <label htmlFor="namaSiswa" className="block text-sm font-medium text-gray-700 mb-2">
-                    Nama Siswa *
-                  </label>
-                  <input
-                    type="text"
-                    id="namaSiswa"
-                    name="namaSiswa"
-                    value={formData.namaSiswa}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent"
-                    placeholder="Masukkan nama siswa"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="jenjang" className="block text-sm font-medium text-gray-700 mb-2">
-                    Jenjang *
-                  </label>
-                  <select
-                    id="jenjang"
-                    name="jenjang"
-                    value={formData.jenjang}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent"
+                <button
+                  onClick={closeModal}
+                  className="p-3 text-gray-400 hover:text-gray-600 transition-colors rounded-full hover:bg-gray-100 hover:rotate-90 transition-transform duration-200"
+                >
+                  <svg
+                    className="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
                   >
-                    <option value="">Pilih jenjang</option>
-                    <option value="SD">SD (Sekolah Dasar)</option>
-                    <option value="SMP">SMP (Sekolah Menengah Pertama)</option>
-                    <option value="SMA">SMA (Sekolah Menengah Atas)</option>
-                  </select>
-                </div>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
 
-                <div>
-                  <label htmlFor="lokasi" className="block text-sm font-medium text-gray-700 mb-2">
-                    Lokasi *
-                  </label>
-                  <input
-                    type="text"
-                    id="lokasi"
-                    name="lokasi"
-                    value={formData.lokasi}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent"
-                    placeholder="Contoh: Bekasi Timur, Jakarta Timur"
-                  />
-                </div>
-
-                <div className="md:col-span-2">
-                  <label htmlFor="nomorWhatsApp" className="block text-sm font-medium text-gray-700 mb-2">
-                    Nomor WhatsApp *
-                  </label>
-                  <input
-                    type="tel"
-                    id="nomorWhatsApp"
-                    name="nomorWhatsApp"
-                    value={formData.nomorWhatsApp}
-                    onChange={handleInputChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-accent focus:border-transparent"
-                    placeholder="Contoh: 08123456789"
-                  />
+              {/* Illustration */}
+              <div className="flex justify-center mb-8">
+                <div className="relative">
+                  <div className="w-32 h-32 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-600 rounded-3xl flex items-center justify-center shadow-lg animate-bounce-slow">
+                    <svg
+                      className="w-16 h-16 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                      />
+                    </svg>
+                  </div>
+                  {/* Floating elements around illustration */}
+                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-yellow-400 rounded-full animate-ping opacity-75"></div>
+                  <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-green-400 rounded-full animate-pulse"></div>
+                  <div className="absolute top-1/2 -left-4 w-3 h-3 bg-pink-400 rounded-full animate-bounce"></div>
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button
-                  type="submit"
-                  className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105"
-                >
-                  Kirim Permintaan
-                </button>
-                <button
-                  type="button"
-                  onClick={whatsappContact}
-                  className="flex-1 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105"
-                >
-                  📱 Hubungi via WhatsApp
-                </button>
+              {/* Modal body */}
+              <div className="max-h-96 overflow-y-auto relative z-10">
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="transform transition-all duration-300 hover:scale-105">
+                      <label htmlFor="namaOrangTua" className="block text-sm font-semibold text-brand-navy mb-2">
+                        👤 Nama Orang Tua *
+                      </label>
+                      <input
+                        type="text"
+                        id="namaOrangTua"
+                        name="namaOrangTua"
+                        value={formData.namaOrangTua}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-all duration-200 hover:border-pink-300"
+                        placeholder="Masukkan nama orang tua"
+                      />
+                    </div>
+
+                    <div className="transform transition-all duration-300 hover:scale-105">
+                      <label htmlFor="namaSiswa" className="block text-sm font-semibold text-brand-navy mb-2">
+                        🎓 Nama Siswa *
+                      </label>
+                      <input
+                        type="text"
+                        id="namaSiswa"
+                        name="namaSiswa"
+                        value={formData.namaSiswa}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-all duration-200 hover:border-pink-300"
+                        placeholder="Masukkan nama siswa"
+                      />
+                    </div>
+
+                    <div className="transform transition-all duration-300 hover:scale-105">
+                      <label htmlFor="jenjang" className="block text-sm font-semibold text-brand-navy mb-2">
+                        📚 Jenjang Pendidikan *
+                      </label>
+                      <select
+                        id="jenjang"
+                        name="jenjang"
+                        value={formData.jenjang}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-all duration-200 hover:border-pink-300"
+                      >
+                        <option value="">Pilih jenjang pendidikan</option>
+                        <option value="SD">📖 SD (Sekolah Dasar)</option>
+                        <option value="SMP">📝 SMP (Sekolah Menengah Pertama)</option>
+                        <option value="SMA">🎯 SMA (Sekolah Menengah Atas)</option>
+                      </select>
+                    </div>
+
+                    <div className="transform transition-all duration-300 hover:scale-105">
+                      <label htmlFor="lokasi" className="block text-sm font-semibold text-brand-navy mb-2">
+                        📍 Lokasi *
+                      </label>
+                      <input
+                        type="text"
+                        id="lokasi"
+                        name="lokasi"
+                        value={formData.lokasi}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-all duration-200 hover:border-pink-300"
+                        placeholder="Contoh: Bekasi Timur, Jakarta Timur"
+                      />
+                    </div>
+
+                    <div className="md:col-span-2 transform transition-all duration-300 hover:scale-105">
+                      <label htmlFor="nomorWhatsApp" className="block text-sm font-semibold text-brand-navy mb-2">
+                        📱 Nomor WhatsApp *
+                      </label>
+                      <input
+                        type="tel"
+                        id="nomorWhatsApp"
+                        name="nomorWhatsApp"
+                        value={formData.nomorWhatsApp}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-all duration-200 hover:border-pink-300"
+                        placeholder="Contoh: 08123456789"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Modal footer */}
+                  <div className="flex flex-col sm:flex-row gap-4 pt-6 border-t border-gray-200">
+                    <button
+                      type="button"
+                      onClick={closeModal}
+                      className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105"
+                    >
+                      ❌ Batal
+                    </button>
+                    <button
+                      type="submit"
+                      className="flex-1 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
+                    >
+                      ✨ Kirim Permintaan
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        whatsappContact();
+                        closeModal();
+                      }}
+                      className="flex-1 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
+                    >
+                      💬 WhatsApp
+                    </button>
+                  </div>
+                </form>
               </div>
-            </form>
+            </div>
           </div>
         </div>
-      </section>
+      )}
 
       {/* Final CTA Section */}
       <section className="py-20 bg-brand-navy">
