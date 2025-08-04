@@ -90,7 +90,8 @@ function FAQSection() {
             return (
               <div
                 key={item.id}
-                className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-md"
+                className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-md animate-fade-in-up"
+                style={{ animationDelay: `${item.id * 100}ms` }}
               >
                 <button
                   onClick={() => toggleItem(item.id)}
