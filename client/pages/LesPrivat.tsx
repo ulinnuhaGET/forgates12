@@ -132,7 +132,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-navy mb-6">
                 Tentang Pengajar
               </h2>
@@ -595,7 +595,7 @@ Mohon informasi lebih lanjut. Terima kasih!`;
                         <option value="">Pilih jenjang pendidikan</option>
                         <option value="SD">📖 SD (Sekolah Dasar)</option>
                         <option value="SMP">📝 SMP (Sekolah Menengah Pertama)</option>
-                        <option value="SMA">���� SMA (Sekolah Menengah Atas)</option>
+                        <option value="SMA">🎯 SMA (Sekolah Menengah Atas)</option>
                       </select>
                     </div>
 
