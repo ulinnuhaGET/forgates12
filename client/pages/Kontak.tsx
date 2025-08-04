@@ -375,7 +375,7 @@ export default function Kontak() {
             </div>
 
             {/* Contact Information */}
-            <div className="space-y-8">
+            <div className="space-y-8 animate-slide-in-right">
               <div>
                 <h2 className="text-3xl font-display font-bold text-brand-navy mb-6">
                   Informasi Kontak
