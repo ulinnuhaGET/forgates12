@@ -486,3 +486,12 @@
     transform: translateY(-20px);
   }
 }
+
+@keyframes colorPulse {
+  0%, 100% {
+    color: hsl(218, 58%, 20%); /* brand-navy */
+  }
+  50% {
+    color: hsl(39, 100%, 60%); /* brand-accent */
+  }
+}
