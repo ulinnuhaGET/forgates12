@@ -36,9 +36,9 @@ const HeroSection = () => {
                 className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl animate-fade-in-up"
                 style={{ animationDelay: "0.2s" }}
               >
-                Kami adalah For Gates, tim pengembang yang membangun website,
-                aplikasi, desain antarmuka, dan sistem cerdas berbasis
-                teknologi.
+                Tingkatkan bisnis Anda lewat teknologi modern dan bantu
+                anak meraih prestasi lewat bimbingan privat. Semua bisa
+                bersama ForGates.
               </p>
             </div>
 
