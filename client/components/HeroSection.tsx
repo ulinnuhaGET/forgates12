@@ -87,10 +87,10 @@ const HeroSection = () => {
               </div>
               <div className="text-center group">
                 <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-brand-navy group-hover:text-brand-accent transition-colors duration-300">
-                  98%
+                  90+
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600 font-medium">
-                  Pelayanan Maksimal
+                  Siswa Dibimbing
                 </div>
               </div>
               <div className="text-center group">
