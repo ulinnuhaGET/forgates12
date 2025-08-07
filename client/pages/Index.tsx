@@ -143,8 +143,8 @@ export default function Index() {
                 Dukungan Penuh 24/7
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Kami siap membantu kapan saja. Tim support kami responsif untuk
-                menjaga sistem Anda tetap optimal.
+                Layanan digital aktif 24/7, dan konsultasi les privat
+                mudah diakses kapan saja.
               </p>
             </div>
           </div>
