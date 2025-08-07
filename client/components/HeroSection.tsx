@@ -23,12 +23,12 @@ const HeroSection = () => {
             {/* Main Headline */}
             <div className="space-y-4 lg:space-y-6">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-brand-navy leading-tight animate-fade-in-up">
-                Gerbang Menuju{" "}
+                Teknologi & Edukasi{" "}
                 <span className="text-brand-accent inline-block animate-float">
-                  Solusi
+                  Dalam Satu
                 </span>{" "}
                 <br className="hidden sm:block" />
-                Digital Cerdas
+                Genggaman
               </h1>
 
               {/* Subheadline */}
