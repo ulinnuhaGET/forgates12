@@ -111,8 +111,8 @@ export default function Index() {
                 Tim Ahli Berpengalaman
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Didukung oleh developer, designer, dan teknisi AI berpengalaman
-                dengan track record terbukti.
+                Developer, designer, dan pengajar berpengalaman siap
+                membantu mencapai tujuan Anda.
               </p>
             </div>
 
