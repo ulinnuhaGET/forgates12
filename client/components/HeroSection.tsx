@@ -22,7 +22,7 @@ const HeroSection = () => {
 
             {/* Main Headline */}
             <div className="space-y-4 lg:space-y-6">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-brand-navy leading-tight animate-fade-in-up">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-brand-navy leading-tight animate-fade-in-up">
                 <span className="whitespace-nowrap">Teknologi & Edukasi</span>{" "}
                 <span className="text-brand-accent inline-block animate-float">
                   Dalam Satu
