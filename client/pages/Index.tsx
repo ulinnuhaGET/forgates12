@@ -85,8 +85,8 @@ export default function Index() {
                 Solusi Kustom & Fleksibel
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Setiap bisnis unik. Kami menciptakan solusi yang disesuaikan
-                dengan kebutuhan spesifik Anda.
+                Solusi website & program disesuaikan dengan bisnis
+                Anda. Jadwal les juga bisa menyesuaikan anak Anda.
               </p>
             </div>
 
