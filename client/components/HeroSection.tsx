@@ -24,7 +24,7 @@ const HeroSection = () => {
             <div className="space-y-4 lg:space-y-6">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-brand-navy leading-tight animate-fade-in-up">
                 <span className="whitespace-nowrap">Teknologi & Edukasi</span>{" "}
-                <span className="text-brand-accent inline-block animate-float">
+                <span className="text-brand-navy animate-color-pulse">
                   Dalam Satu
                 </span>{" "}
                 <br className="hidden sm:block" />
