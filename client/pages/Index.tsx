@@ -23,8 +23,10 @@ export default function Index() {
               Kenapa Memilih For Gates?
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Kami memahami setiap detail kebutuhan digital Anda dan memberikan
-              solusi terbaik dengan standar profesional tertinggi.
+              Kami memahami kebutuhan Anda dalam dunia digital dan
+              pendidikan. For Gates menghadirkan solusi teknologi modern
+              dan layanan les privat yang terpercaya semua dalam satu
+              tempat.
             </p>
           </div>
 
