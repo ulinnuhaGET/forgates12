@@ -111,7 +111,7 @@ const HeroSection = () => {
               <div className="relative overflow-hidden rounded-2xl lg:rounded-3xl bg-gradient-to-br from-brand-navy/5 to-brand-accent/5 shadow-xl lg:shadow-2xl backdrop-blur-sm hover:shadow-2xl transition-all duration-500 group-hover:scale-105">
                 <div className="aspect-w-16 aspect-h-12 lg:aspect-h-10">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F33b54069fb054982a7cabf611068c5e0%2Fe66b99d86b0d44e497db8db68fb5d4a2?format=webp&width=800"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F608fba8bfd9e4f82811426f3b3da1202%2Fb466ae57d3984020b4e9f437d4e88418"
                     alt="Developer workspace showing two programmers working on computers"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
