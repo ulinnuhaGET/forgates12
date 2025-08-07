@@ -53,8 +53,8 @@ export default function Index() {
                 Cepat & Tepat Waktu
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Kami menghargai waktu Anda. Setiap proyek diselesaikan sesuai
-                timeline dengan kualitas terjamin.
+                Proyek digital diselesaikan sesuai timeline, dan jadwal
+                les fleksibel sesuai kebutuhan.
               </p>
             </div>
 
