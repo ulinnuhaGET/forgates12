@@ -7,14 +7,17 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="sm:col-span-2 lg:col-span-2 animate-fade-in-up">
             <div className="mb-6">
-              <h3 className="text-xl sm:text-2xl font-display font-bold text-white mb-4 group cursor-pointer">
+              <h3 className="text-xl sm:text-2xl font-display font-bold text-white mb-2 group cursor-pointer">
                 <span className="opacity-70">&lt;/&gt;</span> For Gates
               </h3>
+              <p className="text-xs sm:text-sm text-brand-accent/80 mb-4 italic">
+                "Teknologi & Edukasi dalam Satu Genggaman"
+              </p>
+              <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-md mb-4">
+                Partner terpercaya dalam transformasi digital dan pengembangan sumber daya manusia.
+              </p>
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-md">
-                Partner terpercaya untuk transformasi digital bisnis Anda dengan
-                solusi teknologi inovatif dan berkualitas tinggi — website
-                responsif, aplikasi mobile, desain UI/UX yang intuitif, dan
-                sistem berbasis AI.
+                Kami menghadirkan solusi teknologi inovatif — website responsif, aplikasi mobile, desain UI/UX, dan sistem berbasis AI — serta layanan edukasi privat yang personal untuk membantu Anda berkembang di era digital.
               </p>
             </div>
 
