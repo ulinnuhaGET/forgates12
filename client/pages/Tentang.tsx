@@ -19,9 +19,10 @@ export default function Tentang() {
               Tentang <span className="text-brand-accent">For Gates</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200">
-              Kenali Ulin - fullstack developer berpengalaman yang membantu
-              transformasi digital bisnis Anda dengan solusi teknologi inovatif
-              dan terpercaya
+              Di For Gates, kami percaya teknologi dan edukasi adalah
+              kunci kemajuan. Kami membangun solusi digital yang andal dan
+              memberikan pembelajaran privat yang mudah dipahami, agar
+              Anda siap menghadapi tantangan masa depan.
             </p>
           </div>
         </div>
