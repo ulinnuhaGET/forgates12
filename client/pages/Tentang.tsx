@@ -865,13 +865,15 @@ export default function Tentang() {
                   <span className="text-gray-700">Node.js & Express.js</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-brand-navy/20 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <svg
-                      className="w-5 h-5 text-brand-navy"
+                      className="w-5 h-5"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
+                      fill="none"
                     >
-                      <path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4zM4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4zM4 14v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4z"/>
+                      <ellipse cx="12" cy="7" rx="8" ry="3" fill="#336791"/>
+                      <path d="M4 9v3c0 1.66 3.58 3 8 3s8-1.34 8-3V9c0 1.66-3.58 3-8 3s-8-1.34-8-3z" fill="#336791"/>
+                      <path d="M4 14v3c0 1.66 3.58 3 8 3s8-1.34 8-3v-3c0 1.66-3.58 3-8 3s-8-1.34-8-3z" fill="#336791"/>
                     </svg>
                   </div>
                   <span className="text-gray-700">
@@ -879,13 +881,16 @@ export default function Tentang() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-brand-navy/20 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <svg
-                      className="w-5 h-5 text-brand-navy"
+                      className="w-5 h-5"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
+                      fill="none"
                     >
-                      <path d="M14,12L10,8V11H2V13H10V16M20,12L16,8V11H14V13H16V16"/>
+                      <circle cx="6" cy="12" r="3" fill="#FF6B35"/>
+                      <circle cx="18" cy="12" r="3" fill="#4285F4"/>
+                      <path d="M9 12h6" stroke="#34A853" strokeWidth="2"/>
+                      <path d="M12 9v6" stroke="#34A853" strokeWidth="2"/>
                     </svg>
                   </div>
                   <span className="text-gray-700">
@@ -893,25 +898,30 @@ export default function Tentang() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-brand-navy/20 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <svg
-                      className="w-5 h-5 text-brand-navy"
+                      className="w-5 h-5"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
+                      fill="none"
                     >
-                      <path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.61 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/>
+                      <path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.61 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" fill="#4285F4"/>
+                      <path d="M14 13v4h-4v-4H7l5-5 5 5h-3z" fill="white"/>
                     </svg>
                   </div>
                   <span className="text-gray-700">Cloud Services & DevOps</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-brand-navy/20 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <svg
-                      className="w-5 h-5 text-brand-navy"
+                      className="w-5 h-5"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
+                      fill="none"
                     >
-                      <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z"/>
+                      <circle cx="12" cy="12" r="10" fill="#FF6B35"/>
+                      <circle cx="12" cy="12" r="7" fill="#FF8C42"/>
+                      <circle cx="12" cy="12" r="4" fill="#FFA500"/>
+                      <circle cx="12" cy="12" r="1" fill="#FFD700"/>
+                      <path d="M8 8l8 8M16 8l-8 8" stroke="white" strokeWidth="1" opacity="0.5"/>
                     </svg>
                   </div>
                   <span className="text-gray-700">
