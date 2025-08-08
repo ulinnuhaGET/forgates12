@@ -43,10 +43,9 @@ export default function Tentang() {
                       Siapa Kami?
                     </p>
                     <p className="text-gray-700 leading-relaxed">
-                      For Gates adalah brainchild dari <strong className="text-brand-navy">Ulin</strong> - seorang fullstack developer
-                      yang memiliki <strong className="text-brand-accent">lebih dari 6 tahun</strong> experience di
-                      industri teknologi, mulai dari frontend development, UI/UX design, hingga backend architecture
-                      untuk menciptakan solusi digital end-to-end yang powerful dan profitable.
+                      For Gates lahir dari pasangan suami istri: <strong className="text-brand-navy">Ulin Nuha</strong>, seorang fullstack developer
+                      yang ahli di bidang teknologi, dan <strong className="text-brand-accent">Putri Aulia</strong>, seorang pengajar les privat
+                      yang berpengalaman. Kami memadukan dua keahlian berbeda — pengembangan solusi digital dan pendidikan yang efektif — dalam satu brand.
                     </p>
                   </div>
 
@@ -55,10 +54,8 @@ export default function Tentang() {
                       Mengapa "For Gates"?
                     </p>
                     <p className="text-gray-700 leading-relaxed">
-                      Nama "For Gates" melambangkan misi kami:{" "}
-                      <strong className="text-brand-accent">membuka gerbang transformasi digital</strong> yang
-                      sukses. Kami percaya bahwa teknologi yang tepat dapat membuka
-                      peluang tak terbatas untuk bisnis Anda.
+                      Nama ini melambangkan misi kami: <strong className="text-brand-accent">membuka gerbang menuju masa depan yang lebih baik</strong>.
+                      Melalui teknologi, kami membantu bisnis bertumbuh; melalui edukasi, kami membantu individu berkembang.
                     </p>
                   </div>
                 </div>
