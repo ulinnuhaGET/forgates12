@@ -144,33 +144,33 @@ export default function Tentang() {
                 </h4>
                 <div className="grid grid-cols-1 gap-3 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Full Name:</span>
+                    <span className="text-gray-600"><p>Nama :</p></span>
                     <span className="font-medium text-gray-800">
-                      Ulin Nuha
+                      <p>Muhammad Hibban Ulin Nuha</p>
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Born:</span>
+                    <span className="text-gray-600"><p>Tempat, tanggal lahir :</p></span>
                     <span className="font-medium text-gray-800">
-                      Jakarta, 15 Maret 1995
+                      <p>Lamongan, 12 Juli 2002</p>
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Age:</span>
+                    <span className="text-gray-600"><p>Usia :</p></span>
                     <span className="font-medium text-gray-800">
-                      29 Years Old
+                      <p>23 Tahun</p>
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Education:</span>
+                    <span className="text-gray-600"><p>Pendidikan:</p></span>
                     <span className="font-medium text-gray-800">
                       S1 Informatika
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Based in:</span>
+                    <span className="text-gray-600"><p>Domisili :</p></span>
                     <span className="font-medium text-gray-800">
-                      Jakarta, Indonesia
+                      <p>Lamongan, Indonesia</p>
                     </span>
                   </div>
                   <div className="flex justify-between">
