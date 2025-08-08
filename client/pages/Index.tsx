@@ -234,7 +234,8 @@ export default function Index() {
                   Kolaborasi Solid
                 </h3>
                 <p className="text-sm text-gray-600">
-                  Frontend & Backend yang harmonis
+                  Sinergi antara teknologi dan edukasi untuk hasil
+                  maksimal
                 </p>
               </div>
 
