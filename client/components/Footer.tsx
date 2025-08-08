@@ -143,6 +143,14 @@ export default function Footer() {
                   AI Solutions
                 </span>
               </li>
+              <li>
+                <div className="flex items-center space-x-2">
+                  <span className="text-sm">📚</span>
+                  <span className="text-sm sm:text-base text-gray-300">
+                    Education & Private Lessons
+                  </span>
+                </div>
+              </li>
             </ul>
 
             {/* Social Media Icons */}
