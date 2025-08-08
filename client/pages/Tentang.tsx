@@ -620,8 +620,7 @@ export default function Tentang() {
                 Kualitas Tinggi
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Standar profesional tinggi dalam setiap aspek development. Clean
-                code, optimal performance, dan user experience yang excellence.
+                Hasil kerja dan pembelajaran yang optimal.
               </p>
             </div>
 
@@ -646,9 +645,7 @@ export default function Tentang() {
                 Tepat Waktu
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Delivery tepat waktu sesuai timeline yang disepakati. Project
-                planning yang matang dan komunikasi rutin memastikan progress
-                sesuai jadwal.
+                Proyek maupun sesi belajar sesuai jadwal.
               </p>
             </div>
 
@@ -673,8 +670,7 @@ export default function Tentang() {
                 Inovasi Berkelanjutan
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Mengadopsi teknologi terbaru dan best practices untuk memastikan
-                solusi yang future-proof dan competitive advantage.
+                Mengikuti perkembangan teknologi dan metode mengajar terbaru.
               </p>
             </div>
 
@@ -699,8 +695,7 @@ export default function Tentang() {
                 Hubungan Jangka Panjang
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Membangun partnership jangka panjang. Maintenance, support, dan
-                pengembangan fitur berkelanjutan untuk kesuksesan bisnis Anda.
+                Mitra bisnis & pendidikan untuk jangka panjang.
               </p>
             </div>
 
@@ -725,9 +720,7 @@ export default function Tentang() {
                 Kreativitas & Problem Solving
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Pendekatan kreatif dalam menyelesaikan challenges teknis
-                kompleks. Out-of-the-box thinking untuk solusi inovatif dan
-                efektif.
+                Solusi unik untuk tantangan digital maupun belajar.
               </p>
             </div>
 
@@ -752,8 +745,7 @@ export default function Tentang() {
                 Transparansi Total
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Komunikasi terbuka di setiap tahap development. Regular updates,
-                clear documentation, dan feedback loop yang efektif.
+                Komunikasi jelas di setiap langkah.
               </p>
             </div>
           </div>
