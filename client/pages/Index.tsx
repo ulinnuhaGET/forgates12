@@ -190,18 +190,24 @@ export default function Index() {
               {/* Introduction Paragraph */}
               <div className="max-w-4xl mx-auto">
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-                  Kami adalah duo developer berpengalaman yang terdiri dari
-                  spesialis frontend dan backend. Bersama-sama, kami membangun
-                  solusi digital cerdas — mulai dari website responsif, aplikasi
-                  mobile, desain UI/UX yang intuitif, hingga sistem berbasis AI
-                  yang inovatif.
+                  For Gates adalah tim profesional yang menghadirkan dua
+                  layanan unggulan: solusi digital modern dan edukasi
+                  akademis berkualitas. Kami mengembangkan website
+                  responsif, aplikasi mobile, desain UI/UX yang intuitif,
+                  hingga sistem berbasis AI yang inovatif.
+                </p>
+
+                <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+                  Di sisi edukasi, kami menyediakan layanan les privat
+                  untuk siswa SD hingga SMA dengan pengajar berpengalaman,
+                  materi terstruktur, dan metode belajar yang interaktif.
                 </p>
 
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                  Dengan kombinasi keahlian teknis yang mendalam dan pemahaman
-                  bisnis yang kuat, kami berkomitmen menghadirkan solusi
-                  teknologi yang tidak hanya canggih, tetapi juga memberikan
-                  nilai nyata bagi pertumbuhan bisnis Anda.
+                  Dengan kombinasi keahlian di bidang teknologi dan
+                  pendidikan, For Gates berkomitmen memberikan solusi yang
+                  tidak hanya canggih, tetapi juga bermanfaat nyata bagi
+                  perkembangan bisnis dan prestasi belajar Anda.
                 </p>
               </div>
             </div>
