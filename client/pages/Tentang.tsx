@@ -551,33 +551,27 @@ export default function Tentang() {
                 Bersama, kami menawarkan solusi lengkap: digital yang canggih sekaligus pendidikan yang membangun masa depan.
               </p>
 
-              <div className="text-left max-w-4xl mx-auto mb-10">
-                <h4 className="text-xl font-bold text-brand-navy mb-6 flex items-center">
-                  <span className="text-2xl mr-3">📌</span>
-                  Kompetensi Kami:
-                </h4>
-                <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <span className="text-blue-600 font-bold text-lg">→</span>
-                    <div>
-                      <span className="font-bold text-blue-600">Teknologi Modern</span>
-                      <span className="text-gray-700"> → Website responsif, aplikasi mobile, dan sistem berbasis AI.</span>
-                    </div>
+              <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                  <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl">💻</span>
                   </div>
-                  <div className="flex items-start space-x-3">
-                    <span className="text-pink-600 font-bold text-lg">→</span>
-                    <div>
-                      <span className="font-bold text-pink-600">Pengajaran Berkualitas</span>
-                      <span className="text-gray-700"> → Les privat yang disesuaikan dengan kebutuhan siswa.</span>
-                    </div>
+                  <h4 className="font-bold text-blue-600 text-lg mb-2">Teknologi Modern</h4>
+                  <p className="text-gray-700 text-sm">Website responsif, aplikasi mobile, dan sistem berbasis AI.</p>
+                </div>
+                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                  <div className="w-12 h-12 bg-pink-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl">📚</span>
                   </div>
-                  <div className="flex items-start space-x-3">
-                    <span className="text-purple-600 font-bold text-lg">→</span>
-                    <div>
-                      <span className="font-bold text-purple-600">Pendekatan Holistik</span>
-                      <span className="text-gray-700"> → Menggabungkan teknologi untuk menunjang proses belajar.</span>
-                    </div>
+                  <h4 className="font-bold text-pink-600 text-lg mb-2">Pengajaran Berkualitas</h4>
+                  <p className="text-gray-700 text-sm">Les privat yang disesuaikan dengan kebutuhan siswa.</p>
+                </div>
+                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                  <div className="w-12 h-12 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl">🚀</span>
                   </div>
+                  <h4 className="font-bold text-purple-600 text-lg mb-2">Pendekatan Holistik</h4>
+                  <p className="text-gray-700 text-sm">Menggabungkan teknologi untuk menunjang proses belajar.</p>
                 </div>
               </div>
             </div>
