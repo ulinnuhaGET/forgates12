@@ -256,10 +256,11 @@ export default function Index() {
                   </svg>
                 </div>
                 <h3 className="font-display font-semibold text-brand-navy mb-2">
-                  Teknologi Terkini
+                  Teknologi & Metode Terkini
                 </h3>
                 <p className="text-sm text-gray-600">
-                  Menggunakan tools modern & AI
+                  Menggunakan tools modern di dunia digital dan metode
+                  belajar yang efektif di pendidikan
                 </p>
               </div>
 
