@@ -425,7 +425,7 @@ export default function Tentang() {
                     Putri Aulia
                   </h3>
                   <p className="text-xl font-semibold text-pink-600 mb-2">
-                    Programming Instructor & Educator
+                    <p>Educator</p>
                   </p>
                   <p className="text-sm text-gray-500 italic mb-4">
                     Lead Instructor at For Gates
@@ -444,37 +444,37 @@ export default function Tentang() {
                   </h4>
                   <div className="grid grid-cols-1 gap-3 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Full Name:</span>
+                      <span className="text-gray-600"><p>Nama :</p></span>
                       <span className="font-medium text-gray-800">
                         Putri Aulia
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Born:</span>
+                      <span className="text-gray-600"><p>Tempat, tanggal lahir :</p></span>
                       <span className="font-medium text-gray-800">
-                        Lamongan, 22 Juni 1996
+                        <p>Sidoarjo, 03 April 2003</p>
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Age:</span>
+                      <span className="text-gray-600"><p>Usia :</p></span>
                       <span className="font-medium text-gray-800">
-                        28 Years Old
+                        <p>22 tahun</p>
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Education:</span>
+                      <span className="text-gray-600"><p>Pendidikan :</p></span>
                       <span className="font-medium text-gray-800">
                         S1 Pendidikan Informatika
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Based in:</span>
+                      <span className="text-gray-600"><p>Domisili :</p></span>
                       <span className="font-medium text-gray-800">
                         Lamongan, Indonesia
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-600">Specialty:</span>
+                      <span className="text-gray-600"><p>Keahlian</p></span>
                       <span className="font-medium text-gray-800">
                         Beginner-Friendly Teaching
                       </span>
