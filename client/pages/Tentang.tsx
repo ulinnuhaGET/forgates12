@@ -280,7 +280,7 @@ export default function Tentang() {
                   {/* Quick Contact */}
                   <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 space-y-4">
                     <h4 className="text-lg font-semibold text-center text-brand-navy mb-4">
-                      Let's Connect
+                      <p>Contact Person</p>
                     </h4>
 
                     <div className="space-y-3">
@@ -288,21 +288,21 @@ export default function Tentang() {
                         <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
                           📧
                         </div>
-                        <span className="text-gray-700">ulin@forgates.com</span>
+                        <span className="text-gray-700"><p>ulinhaqi331@gmail.com</p></span>
                       </div>
 
                       <div className="flex items-center justify-center space-x-3 text-sm">
                         <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
                           📱
                         </div>
-                        <span className="text-gray-700">+62 812-3456-7890</span>
+                        <span className="text-gray-700"><p>+62 8577-1695-193</p></span>
                       </div>
 
                       <div className="flex items-center justify-center space-x-3 text-sm">
                         <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
                           🌍
                         </div>
-                        <span className="text-gray-700">Jakarta, Indonesia</span>
+                        <span className="text-gray-700"><p>Lamongan, Indonesia</p></span>
                       </div>
                     </div>
                   </div>
