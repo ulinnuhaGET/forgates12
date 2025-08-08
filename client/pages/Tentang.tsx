@@ -385,14 +385,14 @@ export default function Tentang() {
                           <div className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center">
                             📧
                           </div>
-                          <span className="text-gray-700">putri@forgates.com</span>
+                          <span className="text-gray-700"><p>fatimahputriaulia@gmail.com</p></span>
                         </div>
 
                         <div className="flex items-center justify-center space-x-3 text-sm">
                           <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
                             📱
                           </div>
-                          <span className="text-gray-700">+62 813-4567-8901</span>
+                          <span className="text-gray-700"><p>+62 83143122115</p></span>
                         </div>
 
                         <div className="flex items-center justify-center space-x-3 text-sm">
