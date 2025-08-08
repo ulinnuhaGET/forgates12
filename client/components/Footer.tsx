@@ -97,6 +97,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="/les-privat"
+                  className="text-sm sm:text-base text-gray-300 hover:text-brand-accent transition-all duration-300 hover:translate-x-1 inline-block"
+                >
+                  Les Privat
+                </a>
+              </li>
+              <li>
+                <a
                   href="/kontak"
                   className="text-sm sm:text-base text-gray-300 hover:text-brand-accent transition-all duration-300 hover:translate-x-1 inline-block"
                 >
