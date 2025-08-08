@@ -284,7 +284,8 @@ export default function Index() {
                   Fokus Pada Nilai
                 </h3>
                 <p className="text-sm text-gray-600">
-                  Solusi yang menguntungkan bisnis
+                  Solusi yang membawa keuntungan bisnis dan peningkatan
+                  prestasi belajar
                 </p>
               </div>
             </div>
