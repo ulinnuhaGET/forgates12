@@ -390,7 +390,7 @@ export default function Tentang() {
 
                         <div className="flex items-center justify-center space-x-3 text-sm">
                           <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-                            📱
+                            ����
                           </div>
                           <span className="text-gray-700"><p>+62 83143122115</p></span>
                         </div>
@@ -539,46 +539,45 @@ export default function Tentang() {
             </div>
           </div>
 
-          {/* Fullstack Expertise Highlight */}
+          {/* Technology & Education Excellence */}
                     <div className="mt-20">
             <div className="bg-gradient-to-r from-blue-500/10 via-brand-accent/10 to-purple-500/10 rounded-3xl p-12 text-center">
                             <h3 className="text-3xl font-display font-bold text-brand-navy mb-6">
-                Fullstack Excellence
+                Ahli Teknologi & Edukasi
               </h3>
               <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-10">
-                Dengan keahlian fullstack yang komprehensif, Ulin mampu menangani
-                seluruh aspek development - dari UI/UX design yang indah hingga
-                backend architecture yang robust. Dengan pengalaman 6+ tahun,
-                telah menghasilkan
-                <strong className="text-brand-navy">
-                  {" "}
-                  50+ project sukses
-                </strong>{" "}
-                untuk berbagai klien.
+                Dengan pengalaman di dua dunia — teknologi dan pendidikan — Ulin Nuha menangani pengembangan website, aplikasi, hingga sistem berbasis AI, sementara Putri Aulia menghadirkan layanan les privat yang personal dan efektif.
+                <br />
+                Bersama, kami menawarkan solusi lengkap: digital yang canggih sekaligus pendidikan yang membangun masa depan.
               </p>
 
-                            <div className="flex flex-col lg:flex-row gap-6 justify-center items-center">
-                <div className="flex items-center justify-center space-x-3 bg-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
-                  <span className="text-2xl">🎨</span>
-                  <span className="font-bold text-blue-600 text-lg">
-                    Frontend & UI/UX
-                  </span>
-                </div>
-                <div className="flex items-center justify-center">
-                  <span className="text-2xl text-brand-accent font-bold">+</span>
-                </div>
-                <div className="flex items-center justify-center space-x-3 bg-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
-                  <span className="text-2xl">⚡</span>
-                  <span className="font-bold text-purple-600 text-lg">
-                    Backend & DevOps
-                  </span>
-                </div>
-                <div className="flex items-center justify-center">
-                  <span className="text-2xl text-brand-accent font-bold">=</span>
-                </div>
-                <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-brand-navy to-brand-accent text-white rounded-xl px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300">
-                  <span className="text-2xl">🚀</span>
-                  <span className="font-bold text-lg">Complete Solutions</span>
+              <div className="text-left max-w-4xl mx-auto mb-10">
+                <h4 className="text-xl font-bold text-brand-navy mb-6 flex items-center">
+                  <span className="text-2xl mr-3">📌</span>
+                  Kompetensi Kami:
+                </h4>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-blue-600 font-bold text-lg">→</span>
+                    <div>
+                      <span className="font-bold text-blue-600">Teknologi Modern</span>
+                      <span className="text-gray-700"> → Website responsif, aplikasi mobile, dan sistem berbasis AI.</span>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <span className="text-pink-600 font-bold text-lg">→</span>
+                    <div>
+                      <span className="font-bold text-pink-600">Pengajaran Berkualitas</span>
+                      <span className="text-gray-700"> → Les privat yang disesuaikan dengan kebutuhan siswa.</span>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <span className="text-purple-600 font-bold text-lg">→</span>
+                    <div>
+                      <span className="font-bold text-purple-600">Pendekatan Holistik</span>
+                      <span className="text-gray-700"> → Menggabungkan teknologi untuk menunjang proses belajar.</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
