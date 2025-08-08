@@ -813,27 +813,30 @@ export default function Tentang() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-brand-accent/20 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <svg
-                      className="w-5 h-5 text-brand-accent"
+                      className="w-5 h-5"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
+                      fill="none"
                     >
-                      <path d="M7 3v18h2v-2h2V3H7zm2 16H7v-2h2v2zm0-4H7v-2h2v2zm0-4H7V9h2v2zm0-4H7V5h2v2zm12 0h-2v2h2V7zm0 4h-2v2h2v-2zm0 4h-2v2h2v-2zm0 4h-2v2h2v-2zm0-14V3h-2v2h2zm-4 14V5h-2v14h2zM3 3v18h2V3H3z"/>
+                      <rect x="3" y="4" width="6" height="10" rx="1" fill="#007ACC"/>
+                      <rect x="11" y="2" width="10" height="14" rx="1" fill="#0078D4"/>
+                      <rect x="7" y="16" width="4" height="6" rx="0.5" fill="#40E0D0"/>
                     </svg>
                   </div>
                   <span className="text-gray-700">Responsive Design & PWA</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-brand-accent/20 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <svg
-                      className="w-5 h-5 text-brand-accent"
+                      className="w-5 h-5"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
+                      fill="none"
                     >
-                      <path d="M13.26 10.5h2v1h-2v-1zm0 2h2v1h-2v-1zm-2 2h2v1h-2v-1zm-2-2h2v1h-2v-1zm0-2h2v1h-2v-1zm-2 2h2v1h-2v-1zm6-6h2v1h-2V6.5zm-2 0h2v1h-2V6.5zm-2 0h2v1h-2V6.5zm-2 0h2v1h-2V6.5zm8-3.5v15H3v-15h18m0-2H3c-1.1 0-2 .9-2 2v15c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2z"/>
-                      <path d="M12 20c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8zm0-14c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z"/>
-                      <path d="M12 8.5c1.9 0 3.5 1.6 3.5 3.5s-1.6 3.5-3.5 3.5-3.5-1.6-3.5-3.5 1.6-3.5 3.5-3.5z"/>
+                      <circle cx="12" cy="12" r="10" fill="#FF6B35"/>
+                      <circle cx="12" cy="12" r="6" fill="#FF8C42"/>
+                      <circle cx="12" cy="12" r="2" fill="#FFA500"/>
+                      <path d="M12 2L14 8L12 12L10 8Z" fill="#FFD700"/>
                     </svg>
                   </div>
                   <span className="text-gray-700">
