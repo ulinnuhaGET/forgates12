@@ -795,13 +795,17 @@ export default function Tentang() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-brand-accent/20 rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
                     <svg
-                      className="w-5 h-5 text-brand-accent"
+                      className="w-5 h-5"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
+                      fill="none"
                     >
-                      <path d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663 3.333 3.333 0 0 0 0 6.665 3.333 3.333 0 0 0 0 6.664h6.664a3.333 3.333 0 0 0 0-6.664 3.333 3.333 0 0 0 0-6.665zM12 6.668a1.333 1.333 0 1 1 0-2.665 1.333 1.333 0 0 1 0 2.665zm-4 6.665a1.333 1.333 0 1 1 0-2.666 1.333 1.333 0 0 1 0 2.666zm4 6.664a1.333 1.333 0 1 1 0-2.664 1.333 1.333 0 0 1 0 2.664z"/>
+                      <path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491z" fill="#1abcfe"/>
+                      <path d="M11.264 24V15.02h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49h-4.588z" fill="#0acf83"/>
+                      <path d="M11.264 15.02V6.041h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49h-4.588z" fill="#ff7262"/>
+                      <path d="M6.776 24h4.488V15.02H6.776c-2.476 0-4.49 2.014-4.49 4.49S4.3 24 6.776 24z" fill="#f24e1e"/>
+                      <path d="M2.286 10.51c0-2.476 2.014-4.49 4.49-4.49h4.488v8.98H6.776c-2.476 0-4.49-2.014-4.49-4.49z" fill="#a259ff"/>
                     </svg>
                   </div>
                   <span className="text-gray-700">
