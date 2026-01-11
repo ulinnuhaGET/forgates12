@@ -280,17 +280,33 @@ export default function Layanan() {
   const [selectedService, setSelectedService] = useState<ServiceDetail | null>(
     null,
   );
+  const [showNotification, setShowNotification] = useState(false);
 
-  const openModal = (serviceId: string) => {
-    setSelectedService(serviceDetails[serviceId]);
+    const openModal = (serviceId: string) => {
+    console.log('Opening modal for service:', serviceId);
+    const service = serviceDetails[serviceId];
+    console.log('Service data:', service);
+    setSelectedService(service);
     setIsModalOpen(true);
     document.body.style.overflow = "hidden";
   };
 
-  const closeModal = () => {
+    const closeModal = () => {
     setIsModalOpen(false);
     setSelectedService(null);
     document.body.style.overflow = "unset";
+  };
+
+  const handleConsultation = () => {
+    setShowNotification(true);
+    closeModal();
+    setTimeout(() => setShowNotification(false), 3000);
+  };
+
+  const handleQuote = () => {
+    setShowNotification(true);
+    closeModal();
+    setTimeout(() => setShowNotification(false), 3000);
   };
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-cyan-50 to-teal-100 relative">
@@ -301,10 +317,10 @@ export default function Layanan() {
       <section className="pt-24 pb-16 bg-gradient-to-br from-brand-navy via-brand-navy/95 to-blue-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6 animate-fade-in-up">
               Layanan <span className="text-brand-accent">Kami</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200">
               Solusi teknologi komprehensif untuk transformasi digital bisnis
               Anda
             </p>
@@ -316,9 +332,16 @@ export default function Layanan() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
-            {/* Website Development */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-6">
+                                    {/* Website Development */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up">
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-blue-500">
+                  <path d="M3 3h18v2H3V3zm0 4h18v2H3V7zm0 4h18v2H3v-2zm0 4h18v2H3v-2zm0 4h18v2H3v-2z"/>
+                  <path d="M21 1H3C1.9 1 1 1.9 1 3v18c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zM3 21V3h18v18H3z"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-blue-500"
                   fill="none"
@@ -333,14 +356,14 @@ export default function Layanan() {
                   />
                 </svg>
               </div>
-              <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
+                            <h3 className="text-2xl font-display font-bold text-brand-navy mb-4 relative z-20">
                 Website Development
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 mb-6 leading-relaxed relative z-20">
                 Website modern dan responsif yang dibangun dengan teknologi
                 terdepan untuk performa optimal di semua perangkat.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow relative z-20">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-blue-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -408,17 +431,26 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">CMS Integration</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("website")}
-                className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                                          <div className="mt-auto relative z-30">
+                <button
+                  onClick={() => openModal("website")}
+                  className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
-            {/* Mobile App Development */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* Mobile App Development */}
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-200">
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-green-500">
+                  <path d="M17 2H7c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM7 4h10v12H7V4zm0 14h10v2H7v-2z"/>
+                  <circle cx="12" cy="18.5" r="1.5"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-green-500"
                   fill="none"
@@ -436,11 +468,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 Mobile App Development
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Aplikasi mobile native dan cross-platform yang memberikan
                 pengalaman pengguna yang luar biasa.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-green-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -508,17 +540,26 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">App Store Ready</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("mobile")}
-                className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                                <button
+                  onClick={() => openModal("mobile")}
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
-            {/* UI/UX Design */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* UI/UX Design */}
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-400">
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-purple-500">
+                  <path d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"/>
+                  <path d="M9 7h6v2H9V7zm0 4h6v2H9v-2zm0 4h6v2H9v-2z"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-purple-500"
                   fill="none"
@@ -536,11 +577,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 UI/UX Design
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Desain antarmuka yang indah dan pengalaman pengguna yang
                 intuitif untuk meningkatkan engagement.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-purple-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -606,17 +647,27 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">Design System</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("uiux")}
-                className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                                <button
+                  onClick={() => openModal("uiux")}
+                  className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
-            {/* AI Solutions */}
-            <div className="bg-gradient-to-br from-brand-accent/10 to-orange-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-brand-accent/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* AI Solutions */}
+            <div className="bg-gradient-to-br from-brand-accent/10 to-orange-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-600">
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-brand-accent">
+                  <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                  <circle cx="12" cy="9" r="3"/>
+                  <path d="M12 15l-3-3h2V9h2v3h2l-3 3z"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-brand-accent/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-brand-accent"
                   fill="none"
@@ -634,11 +685,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 AI Solutions
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Implementasi kecerdasan buatan untuk otomatisasi bisnis dan
                 analitik prediktif yang menguntungkan.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-brand-accent/20 rounded-full flex items-center justify-center">
                     <svg
@@ -706,17 +757,26 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">Automation</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("ai")}
-                className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                                <button
+                  onClick={() => openModal("ai")}
+                  className="w-full bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
-            {/* E-commerce Solutions */}
-            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-indigo-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* E-commerce Solutions */}
+            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up">
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-indigo-500">
+                  <path d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.293 2.293c-.63.63-.184 1.707.707 1.707H19M17 17a2 2 0 100 4 2 2 0 000-4zM9 17a2 2 0 100 4 2 2 0 000-4z"/>
+                  <path d="M9 7v1a3 3 0 006 0V7"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-indigo-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-indigo-500"
                   fill="none"
@@ -734,11 +794,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 E-commerce Solutions
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Platform jual beli online yang lengkap dengan sistem pembayaran
                 dan manajemen inventory terintegrasi.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-indigo-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -806,17 +866,28 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">Multi-vendor</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("ecommerce")}
-                className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                                <button
+                  onClick={() => openModal("ecommerce")}
+                  className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
 
-            {/* Cloud & DevOps */}
-            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300">
-              <div className="w-16 h-16 bg-teal-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        {/* Cloud & DevOps */}
+            <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden flex flex-col h-full animate-fade-in-up animation-delay-200">
+                            {/* Background Illustration */}
+              <div className="absolute inset-0 flex items-center justify-center opacity-5">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-48 h-48 text-teal-500">
+                  <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                  <path d="M12 10v4l-2-2m4 0l-2 2m0-4v4"/>
+                  <circle cx="8" cy="12" r="1"/>
+                  <circle cx="16" cy="12" r="1"/>
+                </svg>
+              </div>
+              <div className="w-16 h-16 bg-teal-500/20 rounded-2xl flex items-center justify-center mb-6 relative z-10">
                 <svg
                   className="w-8 h-8 text-teal-500"
                   fill="none"
@@ -834,11 +905,11 @@ export default function Layanan() {
               <h3 className="text-2xl font-display font-bold text-brand-navy mb-4">
                 Cloud & DevOps
               </h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+                            <p className="text-gray-600 mb-6 leading-relaxed">
                 Deployment dan manajemen infrastruktur cloud untuk skalabilitas
                 dan keamanan maksimal.
               </p>
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3 mb-6 flex-grow">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 bg-teal-500/20 rounded-full flex items-center justify-center">
                     <svg
@@ -904,12 +975,14 @@ export default function Layanan() {
                   <span className="text-sm text-gray-700">Monitoring</span>
                 </div>
               </div>
-              <button
-                onClick={() => openModal("cloud")}
-                className="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200"
-              >
-                Pelajari Lebih Lanjut
-              </button>
+                            <div className="mt-auto">
+                                <button
+                  onClick={() => openModal("cloud")}
+                  className="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 relative z-30"
+                >
+                  Pelajari Lebih Lanjut
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -980,13 +1053,13 @@ export default function Layanan() {
         </div>
       </section>
 
-      {/* Service Detail Modal */}
+                  {/* Service Detail Modal */}
       {isModalOpen && selectedService && (
-        <div className="fixed inset-0 z-50 overflow-y-auto">
+        <div className="fixed inset-0 z-[9999] overflow-y-auto">
           <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
             {/* Background overlay */}
             <div
-              className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75"
+              className="fixed inset-0 z-[9998] transition-opacity duration-300 bg-black bg-opacity-75 backdrop-blur-sm"
               onClick={closeModal}
             ></div>
 
@@ -996,7 +1069,7 @@ export default function Layanan() {
             </span>
 
             {/* Modal content */}
-            <div className="inline-block w-full max-w-4xl px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6">
+            <div className="relative inline-block w-full max-w-4xl px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-2xl shadow-2xl sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6 z-[9999]">
               {/* Modal header */}
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-2xl md:text-3xl font-display font-bold text-brand-navy">
@@ -1151,22 +1224,53 @@ export default function Layanan() {
                 </div>
               </div>
 
-              {/* Modal footer */}
+                            {/* Modal footer */}
               <div className="flex flex-col sm:flex-row gap-3 mt-6 pt-6 border-t border-gray-200">
                 <button
                   onClick={closeModal}
-                  className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-lg transition-all duration-200"
+                  className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105"
                 >
                   Tutup
                 </button>
-                <button className="flex-1 bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-lg transition-all duration-200">
+                <button
+                  onClick={handleConsultation}
+                  className="flex-1 bg-brand-accent hover:bg-brand-accent/90 text-brand-navy font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105 btn-glow"
+                >
                   Konsultasi Gratis
                 </button>
-                <button className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200">
+                <button
+                  onClick={handleQuote}
+                  className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 hover:scale-105"
+                >
                   Minta Penawaran
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+      )}
+
+                  
+
+      {/* Success Notification */}
+      {showNotification && (
+        <div className="fixed top-4 right-4 z-[10000] animate-slide-in-right">
+          <div className="bg-green-500 text-white px-6 py-4 rounded-xl shadow-lg flex items-center space-x-3">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+            <div>
+              <p className="font-semibold">Terima kasih!</p>
+              <p className="text-sm opacity-90">Tim kami akan menghubungi Anda segera</p>
+            </div>
+            <button
+              onClick={() => setShowNotification(false)}
+              className="ml-4 text-white hover:text-gray-200 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
           </div>
         </div>
       )}

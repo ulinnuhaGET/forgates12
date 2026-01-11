@@ -25,6 +25,9 @@ interface Project {
   icon: string;
   badge: string;
   badgeColor: string;
+  demoUrl: string;
+  githubUrl?: string;
+  imageUrl?: string;
 }
 
 const categories = [
@@ -47,9 +50,12 @@ const projects: Project[] = [
     category: "website",
     tags: ["React.js", "Node.js", "PostgreSQL", "Payment Gateway"],
     gradient: "from-blue-500 to-purple-600",
-    icon: "M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z",
+        icon: "M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z",
     badge: "Website",
     badgeColor: "bg-blue-500",
+        demoUrl: "https://toko-online-demo.vercel.app",
+    githubUrl: "https://github.com/forgates/toko-online-modern",
+    imageUrl: "https://images.pexels.com/photos/6214474/pexels-photo-6214474.jpeg",
   },
   {
     id: 2,
@@ -59,9 +65,12 @@ const projects: Project[] = [
     category: "website",
     tags: ["Next.js", "Tailwind CSS", "Strapi CMS", "SEO"],
     gradient: "from-slate-500 to-blue-500",
-    icon: "M4 4H20C20.55 4 21 4.45 21 5V19C21 19.55 20.55 20 20 20H4C3.45 20 3 19.55 3 19V5C3 4.45 3.45 4 4 4ZM5 6V18H19V6H5Z",
+        icon: "M4 4H20C20.55 4 21 4.45 21 5V19C21 19.55 20.55 20 20 20H4C3.45 20 3 19.55 3 19V5C3 4.45 3.45 4 4 4ZM5 6V18H19V6H5Z",
     badge: "Corporate",
     badgeColor: "bg-slate-500",
+        demoUrl: "https://corporate-landing-demo.netlify.app",
+    githubUrl: "https://github.com/forgates/corporate-landing",
+    imageUrl: "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg",
   },
   {
     id: 3,
@@ -71,9 +80,12 @@ const projects: Project[] = [
     category: "website",
     tags: ["React.js", "Framer Motion", "GSAP", "Responsive"],
     gradient: "from-pink-500 to-rose-500",
-    icon: "M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z",
+        icon: "M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z",
     badge: "Portfolio",
     badgeColor: "bg-pink-500",
+        demoUrl: "https://portfolio-kreatif-demo.surge.sh",
+    githubUrl: "https://github.com/forgates/portfolio-kreatif",
+    imageUrl: "https://images.pexels.com/photos/7792404/pexels-photo-7792404.jpeg",
   },
   {
     id: 4,
@@ -83,9 +95,12 @@ const projects: Project[] = [
     category: "website",
     tags: ["Vue.js", "Laravel", "MySQL", "Video Streaming"],
     gradient: "from-green-500 to-emerald-500",
-    icon: "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z",
+        icon: "M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM9 17H7V10H9V17ZM13 17H11V7H13V17ZM17 17H15V13H17V17Z",
     badge: "Education",
     badgeColor: "bg-green-500",
+        demoUrl: "https://platform-edukasi-demo.vercel.app",
+    githubUrl: "https://github.com/forgates/platform-edukasi",
+        imageUrl: "https://images.pexels.com/photos/30885920/pexels-photo-30885920.jpeg",
   },
   {
     id: 5,
@@ -95,9 +110,12 @@ const projects: Project[] = [
     category: "website",
     tags: ["React.js", "Node.js", "MongoDB", "Maps API"],
     gradient: "from-orange-500 to-amber-500",
-    icon: "M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z",
+        icon: "M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z",
     badge: "Real Estate",
     badgeColor: "bg-orange-500",
+        demoUrl: "https://real-estate-marketplace-demo.netlify.app",
+    githubUrl: "https://github.com/forgates/real-estate-marketplace",
+    imageUrl: "https://images.pexels.com/photos/7937214/pexels-photo-7937214.jpeg",
   },
 
   // Mobile Category (5 projects)
@@ -109,9 +127,12 @@ const projects: Project[] = [
     category: "mobile",
     tags: ["React Native", "Firebase", "Push Notifications", "Real-time Sync"],
     gradient: "from-green-500 to-teal-600",
-    icon: "M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21C5,22.11 5.89,23 7,23H17C18.11,23 19,22.11 19,21V3C19,1.89 18.11,1 17,1Z",
+        icon: "M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21C5,22.11 5.89,23 7,23H17C18.11,23 19,22.11 19,21V3C19,1.89 18.11,1 17,1Z",
     badge: "Mobile App",
     badgeColor: "bg-green-500",
+        demoUrl: "https://expo.dev/@forgates/produktivitas-app",
+    githubUrl: "https://github.com/forgates/produktivitas-app",
+    imageUrl: "https://images.pexels.com/photos/8217433/pexels-photo-8217433.jpeg",
   },
   {
     id: 7,
@@ -121,9 +142,12 @@ const projects: Project[] = [
     category: "mobile",
     tags: ["Flutter", "Google Maps", "Payment API", "Real-time Tracking"],
     gradient: "from-red-500 to-pink-500",
-    icon: "M18.06 22.99H1.94C1.28 22.99 0.740005 22.45 0.740005 21.79V2.21C0.740005 1.55 1.28 1.01 1.94 1.01H18.06C18.72 1.01 19.26 1.55 19.26 2.21V21.79C19.26 22.45 18.72 22.99 18.06 22.99ZM1.94 2.01V21.99H18.06V2.01H1.94Z",
+        icon: "M18.06 22.99H1.94C1.28 22.99 0.740005 22.45 0.740005 21.79V2.21C0.740005 1.55 1.28 1.01 1.94 1.01H18.06C18.72 1.01 19.26 1.55 19.26 2.21V21.79C19.26 22.45 18.72 22.99 18.06 22.99ZM1.94 2.01V21.99H18.06V2.01H1.94Z",
     badge: "Food App",
     badgeColor: "bg-red-500",
+        demoUrl: "https://food-delivery-demo.pages.dev",
+    githubUrl: "https://github.com/forgates/food-delivery-app",
+    imageUrl: "https://images.pexels.com/photos/4393668/pexels-photo-4393668.jpeg",
   },
   {
     id: 8,
@@ -133,9 +157,12 @@ const projects: Project[] = [
     category: "mobile",
     tags: ["React Native", "HealthKit", "Social Features", "Analytics"],
     gradient: "from-blue-500 to-cyan-500",
-    icon: "M20.57 14.86L22 13.43L20.57 12L17 15.57L8.43 7L12 3.43L10.57 2L9.14 3.43L7.71 2L5.57 4.14L4.14 2.71L2.71 4.14L4.14 5.57L2 7.71L3.43 9.14L2 10.57L3.43 12L7 8.43L15.57 17L12 20.57L13.43 22L14.86 20.57L16.29 22L18.43 19.86L19.86 21.29L21.29 19.86L19.86 18.43L22 16.29L20.57 14.86Z",
+        icon: "M20.57 14.86L22 13.43L20.57 12L17 15.57L8.43 7L12 3.43L10.57 2L9.14 3.43L7.71 2L5.57 4.14L4.14 2.71L2.71 4.14L4.14 5.57L2 7.71L3.43 9.14L2 10.57L3.43 12L7 8.43L15.57 17L12 20.57L13.43 22L14.86 20.57L16.29 22L18.43 19.86L19.86 21.29L21.29 19.86L19.86 18.43L22 16.29L20.57 14.86Z",
     badge: "Fitness",
     badgeColor: "bg-blue-500",
+    demoUrl: "https://fitness-tracker-demo.vercel.app",
+    githubUrl: "https://github.com/forgates/fitness-tracker-app",
+    imageUrl: "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg",
   },
   {
     id: 9,
@@ -145,9 +172,12 @@ const projects: Project[] = [
     category: "mobile",
     tags: ["Flutter", "Blockchain", "Security", "Biometric Auth"],
     gradient: "from-purple-500 to-indigo-500",
-    icon: "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6Z",
+        icon: "M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6Z",
     badge: "Fintech",
     badgeColor: "bg-purple-500",
+    demoUrl: "https://ewallet-banking-demo.netlify.app",
+    githubUrl: "https://github.com/forgates/ewallet-banking",
+    imageUrl: "https://images.pexels.com/photos/4968631/pexels-photo-4968631.jpeg",
   },
   {
     id: 10,
@@ -157,9 +187,12 @@ const projects: Project[] = [
     category: "mobile",
     tags: ["React Native", "WebRTC", "AI Algorithm", "Real-time Chat"],
     gradient: "from-emerald-500 to-teal-500",
-    icon: "M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M18,5H5V18L14,9L16,11L20,7L18,5Z",
+        icon: "M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M18,5H5V18L14,9L16,11L20,7L18,5Z",
     badge: "Social",
     badgeColor: "bg-emerald-500",
+    demoUrl: "https://social-media-demo.surge.sh",
+    githubUrl: "https://github.com/forgates/social-media-app",
+    imageUrl: "https://images.pexels.com/photos/1006293/pexels-photo-1006293.jpeg",
   },
 
   // AI Category (5 projects)
@@ -171,9 +204,12 @@ const projects: Project[] = [
     category: "ai",
     tags: ["Python", "TensorFlow", "D3.js", "Machine Learning"],
     gradient: "from-brand-accent to-orange-500",
-    icon: "M12,2A2,2 0 0,1 14,4C14,4.74 13.6,5.39 13,5.73V7H14A7,7 0 0,1 21,14H22A1,1 0 0,1 23,15V18A1,1 0 0,1 22,19H21V20A2,2 0 0,1 19,22H5A2,2 0 0,1 3,20V19H2A1,1 0 0,1 1,18V15A1,1 0 0,1 2,14H3A7,7 0 0,1 10,7H11V5.73C10.4,5.39 10,4.74 10,4A2,2 0 0,1 12,2M7.5,13A2.5,2.5 0 0,0 5,15.5A2.5,2.5 0 0,0 7.5,18A2.5,2.5 0 0,0 10,15.5A2.5,2.5 0 0,0 7.5,13M16.5,13A2.5,2.5 0 0,0 14,15.5A2.5,2.5 0 0,0 16.5,18A2.5,2.5 0 0,0 19,15.5A2.5,2.5 0 0,0 16.5,13Z",
+        icon: "M12,2A2,2 0 0,1 14,4C14,4.74 13.6,5.39 13,5.73V7H14A7,7 0 0,1 21,14H22A1,1 0 0,1 23,15V18A1,1 0 0,1 22,19H21V20A2,2 0 0,1 19,22H5A2,2 0 0,1 3,20V19H2A1,1 0 0,1 1,18V15A1,1 0 0,1 2,14H3A7,7 0 0,1 10,7H11V5.73C10.4,5.39 10,4.74 10,4A2,2 0 0,1 12,2M7.5,13A2.5,2.5 0 0,0 5,15.5A2.5,2.5 0 0,0 7.5,18A2.5,2.5 0 0,0 10,15.5A2.5,2.5 0 0,0 7.5,13M16.5,13A2.5,2.5 0 0,0 14,15.5A2.5,2.5 0 0,0 16.5,18A2.5,2.5 0 0,0 19,15.5A2.5,2.5 0 0,0 16.5,13Z",
     badge: "AI Platform",
     badgeColor: "bg-brand-accent",
+    demoUrl: "https://ai-analytics-dashboard.vercel.app",
+    githubUrl: "https://github.com/forgates/ai-analytics-dashboard",
+    imageUrl: "https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg",
   },
   {
     id: 12,
@@ -183,9 +219,12 @@ const projects: Project[] = [
     category: "ai",
     tags: ["Python", "NLP", "DialogFlow", "Webhook Integration"],
     gradient: "from-blue-500 to-purple-500",
-    icon: "M12,2A2,2 0 0,1 14,4V8A2,2 0 0,1 12,10A2,2 0 0,1 10,8V4A2,2 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z",
+        icon: "M12,2A2,2 0 0,1 14,4V8A2,2 0 0,1 12,10A2,2 0 0,1 10,8V4A2,2 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z",
     badge: "Chatbot",
     badgeColor: "bg-blue-500",
+    demoUrl: "https://chatbot-customer-service.herokuapp.com",
+    githubUrl: "https://github.com/forgates/chatbot-customer-service",
+    imageUrl: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
   },
   {
     id: 13,
@@ -198,6 +237,7 @@ const projects: Project[] = [
     icon: "M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z",
     badge: "Vision AI",
     badgeColor: "bg-gray-500",
+    imageUrl: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
   },
   {
     id: 14,
@@ -215,6 +255,7 @@ const projects: Project[] = [
     icon: "M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z",
     badge: "Recommendation",
     badgeColor: "bg-indigo-500",
+    imageUrl: "https://images.pexels.com/photos/5428833/pexels-photo-5428833.jpeg",
   },
   {
     id: 15,
@@ -227,6 +268,7 @@ const projects: Project[] = [
     icon: "M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.68 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z",
     badge: "Predictive AI",
     badgeColor: "bg-green-500",
+    imageUrl: "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg",
   },
 
   // Enterprise Category (5 projects)
@@ -238,9 +280,12 @@ const projects: Project[] = [
     category: "enterprise",
     tags: ["Next.js", "Node.js", "AWS", "Microservices"],
     gradient: "from-indigo-500 to-blue-600",
-    icon: "M4,6H20V16H4M20,18A2,2 0 0,0 22,16V6C22,4.89 21.1,4 20,4H4C2.89,4 2,4.89 2,6V16A2,2 0 0,0 4,18H0V20H24V18H20Z",
+        icon: "M4,6H20V16H4M20,18A2,2 0 0,0 22,16V6C22,4.89 21.1,4 20,4H4C2.89,4 2,4.89 2,6V16A2,2 0 0,0 4,18H0V20H24V18H20Z",
     badge: "Enterprise",
     badgeColor: "bg-indigo-500",
+    demoUrl: "https://saas-b2b-platform.vercel.app",
+    githubUrl: "https://github.com/forgates/saas-b2b-platform",
+    imageUrl: "https://images.pexels.com/photos/7433829/pexels-photo-7433829.jpeg",
   },
   {
     id: 17,
@@ -250,9 +295,12 @@ const projects: Project[] = [
     category: "enterprise",
     tags: ["Vue.js", "Laravel", "MySQL", "Email Automation"],
     gradient: "from-emerald-500 to-green-600",
-    icon: "M16,4C18.11,4 19.8,5.69 19.8,7.8C19.8,9.91 18.11,11.6 16,11.6C13.89,11.6 12.2,9.91 12.2,7.8C12.2,5.69 13.89,4 16,4M16,5.9C15.12,5.9 14.4,6.62 14.4,7.5C14.4,8.38 15.12,9.1 16,9.1C16.88,9.1 17.6,8.38 17.6,7.5C17.6,6.62 16.88,5.9 16,5.9M4,7V10H1V12H4V15H6V12H9V10H6V7H4M11.5,14V17.5H15V15.5H13.5V14H11.5M16.5,14V17.5H20V15.5H18.5V14H16.5Z",
+        icon: "M16,4C18.11,4 19.8,5.69 19.8,7.8C19.8,9.91 18.11,11.6 16,11.6C13.89,11.6 12.2,9.91 12.2,7.8C12.2,5.69 13.89,4 16,4M16,5.9C15.12,5.9 14.4,6.62 14.4,7.5C14.4,8.38 15.12,9.1 16,9.1C16.88,9.1 17.6,8.38 17.6,7.5C17.6,6.62 16.88,5.9 16,5.9M4,7V10H1V12H4V15H6V12H9V10H6V7H4M11.5,14V17.5H15V15.5H13.5V14H11.5M16.5,14V17.5H20V15.5H18.5V14H16.5Z",
     badge: "Business",
     badgeColor: "bg-emerald-500",
+    demoUrl: "https://crm-terintegrasi-demo.netlify.app",
+    githubUrl: "https://github.com/forgates/crm-terintegrasi",
+    imageUrl: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
   },
   {
     id: 18,
@@ -265,6 +313,7 @@ const projects: Project[] = [
     icon: "M12,2L13.09,8.26L20,9L13.09,9.74L12,16L10.91,9.74L4,9L10.91,8.26L12,2M6.5,2L7.5,5.5L11,6.5L7.5,7.5L6.5,11L5.5,7.5L2,6.5L5.5,5.5L6.5,2M17.5,13L18.5,16.5L22,17.5L18.5,18.5L17.5,22L16.5,18.5L13,17.5L16.5,16.5L17.5,13Z",
     badge: "ERP",
     badgeColor: "bg-red-500",
+    imageUrl: "https://images.pexels.com/photos/2599537/pexels-photo-2599537.jpeg",
   },
   {
     id: 19,
@@ -277,6 +326,7 @@ const projects: Project[] = [
     icon: "M16,4C18.11,4 19.8,5.69 19.8,7.8C19.8,9.91 18.11,11.6 16,11.6C13.89,11.6 12.2,9.91 12.2,7.8C12.2,5.69 13.89,4 16,4M16,5.9C15.12,5.9 14.4,6.62 14.4,7.5C14.4,8.38 15.12,9.1 16,9.1C16.88,9.1 17.6,8.38 17.6,7.5C17.6,6.62 16.88,5.9 16,5.9M4,7V10H1V12H4V15H6V12H9V10H6V7H4M11.5,14V17.5H15V15.5H13.5V14H11.5M16.5,14V17.5H20V15.5H18.5V14H16.5Z",
     badge: "HR System",
     badgeColor: "bg-purple-500",
+    imageUrl: "https://images.pexels.com/photos/3778619/pexels-photo-3778619.jpeg",
   },
   {
     id: 20,
@@ -289,6 +339,7 @@ const projects: Project[] = [
     icon: "M4,15V9H12V4.16L19.84,12H15V17.84L7.16,10H4M2,10H5V14H2V10M22,10V14H19V10H22M10,2H14V5H10V2M10,19H14V22H10V19Z",
     badge: "Supply Chain",
     badgeColor: "bg-cyan-500",
+    imageUrl: "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg",
   },
 
   // UI/UX Category (5 projects)
@@ -303,6 +354,7 @@ const projects: Project[] = [
     icon: "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6Z",
     badge: "UI/UX",
     badgeColor: "bg-purple-500",
+    imageUrl: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
   },
   {
     id: 22,
@@ -315,6 +367,7 @@ const projects: Project[] = [
     icon: "M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5H5.21L4.27,3H1M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z",
     badge: "Banking UI",
     badgeColor: "bg-blue-500",
+    imageUrl: "https://images.pexels.com/photos/4466060/pexels-photo-4466060.jpeg",
   },
   {
     id: 23,
@@ -327,6 +380,7 @@ const projects: Project[] = [
     icon: "M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,19H5V5H19V19Z",
     badge: "Dashboard",
     badgeColor: "bg-green-500",
+    imageUrl: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg",
   },
   {
     id: 24,
@@ -339,6 +393,7 @@ const projects: Project[] = [
     icon: "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M17,13H13V17H11V13H7V11H11V7H13V11H17V13Z",
     badge: "Healthcare",
     badgeColor: "bg-red-500",
+    imageUrl: "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
   },
   {
     id: 25,
@@ -351,6 +406,7 @@ const projects: Project[] = [
     icon: "M2.5,19C2.5,20.11 3.39,21 4.5,21H19.5C20.61,21 21.5,20.11 21.5,19V12H2.5V19M6.5,16H17.5V18H6.5V16M21.5,4H19.5V2H17.5V4H6.5V2H4.5V4H2.5C1.39,4 0.5,4.89 0.5,6V10H23.5V6C23.5,4.89 22.61,4 21.5,4Z",
     badge: "Travel App",
     badgeColor: "bg-yellow-500",
+    imageUrl: "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg",
   },
 
   // IoT Category (5 projects)
@@ -365,6 +421,7 @@ const projects: Project[] = [
     icon: "M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z",
     badge: "IoT",
     badgeColor: "bg-teal-500",
+    imageUrl: "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg",
   },
   {
     id: 27,
@@ -377,6 +434,7 @@ const projects: Project[] = [
     icon: "M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z",
     badge: "Smart Home",
     badgeColor: "bg-blue-500",
+    imageUrl: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
   },
   {
     id: 28,
@@ -389,6 +447,7 @@ const projects: Project[] = [
     icon: "M17,6H22V8H20V16H18V8H17V6M16,8H14L12,5L10,8H8L5.5,12L8,16H16L18.5,12L16,8Z",
     badge: "AgriTech",
     badgeColor: "bg-green-500",
+    imageUrl: "https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg",
   },
   {
     id: 29,
@@ -401,6 +460,7 @@ const projects: Project[] = [
     icon: "M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.68 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z",
     badge: "Industrial",
     badgeColor: "bg-gray-500",
+    imageUrl: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg",
   },
   {
     id: 30,
@@ -413,6 +473,7 @@ const projects: Project[] = [
     icon: "M5,11L6.5,6.5H17.5L19,11H5M17.5,16A1.5,1.5 0 0,1 16,14.5A1.5,1.5 0 0,1 17.5,13A1.5,1.5 0 0,1 19,14.5A1.5,1.5 0 0,1 17.5,16M6.5,16A1.5,1.5 0 0,1 5,14.5A1.5,1.5 0 0,1 6.5,13A1.5,1.5 0 0,1 8,14.5A1.5,1.5 0 0,1 6.5,16M18.92,6C18.72,5.42 18.16,5 17.5,5H6.5C5.84,5 5.28,5.42 5.08,6L3,12V20A1,1 0 0,0 4,21H5A1,1 0 0,0 6,20V19H18V20A1,1 0 0,0 19,21H20A1,1 0 0,0 21,20V12L18.92,6Z",
     badge: "Vehicle IoT",
     badgeColor: "bg-red-500",
+    imageUrl: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg",
   },
 ];
 
@@ -426,14 +487,25 @@ export default function Portofolio() {
       ? projects
       : projects.filter((project) => project.category === activeCategory);
 
-  const handleViewDetail = (project: Project) => {
+    const handleViewDetail = (project: Project) => {
     setSelectedProject(project);
     setIsModalOpen(true);
   };
 
-  const handleLiveDemo = (project: Project) => {
-    // You can implement demo functionality or open demo URL
-    alert(`Opening live demo for: ${project.title}`);
+  const handleGithubView = (project: Project) => {
+    if (project.githubUrl) {
+      window.open(project.githubUrl, '_blank', 'noopener,noreferrer');
+    } else {
+      alert(`Source code untuk ${project.title} tidak tersedia untuk umum.`);
+    }
+  };
+
+    const handleLiveDemo = (project: Project) => {
+    if (project.demoUrl) {
+      window.open(project.demoUrl, '_blank', 'noopener,noreferrer');
+    } else {
+      alert(`Demo untuk ${project.title} sedang dalam pengembangan.`);
+    }
   };
 
   const closeModal = () => {
@@ -450,10 +522,10 @@ export default function Portofolio() {
       <section className="pt-24 pb-16 bg-gradient-to-br from-brand-navy via-brand-navy/95 to-blue-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6 animate-fade-in-up">
               Portofolio <span className="text-brand-accent">Kami</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200">
               Koleksi karya digital yang telah kami kembangkan dengan dedikasi
               dan keahlian tinggi
             </p>
@@ -519,49 +591,75 @@ export default function Portofolio() {
             </p>
           </div>
 
-          {/* Projects Grid - Large Projects */}
-          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+                    {/* Projects Grid - Large Projects */}
+          <div className="grid lg:grid-cols-2 gap-8 mb-16">
             {filteredProjects.slice(0, 4).map((project) => (
               <div
                 key={project.id}
-                className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group"
+                className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group flex flex-col h-full"
               >
                 <div className="relative overflow-hidden">
-                  <div
-                    className={`h-64 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
-                  >
-                    <div className="text-white text-center">
-                      <div className="w-20 h-20 bg-white/20 rounded-3xl flex items-center justify-center mx-auto mb-4">
-                        <svg
-                          className="w-10 h-10"
-                          fill="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d={project.icon} />
-                        </svg>
+                  {project.imageUrl ? (
+                    <div className="relative h-64">
+                      <img
+                        src={project.imageUrl}
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/50 flex items-center justify-center">
+                        <div className="text-white text-center">
+                          <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-3xl flex items-center justify-center mx-auto mb-4">
+                            <svg
+                              className="w-10 h-10"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d={project.icon} />
+                            </svg>
+                          </div>
+                          <span className="text-lg font-semibold drop-shadow-lg">
+                            {project.title.split(" ").slice(0, 2).join(" ")}
+                          </span>
+                        </div>
                       </div>
-                      <span className="text-lg font-semibold">
-                        {project.title.split(" ").slice(0, 2).join(" ")}
-                      </span>
                     </div>
-                  </div>
+                  ) : (
+                    <div
+                      className={`h-64 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
+                    >
+                      <div className="text-white text-center">
+                        <div className="w-20 h-20 bg-white/20 rounded-3xl flex items-center justify-center mx-auto mb-4">
+                          <svg
+                            className="w-10 h-10"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d={project.icon} />
+                          </svg>
+                        </div>
+                        <span className="text-lg font-semibold">
+                          {project.title.split(" ").slice(0, 2).join(" ")}
+                        </span>
+                      </div>
+                    </div>
+                  )}
                   <div className="absolute top-6 right-6">
                     <span
-                      className={`${project.badgeColor} text-white text-sm font-semibold px-4 py-2 rounded-full`}
+                      className={`${project.badgeColor} text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg backdrop-blur-sm`}
                     >
                       {project.badge}
                     </span>
                   </div>
                 </div>
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-grow">
                   <h3 className="text-2xl font-display font-bold text-brand-navy mb-3">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed line-clamp-3">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    {project.tags.map((tag, index) => (
+                    {project.tags.slice(0, 4).map((tag, index) => (
                       <span
                         key={index}
                         className="bg-blue-100 text-blue-700 text-xs font-medium px-3 py-1 rounded-full"
@@ -569,17 +667,22 @@ export default function Portofolio() {
                         {tag}
                       </span>
                     ))}
+                    {project.tags.length > 4 && (
+                      <span className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full">
+                        +{project.tags.length - 4} more
+                      </span>
+                    )}
                   </div>
-                  <div className="flex space-x-4">
+                  <div className="flex gap-3 mt-auto">
                     <button
                       onClick={() => handleViewDetail(project)}
-                      className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200"
+                      className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 hover:scale-105"
                     >
                       Lihat Detail
                     </button>
                     <button
                       onClick={() => handleLiveDemo(project)}
-                      className="flex-1 border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200"
+                      className="flex-1 border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 hover:scale-105"
                     >
                       Live Demo
                     </button>
@@ -589,46 +692,72 @@ export default function Portofolio() {
             ))}
           </div>
 
-          {/* Smaller Projects Grid */}
+                    {/* Smaller Projects Grid */}
           {filteredProjects.length > 4 && (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredProjects.slice(4).map((project) => (
                 <div
                   key={project.id}
-                  className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group"
+                  className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group flex flex-col h-full"
                 >
                   <div className="relative overflow-hidden">
-                    <div
-                      className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
-                    >
-                      <div className="text-white text-center">
-                        <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                          <svg
-                            className="w-8 h-8"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d={project.icon} />
-                          </svg>
+                    {project.imageUrl ? (
+                      <div className="relative h-48">
+                        <img
+                          src={project.imageUrl}
+                          alt={project.title}
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/50 flex items-center justify-center">
+                          <div className="text-white text-center">
+                            <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-3">
+                              <svg
+                                className="w-8 h-8"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d={project.icon} />
+                              </svg>
+                            </div>
+                            <span className="text-sm font-medium drop-shadow-lg">
+                              {project.title.split(" ").slice(0, 2).join(" ")}
+                            </span>
+                          </div>
                         </div>
-                        <span className="text-sm font-medium">
-                          {project.title.split(" ").slice(0, 2).join(" ")}
-                        </span>
                       </div>
-                    </div>
+                    ) : (
+                      <div
+                        className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
+                      >
+                        <div className="text-white text-center">
+                          <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                            <svg
+                              className="w-8 h-8"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d={project.icon} />
+                            </svg>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {project.title.split(" ").slice(0, 2).join(" ")}
+                          </span>
+                        </div>
+                      </div>
+                    )}
                     <div className="absolute top-4 right-4">
                       <span
-                        className={`${project.badgeColor} text-white text-xs font-semibold px-3 py-1 rounded-full`}
+                        className={`${project.badgeColor} text-white text-xs font-semibold px-3 py-1 rounded-full shadow-lg backdrop-blur-sm`}
                       >
                         {project.badge}
                       </span>
                     </div>
                   </div>
-                  <div className="p-6">
+                  <div className="p-6 flex flex-col flex-grow">
                     <h3 className="text-xl font-display font-bold text-brand-navy mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                    <p className="text-gray-600 text-sm mb-4 leading-relaxed line-clamp-3">
                       {project.description.substring(0, 120)}...
                     </p>
                     <div className="flex flex-wrap gap-1 mb-4">
@@ -640,19 +769,24 @@ export default function Portofolio() {
                           {tag}
                         </span>
                       ))}
+                      {project.tags.length > 2 && (
+                        <span className="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">
+                          +{project.tags.length - 2}
+                        </span>
+                      )}
                     </div>
-                    <div className="flex space-x-3">
+                    <div className="flex gap-2 mt-auto">
                       <button
                         onClick={() => handleViewDetail(project)}
-                        className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-sm"
+                        className="flex-1 bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold py-2.5 px-3 rounded-xl transition-all duration-200 text-sm hover:scale-105"
                       >
-                        Lihat Detail
+                        Detail
                       </button>
                       <button
                         onClick={() => handleLiveDemo(project)}
-                        className="flex-1 border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold py-2 px-3 rounded-lg transition-all duration-200 text-sm"
+                        className="flex-1 border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold py-2.5 px-3 rounded-xl transition-all duration-200 text-sm hover:scale-105"
                       >
-                        Live Demo
+                        Demo
                       </button>
                     </div>
                   </div>
@@ -941,7 +1075,8 @@ export default function Portofolio() {
                   <ExternalLink className="w-4 h-4 mr-2" />
                   Live Demo
                 </Button>
-                <Button
+                                <Button
+                  onClick={() => handleGithubView(selectedProject)}
                   variant="outline"
                   className="flex-1 border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-white"
                 >

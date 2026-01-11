@@ -90,7 +90,8 @@ function FAQSection() {
             return (
               <div
                 key={item.id}
-                className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-md"
+                className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-md animate-fade-in-up"
+                style={{ animationDelay: `${item.id * 100}ms` }}
               >
                 <button
                   onClick={() => toggleItem(item.id)}
@@ -171,10 +172,10 @@ export default function Kontak() {
       <section className="pt-24 pb-16 bg-gradient-to-br from-brand-navy via-brand-navy/95 to-blue-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6 animate-fade-in-up">
               Hubungi <span className="text-brand-accent">Kami</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200">
               Mari diskusikan project impian Anda. Kami siap membantu
               mewujudkannya menjadi kenyataan.
             </p>
@@ -188,7 +189,7 @@ export default function Kontak() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="bg-gray-50 rounded-3xl p-8">
+            <div className="bg-gray-50 rounded-3xl p-8 animate-slide-in-left">
               <h2 className="text-3xl font-display font-bold text-brand-navy mb-6">
                 Kirim Pesan
               </h2>
@@ -375,7 +376,7 @@ export default function Kontak() {
             </div>
 
             {/* Contact Information */}
-            <div className="space-y-8">
+            <div className="space-y-8 animate-slide-in-right">
               <div>
                 <h2 className="text-3xl font-display font-bold text-brand-navy mb-6">
                   Informasi Kontak

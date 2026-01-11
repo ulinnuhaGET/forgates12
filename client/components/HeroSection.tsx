@@ -1,7 +1,9 @@
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "./ui/button";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section
       id="home"
@@ -20,13 +22,13 @@ const HeroSection = () => {
 
             {/* Main Headline */}
             <div className="space-y-4 lg:space-y-6">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-brand-navy leading-tight animate-fade-in-up">
-                Gerbang Menuju{" "}
-                <span className="text-brand-accent inline-block animate-float">
-                  Solusi
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-brand-navy leading-tight animate-fade-in-up">
+                <span className="whitespace-nowrap">Teknologi & Edukasi</span>{" "}
+                <span className="text-brand-navy animate-color-pulse">
+                  Dalam Satu
                 </span>{" "}
                 <br className="hidden sm:block" />
-                Digital Cerdas
+                Genggaman
               </h1>
 
               {/* Subheadline */}
@@ -34,9 +36,9 @@ const HeroSection = () => {
                 className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl animate-fade-in-up"
                 style={{ animationDelay: "0.2s" }}
               >
-                Kami adalah For Gates, tim pengembang yang membangun website,
-                aplikasi, desain antarmuka, dan sistem cerdas berbasis
-                teknologi.
+                Tingkatkan bisnis Anda lewat teknologi modern dan bantu
+                anak meraih prestasi lewat bimbingan privat. Semua bisa
+                bersama ForGates.
               </p>
             </div>
 
@@ -47,6 +49,7 @@ const HeroSection = () => {
             >
               <Button
                 size="lg"
+                onClick={() => navigate('/layanan')}
                 className="bg-brand-navy hover:bg-brand-navy/90 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105"
               >
                 <span className="text-sm sm:text-base">Lihat Layanan</span>
@@ -56,6 +59,7 @@ const HeroSection = () => {
               <Button
                 variant="outline"
                 size="lg"
+                onClick={() => navigate('/kontak')}
                 className="border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition-all duration-300 group hover:scale-105"
               >
                 <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:scale-110 transition-transform" />
@@ -83,10 +87,10 @@ const HeroSection = () => {
               </div>
               <div className="text-center group">
                 <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-brand-navy group-hover:text-brand-accent transition-colors duration-300">
-                  98%
+                  90+
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600 font-medium">
-                  Pelayanan Maksimal
+                  Siswa Dibimbing
                 </div>
               </div>
               <div className="text-center group">
@@ -107,7 +111,7 @@ const HeroSection = () => {
               <div className="relative overflow-hidden rounded-2xl lg:rounded-3xl bg-gradient-to-br from-brand-navy/5 to-brand-accent/5 shadow-xl lg:shadow-2xl backdrop-blur-sm hover:shadow-2xl transition-all duration-500 group-hover:scale-105">
                 <div className="aspect-w-16 aspect-h-12 lg:aspect-h-10">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F33b54069fb054982a7cabf611068c5e0%2Fe66b99d86b0d44e497db8db68fb5d4a2?format=webp&width=800"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F608fba8bfd9e4f82811426f3b3da1202%2Fb466ae57d3984020b4e9f437d4e88418"
                     alt="Developer workspace showing two programmers working on computers"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -132,7 +136,7 @@ const HeroSection = () => {
                 >
                   <div className="flex items-center space-x-2">
                     <span className="text-xs font-medium text-brand-navy">
-                      ✨ AI Powered
+                      ✨ For Gates
                     </span>
                   </div>
                 </div>
